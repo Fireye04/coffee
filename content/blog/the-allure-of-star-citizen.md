@@ -1,7 +1,7 @@
 ---
-date: 2024-01-27
+date: "2024-01-27"
 params:
-    update: 0000-00-00
+    update: "0000-00-00"
     toc: true
 description: A curious individual's introduction to the star citizen project
 title: 'The Allure of Star Citizen: A Buyer''s Guide'

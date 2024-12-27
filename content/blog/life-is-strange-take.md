@@ -1,10 +1,10 @@
 ---
-date: 2024-06-25
+date: "2024-06-25"
 description: Why Double exposure is balancing on the line between worthy sequel and
   cash grab, and why I think it's fighting an uphill battle.
 title: 'My concerns with Life is Strange: Double Exposure'
 params:
-    update: 0000-00-00
+    update: "0000-00-00"
     toc: true
 ---
 

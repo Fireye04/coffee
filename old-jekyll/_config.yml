@@ -1,0 +1,5 @@
+
+title: "Kai's Stupid Website"
+plugins: ["jekyll-toc"]
+baseurl: ""
+

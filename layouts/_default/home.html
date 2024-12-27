@@ -1,0 +1,171 @@
+
+{{ define "main" }}
+
+  <div class="content">
+    <h1>
+<center><u>Kai's Stupid Website</u></center>
+    </h1>
+
+    <p>Howdy! I'm Kai, and this is my stupid website.</p>
+
+    <p><small><em>Last updated: December 3rd, 2024</em></small></p>
+
+    <h2>Directory!</h2>
+    <ul>
+      <li>
+        <h3><a href="/projects">Projects!</a></h3> (Where you can find what stuff I've done)
+      </li>
+      <li>
+        <h3><a href="/blog">My Stupid Blog :P</a></h3> (Where I write things about games and stuff)
+      </li>
+      <li>
+        <h3><a href="/about">About!</a></h3> (Some stuff about me and the site!)
+      </li>
+      <!-- <li>
+        <h3><a href="Pages/.html">My Newsletter</a></h3> (Where you can sign up to get updates twice a year
+        when
+        I actually post something)
+      </li> -->
+    </ul>
+
+    <br>
+
+    <h2>Here's Some Links</h2>
+    <p>If these what you came here for, have a nice day!</p>
+
+    <ul>
+      <li>Email- codekai16@gmail.com</li>
+      <li><a href="https://github.com/Fireye04" target="_blank">Github</a>- Fireye04</li>
+      <li><a href="https://fireye.itch.io/" target="_blank">Itch.io</a>- fireye</li>
+      <li><a href="https://www.linkedin.com/in/fireye/" target="_blank">Linkedin</a>- fireye</li>
+      <!--<li><a href="https://www.youtube.com/channel/UCruNPcfGWKSUp0Kor3L5y8Q" target="_blank">Youtube</a>- Fireye Games
+</li>-->
+    </ul>
+
+    <br>
+
+    <h2><a href="/about">About</a></h2>
+
+    <p>Here's some stuff about me and this website if you're curious :P</p>
+
+      <center><button onclick="location.href='/about'">I'm Curious!</button></center>
+
+    <br>
+
+    <h2><a href="/projects">My Projects!</a></h2>
+
+    <p>want to check out some of my work?</p>
+
+    <ul>
+      <li><a href="/projects#right-now">Projects currently in progress</a></li>
+      <li><a href="/projects#finished">Projects that I've finished!</a></li>
+      <li><a href="/projects#graveyard">Projects in the graveyard 💀</a></li>
+    </ul>
+
+    <p><small>I moved these to another page to make the homepage a bit more navegable :P</small></p>
+
+    <br>
+
+    <h2>Here's Some blog posts</h2>
+    <p>Nobody asked, yet here's some of my (maybe) hot takes anyway.</p>
+
+    {{ $posts := where site.RegularPages "Type" "blog" }}
+    {{ range first 3 $posts.ByPublishDate.Reverse}}
+    <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+            <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
+
+    </div>
+
+    <hr />
+  {{end}}
+    <p><a href="/blog">See more posts!</a></p>
+
+    <br>
+
+    <h2>Digital Neighbors!</h2>
+      <p>A list of cool websites that are friends with this one! (What does that mean? Not sure!)</p>
+
+      <ul>
+        <li><a href="https://theblipbloop.github.io/" target="_blank">theblipbloop.github.io</a></li>
+        <li>That's it for now!</li>
+      </ul>
+
+      <p>Let me know if you'd like to become digital neighbors! I'd love to expand the network above as much as I can &lt;3</p>
+
+    <h2>My favorite web pages!</h2>
+      <p>Here are some of my favorite webpages (If you own one of these, Please let me know if you'd like to be digital neightbors or for me to take it off the list)
+
+      <ul>
+          <li><a href="https://neal.fun" target="_blank">Neal.fun</a></li>
+          <li>That's it for now!</li>
+      </ul>
+
+
+    <h2>Stupid quotes? For no good reason? Don't mind if I do.</h2>
+
+    <blockquote>
+      <p>“Don't spend 5 minutes doing somehing when you could instead spend 5 hours failing to automate it.” <br>
+        — Abraham Lincoln</p>
+    </blockquote>
+
+    <blockquote>
+      <p>“We didn't do it because it was easy; We did it because we
+        <u>thought</u> it would be easy.” <br>
+        — Dwayne "The Rock" Johnson
+      </p>
+    </blockquote>
+
+    <br>
+
+    <!-- <p>If you read this, send me a message or something. I won't really
+      give you anything, but it'll help break up the monotony of daily life
+      which is always a win.
+    </p> -->
+
+    <h2>Guestbook!</h2>
+    <p>Thank you for making it this far! Please feel free to sign my guestbook! Fair warning, I will delete crass and hateful comments without remorse <3</p>
+
+    <center><p class="gbload">Loading content...</p></center>
+
+    <div class="gbhide" hidden>
+      <div class="gbscroll">
+        <center><table class="guestbook"></table></center>
+      </div>
+
+      <div class="gbform" hidden>
+        <center><p class="gblabel">Name</p></center>
+        <center><input class="gbName"></center>
+        <center><p class="gblabel">Message</p></center>
+        <center><textarea class="gbMessage"></textarea></center>
+        <center><button onclick="guestbookSubmit()">Submit Entry!</button></center>
+        <center><p><small>Please don't bobby tables my ass I beg you</small></p></center>
+      </div>
+      
+      <center><button class="gbutton" onclick="guestbookClick()">Leave a message!</button></center>
+    </div>
+
+    <hr />
+
+    <h2><u>Footer</u> <small><small><small>(if you couldn't tell)</small></small></small></h2>
+
+    <p>Inspired by the geniuses behind <a href="https://perfectmotherfuckingwebsite.com/"
+        target="_blank">perfectmotherfuckingwebsite.com</a> and those that came before.</p>
+
+    <p>Also thanks to the person known as "doodle" on my uni's cs discord, who had a <a href="https://doodleta.co/"
+        target="_blank">similar site</a> up for themselves, which in turn inspired me to make my own spin-off. Go check
+      them out! :)</p>
+
+    <p>And of course, this website's <a href="https://github.com/Fireye04/Fireye04" target="_blank">Github Page</a>, if
+      you want to check it out. If you find any issues with the site I would really appreciate if you could open up an issue!</p>
+
+    <p>This code (that was pretty shamelessly stolen from the above resources) is <a href="./LICENSE"
+        target="_blank">licensed</a> under <a href="http://www.wtfpl.net/" target="_blank">WTFPL</a>, just in case you
+      want to steal my objectively worse version instead of the source itself.</p>
+
+  </div>
+  <script src="/Scripts/script.js" crossorigin="anonymous"></script>
+{{ end }}
+
+

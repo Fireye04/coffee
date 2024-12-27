@@ -1,0 +1,49 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{page.description}}">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="posthead">{{ page.title }}</h1>
+      <h4 class="posthead indent">{{page.description}}</h4>
+      {% assign wordcount = page.content |  strip_html | split: ' ' | size %}
+      <p class="posthead indent">Word Count: {{wordcount}}</p>
+      <p class="posthead indent"><em>Published {{ page.date | date_to_string: "ordinal", "US" }} {% if page.update %} | Updated {{page.update}} {% endif %}</em></p>
+      <hr \>
+
+      {% include kofi.html %}
+
+      <section>
+
+        {% if wordcount > 500 %}
+          <h2><center><a href="/index.html">Home Sweet Home</a></center></h2>
+          <h3><center><a href="/Pages/Blog.html">To the Blog!</a></center></h3>
+          <hr \>
+        {% endif %}
+        
+        {% if page.toc %}
+          <h2>Table of Contents</h2>
+          <p>{% toc %}</p>
+          <hr \>
+        {% endif %}
+
+        <p>{{ content }}</p>
+      </section>
+
+      <hr \>
+
+      <h2><center><a href="/index.html">Home Sweet Home</a>{% if wordcount > 500 %}<br><small><small>(But at the bottom of the page this time)</small></small>{% endif %}</center></h2>
+          
+      <h3><center><a href="/Pages/Blog.html">To the Blog!</a></center></h3>
+    </div>
+  </body>
+</html>

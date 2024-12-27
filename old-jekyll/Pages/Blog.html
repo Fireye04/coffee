@@ -1,0 +1,59 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kai's Stupid Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I have a stupid blog. I write about games and stuff.">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+</head>
+
+<body>
+    <div class="content">
+        <h1>
+            <center><u>My Stupid Blog!</u></center>
+        </h1>
+        <p><small>
+                <center>(I have no idea what I'm doing. If this breaks I'm so sorry.)</center>
+            </small></p>
+
+        <h2>
+            <center><a href="/index.html">Home Sweet Home</a></center>
+        </h2>
+
+        <!-- <p>
+            <a href="./Newsletter.html">Join my Newsletter</a> to get updated when a new post comes out!
+        </p> -->
+        {% include kofi.html %}
+
+        <h2>Blog posts by date:</h2>
+
+        <hr />
+
+        {% for post in site.posts %}
+        <div class="indent">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small><small> {{ post.date |
+                        date_to_string:
+                        "ordinal", "US" }}</small></small></h3>
+            <p class="indent"><strong>Description:</strong> {{ post.description }}</p>
+            {% assign wordcount = post.content | strip_html | split: ' ' | size %}
+            <p class="indent"><strong>Word Count:</strong> {{ wordcount }}</p>
+
+            <blockquote class="indent">"{{post.excerpt}}"</blockquote>
+        </div>
+        <hr />
+        {% endfor %}
+
+        <h2>
+            <center><a href="/index.html">Home Sweet Home</a><br><small><small>(But at the bottom of the page this
+                        time)</small></small></center>
+        </h2>
+    </div>
+</body>
+
+</html>

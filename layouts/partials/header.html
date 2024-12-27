@@ -5,6 +5,7 @@
 <meta property="og:image" content="/Assets/website.png">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico?">
+{{printf .Params.Rss}}
 {{if .Params.Rss}}
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}

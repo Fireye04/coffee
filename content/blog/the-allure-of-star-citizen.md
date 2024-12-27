@@ -1,7 +1,7 @@
 ---
 date: "2024-01-27"
 params:
-    update: "0000-00-00"
+    update: "0001-01-01"
     toc: true
 description: A curious individual's introduction to the star citizen project
 title: 'The Allure of Star Citizen: A Buyer''s Guide'
@@ -235,8 +235,8 @@ Don't concern yourself too much with these to start, but they do get very helpfu
 
 I am not affiliated whatsoever with CIG or any related group that would lend additional bias to this article. This is an independent assessment of the Star Citizen project from an outsider perspective. Still, I would like to cite aspects of my situation that could contribute to any relevant biases that I may conciously or unconciously hold so that you may read this article with them in mind. 
 
-- Using my referral code I provided above to purchase the game will grant me certain in-game benefits. 
-- I have also invested a notable amount of my own money into star citizen, and have overall positive views about the project's direction going forward.
+- Using my referral code I provided above to purchase the game will grant me (and the referral's user) certain in-game benefits. 
+- I have also spent some of my own money on star citizen, and have overall positive views about the project's direction going forward.
 - While it won't directly benefit me in terms of money or rewards, I do link to my org and our discord in a couple places as well. 
 
 While these involvments help contextualize this article better, I try my utmost to keep my work as unbiased as it can be. 

@@ -4,7 +4,7 @@ description: Why Double exposure is balancing on the line between worthy sequel 
   cash grab, and why I think it's fighting an uphill battle.
 title: 'My concerns with Life is Strange: Double Exposure'
 params:
-    update: "0000-00-00"
+    update: "0001-01-01"
     toc: true
 ---
 

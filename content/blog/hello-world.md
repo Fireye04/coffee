@@ -2,7 +2,7 @@
 date: "2024-01-20"
 params:
     toc: false
-    update: "0000-00-00"
+    update: "0001-01-01"
 description: A quick test of jekyll's blog systems, and a little hello world to static
   site generation!
 title: Hello World!

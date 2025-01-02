@@ -10,26 +10,27 @@
   <main class="flex">
   <div class="dir">
     <ul>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
+          <li {{if eq .Page.Params.id "home"}} class="selected" {{end}} ><a href="/"><p><strong>Home</strong></p> <img src="/Assets/home-alt.svg"> </a></li>
+          <li {{if eq .Page.Params.id "projects"}} class="selected" {{end}} ><a href="/projects"><p><strong>Projects</strong></p> <img src="/Assets/favourite-book.svg"> </a></li>
+          <li {{if eq .Page.Params.id "blog"}} class="selected" {{end}} ><a href="/blog"><p><strong>Blog</strong></p> <img src="/Assets/edit-pencil.svg"> </a></li>
+          <li {{if eq .Page.Params.id "about"}} class="selected" {{end}} ><a href="/about"><p><strong>About</strong></p> <img src="/Assets/question-mark.svg"> </a></li>
     </ul>
   </div>
-
-    {{ block "main" . }}{{ end }}
-
-  <div class="dir invisible">
+  
+  <div class="dir invisible" style="order:3">
     <ul>
+      <li>Home</li>
       <li>Projects</li>
       <li>Blog</li>
       <li>About</li>
     </ul>
   </div>
+      <div class="content">
+    {{ block "main" . }}{{ end }}
 
+    {{partial "footer.html" .}}
+      </div>
   </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
 </body>
 </html>
 

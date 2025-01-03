@@ -86,6 +86,7 @@ ol li {
   margin-right: 0px;
   width:max-content;
   margin-top: 0px;
+  display: block;
 }
 
 .dir img {
@@ -98,6 +99,8 @@ ol li {
   text-align: right;
   padding:10px 0px;
 }
+
+
 .dir ul li a {
   display: flex;
   flex-direction: row;
@@ -107,33 +110,72 @@ ol li {
   text-decoration: none;
   margin: auto 10px;
   padding:10px 0px;
+  width: 35px;
+  transition: width 0.2s; 
 }
 
+/*List items*/
+.dir ul li {
+  border-radius: 5px;
+  transition: background 0.4s;
+}
+
+.dir ul li:hover {
+  background: #3d427c;
+}
+
+.selected {
+  background: #5861c4;
+}
+
+/*Labels*/
 .dir ul li a p {
-  display: none;
   padding: auto;
   margin: auto;
   opacity:0;
   visibility: hidden;
-  transition: visibility 0s, opacity 0.5s linear;
+  transition: right 0.5s, visibility 0s, opacity 1s;
+  position: relative;
+  right: -30px;
 }
 
+@media (min-width: 1180px){
+
+.dir:hover ul li a {
+  width:110px;
+}
 
 .dir:hover ul li a p{
   visibility: visible;
-  display: inline;
   opacity:1;
+  position:relative;
+  right:0px;
 }
 
-.selected {
-  border-radius: 5px;
-  background: #5861c4;
+}
+
+/*Responsivness*/
+@media (max-width:1024px) {
+
+.dir {
+    visibility: hidden;
+  }
+
 }
 
 .inpage-dir {
   display:none; 
 }
 
+@media (max-width:1024px) {
+
+.inpage-dir {
+    display: inline;
+  }
+
+}
+
+/*flexbox balance shenannegans*/
 .invisible {
   visibility:hidden;
 }

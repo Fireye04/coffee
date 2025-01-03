@@ -1,3 +1,7 @@
+/** {*/
+/*border-style: solid;*/
+/*  }*/
+
 
 .flex {
   display: flex;
@@ -74,19 +78,29 @@ ol li {
 /*########### NAV #############*/
 
 
-
 .dir {
     background: #141c28;
     border-radius: 5px;
     color: #c9d1d9;
+  margin-left: auto;
+  margin-right: 0px;
+  width:max-content;
+  margin-top: 0px;
+  display: block;
+}
+
+.dir img {
+  width: 35px;
 }
 
 .dir ul {
   list-style-type:none;
-  margin: 10px;
-  padding: 0;
+  margin: 0px 10px;
   text-align: right;
+  padding:10px 0px;
 }
+
+
 .dir ul li a {
   display: flex;
   flex-direction: row;
@@ -95,19 +109,83 @@ ol li {
   color: #c9d1d9;
   text-decoration: none;
   margin: auto 10px;
+  padding:10px 0px;
+  width: 35px;
+  transition: width 0.2s; 
+}
+
+/*List items*/
+.dir ul li {
+  border-radius: 5px;
+  transition: background 0.4s;
+}
+
+.dir ul li:hover {
+  background: #3d427c;
 }
 
 .selected {
-  border-radius: 5px;
   background: #5861c4;
+}
+
+/*Labels*/
+.dir ul li a p {
+  padding: auto;
+  margin: auto;
+  opacity:0;
+  visibility: hidden;
+  transition: right 0.5s, visibility 0s, opacity 1s;
+  position: relative;
+  right: -30px;
+}
+
+@media (min-width: 1180px){
+
+.dir:hover ul li a {
+  width:110px;
+}
+
+.dir:hover ul li a p{
+  visibility: visible;
+  opacity:1;
+  position:relative;
+  right:0px;
+}
+
+}
+
+/*Responsivness*/
+@media (max-width:1024px) {
+
+.dir {
+    visibility: hidden;
+  }
+
 }
 
 .inpage-dir {
   display:none; 
 }
 
+@media (max-width:1024px) {
+
+.inpage-dir {
+    display: inline;
+  }
+
+}
+
+/*flexbox balance shenannegans*/
 .invisible {
   visibility:hidden;
+}
+
+.flexitem {
+  flex-grow:1;
+  margin: 0px;
+  padding-left:auto;
+  padding-top:0px;
+  width:0px;
 }
 
 /*########### NAV #############*/

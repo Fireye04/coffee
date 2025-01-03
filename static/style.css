@@ -1,3 +1,7 @@
+/** {*/
+/*border-style: solid;*/
+/*  }*/
+
 
 .flex {
   display: flex;
@@ -74,18 +78,25 @@ ol li {
 /*########### NAV #############*/
 
 
-
 .dir {
     background: #141c28;
     border-radius: 5px;
     color: #c9d1d9;
+  margin-left: auto;
+  margin-right: 0px;
+  width:max-content;
+  margin-top: 0px;
+}
+
+.dir img {
+  width: 35px;
 }
 
 .dir ul {
   list-style-type:none;
-  margin: 10px;
-  padding: 0;
+  margin: 0px 10px;
   text-align: right;
+  padding:10px 0px;
 }
 .dir ul li a {
   display: flex;
@@ -95,6 +106,23 @@ ol li {
   color: #c9d1d9;
   text-decoration: none;
   margin: auto 10px;
+  padding:10px 0px;
+}
+
+.dir ul li a p {
+  display: none;
+  padding: auto;
+  margin: auto;
+  opacity:0;
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+
+.dir:hover ul li a p{
+  visibility: visible;
+  display: inline;
+  opacity:1;
 }
 
 .selected {
@@ -108,6 +136,14 @@ ol li {
 
 .invisible {
   visibility:hidden;
+}
+
+.flexitem {
+  flex-grow:1;
+  margin: 0px;
+  padding-left:auto;
+  padding-top:0px;
+  width:0px;
 }
 
 /*########### NAV #############*/

@@ -10,7 +10,7 @@
   <main class="flex">
   <div class="flexitem">
   <div class="dir">
-  {{.Page}}
+  {{.Page.Params}}
     <ul>
           <li {{if eq .Page.Params.id "home"}} class="selected" {{end}} ><a href="/"><p><strong>Home</strong></p><img title="Home" src="/Assets/home-alt.svg"> </a></li>
           <li {{if eq .Page.Params.id "projects"}} class="selected" {{end}} ><a href="/projects"><p><strong>Projects</strong></p><img title = "Projects" src="/Assets/favourite-book.svg"></a></li>

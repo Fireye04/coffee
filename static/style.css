@@ -282,6 +282,13 @@ button:hover {
     cursor: pointer;
 }
 
+.spaced-buttons {
+  line-height: 2em;
+}
+
+.spaced-buttons li {
+  margin-top: 20px ;
+}
 
 /*########### BUTTONS #############*/
 

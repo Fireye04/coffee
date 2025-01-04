@@ -2,11 +2,8 @@
 {{ define "main" }}
 
         <h1>
-            <center><u>My Stupid Blog!</u></center>
+            <center><u>My Writing!</u></center>
         </h1>
-        <p><small>
-                <center>(I have no idea what I'm doing. If this breaks I'm so sorry.)</center>
-            </small></p>
 
         <h2>
             <center><a href="/index.html">Home Sweet Home</a></center>
@@ -17,13 +14,13 @@
         </p> -->
   <div>
 
-  <p>This blog supports RSS! Find it <a href="/blog/index.xml" target="_blank">here!</a></p>
+  <p>This page supports RSS! Find it <a href="/writing/index.xml" target="_blank">here!</a></p>
 
     {{ .Content }}
 
-  <h2>Blog posts by date:</h2>
+  <h2>Pieces by date:</h2>
         <hr />
-    {{ $pages := where site.RegularPages "Type" "blog" }}
+    {{ $pages := where site.RegularPages "Type" "writing" }}
     {{ $paginator := .Paginate $pages }}
 
     {{ range $paginator.Pages }}
@@ -43,6 +40,6 @@
                         time)</small></small></center>
         </h2>
     </div>
-  <script src="/Scripts/blog.js" crossorigin="anonymous"></script>
+  <script src="/Scripts/catchall.js" crossorigin="anonymous"></script>
 {{ end }}
 

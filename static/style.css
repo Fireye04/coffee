@@ -141,6 +141,7 @@ ol li {
 
 @media (min-width: 1180px){
 
+
 .dir:hover ul li a {
   width:110px;
 }
@@ -281,6 +282,13 @@ button:hover {
     cursor: pointer;
 }
 
+.spaced-buttons {
+  line-height: 2em;
+}
+
+.spaced-buttons li {
+  margin-top: 20px ;
+}
 
 /*########### BUTTONS #############*/
 

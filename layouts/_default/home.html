@@ -8,53 +8,61 @@
     <p>Howdy! I'm Kai, and this is my stupid website.</p>
 
   <p><small><em>Last updated: {{ time.Now | time.Format "January 02, 2006" }}</em></small></p>
+
+    <hr>
+
     <div class="inpage-dir"> 
     <h2>Directory!</h2>
       <ul>
         <li>
           <h3><a href="/projects">Projects!</a></h3> (Where you can find what stuff I've done)
         </li>
-        <li>
-          <h3><a href="/blog">My Blog :P</a></h3> (Where I write things about games and stuff)
-        </li>
   <li>
           <h3><a href="/about">About!</a></h3> (Some stuff about me and the site!)
         </li>
+        <li>
+          <h3><a href="/blog">My Blog :P</a></h3> (Where I blog things about games and stuff)
+        </li>
+    <li>
+          <h3><a href="/writing">My Writing!</a></h3> (Where I self-publish creative writing works of mine!)
+        </li>
+
         <!-- <li>
           <h3><a href="Pages/.html">My Newsletter</a></h3> (Where you can sign up to get updates twice a year
           when
           I actually post something)
         </li> -->
       </ul>
-    <br>
+  <hr>
     </div>
     
-    <h2><a href="/projects">My Projects!</a></h2>
+
+<h2><a href="/projects">My Projects!</a></h2>
 
     <p>Check out some of my work!</p>
 
-    <ul>
-      <li><a href="/projects#right-now">Projects currently in progress</a></li>
-      <li><a href="/projects#finished">Projects that I've finished!</a></li>
-      <li><a href="/projects#graveyard">Projects in the graveyard 💀</a></li>
+    <ul class="spaced-buttons" style="list-style-type:none;">
+      <li><button onclick="location.href='/projects#right-now'">Projects currently in progress</button></li>
+      <li><button onclick="location.href='/projects#finished'">Projects that I've finished!</button></li>
+      <li><button onclick="location.href='/projects#graveyard'">Projects in the graveyard 💀</button></li>
     </ul>
 
-    <br>
+<br>
 
-    <h2><a href="/about">About</a></h2>
+<h2><a href="/about">About</a></h2>
 
     <p>Here's some of my links, some stuff about me, and some stuff about this website if you're curious :P</p>
 
-      <center><button onclick="location.href='/about'">I'm Curious!</button></center>
+      <button class="indent" onclick="location.href='/about'">I'm Curious!</button>
 
-    <br>
-
+<br><br>
     
-    <h2>Here's Some blog posts</h2>
+<h2><a href="/blog">Here's Some blog posts</a></h2>
     <p>Nobody asked, yet here's some of my (maybe) hot takes anyway.</p>
 
     {{ $posts := where site.RegularPages "Type" "blog" }}
     {{ range first 3 $posts.ByPublishDate.Reverse}}
+    <hr />
     <div class="indent">
       <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
   <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
@@ -62,13 +70,33 @@
 
     </div>
 
-    <hr />
   {{end}}
-    <p><a href="/blog">See more posts!</a></p>
+    <hr />
+<br>
+      <button class="indent" onclick="location.href='/blog'">See more posts!</button>
 
-    <br>
+<br><br><br>
 
-    <h2>Digital Neighbors!</h2>
+<h2><a href="/writing">Here are some Stories!</a></h2>
+    <p>I do creative writing! Here are some stories I've made recently!</p>
+
+    {{ $posts := where site.RegularPages "Type" "writing" }}
+    {{ range first 3 $posts.ByPublishDate.Reverse}}
+    <hr />
+    <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+  <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
+
+    </div>
+
+  {{end}}
+    <hr />
+<br>
+      <button class="indent" onclick="location.href='/writing'">See more stories!</button>
+
+<br><br><br>
+<h2><u>Digital Neighbors!</u></h2>
       <p>A list of cool websites that are friends with this one! (What does that mean? Not sure!)</p>
 
       <ul>
@@ -78,7 +106,7 @@
 
       <p>Let me know if you'd like to become digital neighbors! I'd love to expand the network above as much as I can &lt;3</p>
 
-    <h2>My favorite web pages!</h2>
+<h2><u>My favorite web pages!</u></h2>
       <p>Here are some of my favorite webpages (If you own one of these, Please let me know if you'd like to be digital neightbors or for me to take it off the list)
 
       <ul>
@@ -86,9 +114,9 @@
           <li><a href="https://doodleta.co/" target="_blank">doodletea.co</a></li>
           <li>That's it for now!</li>
       </ul>
+  <br>
 
-
-    <h2>Stupid quotes? For no good reason? Don't mind if I do.</h2>
+<h2><u>Stupid quotes? For no good reason? Don't mind if I do.</u></h2>
 
     <blockquote>
       <p>“Don't spend 5 minutes doing somehing when you could instead spend 5 hours failing to automate it.” <br>
@@ -104,12 +132,12 @@
 
     <br>
 
-    <!-- <p>If you read this, send me a message or sometheng. I won't really
+    <!-- <p>If you read this, send me a message or something. I won't really
       give you anything, but it'll help break up the monotony of daily life
       which is always a win.
     </p> -->
 
-    <h2>Guestbook!</h2>
+<h2><u>Guestbook!</u></h2>
     <p>Thank you for making it this far! Please feel free to sign my guestbook! Fair warning, I will delete crass and hateful comments without remorse <3</p>
 
     <center><p class="gbload">Loading content...</p></center>

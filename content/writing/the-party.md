@@ -69,10 +69,22 @@ Why am I here? I know I don't like parties. It's so loud. All I've been doing is
 
 "What does that even mean?" 
 
-"You'll figure it out!"
+"You'll figure it out!" They say with a wink. What? I'll figure it out? I've already figured it out! I like men, not women! I've had great relationships with guys! Cole was a sweetheart! Adrian was hot as hell! Jake! Uhhhh... Jake was... Umm. Alright Jake kinda sucked. But that's besides the point! I'm not gay! I'm **clearly** not gay! Not that there's anything wrong with being gay! I'm just... not! Women? Ewww! Right?! Allison's just like really cool and stuff and I just want to spend more time with her and I just get angry when she invites me to a party then spends it with *some guy* instead of me! Ughhhhh now I'm sad again.
 
-What? I'll figure it out? I've already figured it out! I like men, not women! I've had great relationships with guys! Cole was a sweetheart! Adrian was hot as hell! Jake! Uhhhh... Jake was... Umm. Alright Jake kinda sucked. But that's besides the point! I'm not gay! I'm **clearly** not gay! Not that there's anything wrong with being gay! It's just not me!
+"Hey" My new friend interrupts my derailed train of thought. "In other news, I never got your name." 
 
-"Hey, in other news, I never got your name." 
+"Jen. What's yours?" I ask.
 
-"It's "
+"Sitio. You can call me Tíe, though." They pronounce Tíe like tee-yeh. They see the confused look on my face and chuckle a bit. "Is it the name or how you get Tíe from Sitio?" They ask.
+
+"No no, I love it it's so cool and unique and mine is so boring!" I pause for a second. They raise their eyebrow.
+
+"...And?" They say. I smile sheepishly.
+
+"And I'd love to hear about both of those things, if you don't mind"
+
+"Well, first off, Sitio in english means place. It's a bit cheesy, but I chose it because I want to be a place where people feel safe. I didn't really have a safe place growing up so I want to be that for other people." They frown. "I don't think I said that right."
+
+"No, I totally get it that's really sweet." Their smile returns.
+
+"As for Tíe, it's stupid as hell but my friends started shortening my name to Tío, which means uncle, and I had to stop them from misgendering me, ergo, Tíe"

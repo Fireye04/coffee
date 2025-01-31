@@ -134,7 +134,7 @@ Tíe raises their hands. "Nope, I'm spoken for. Allison, I presume?"
 
 "Ooooooh you were talking about me??" Allison says.
 
-"Of course, Jen *loves* talking about you." Tíe says with a wink. I feel my face flush red. Fuck. Well there goes playing hard to get. Maybe I can make a distraction and hide under the drink table. 
+"Of course, Jen *loves* talking about you." Tíe says. I feel my face flush red. Fuck. Well there goes playing hard to get. Maybe I can make a distraction and hide under the drink table. They give me a wink. Oh fuck off.
 
 "Awww that's so sweeeet"
 

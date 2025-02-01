@@ -1,4 +1,5 @@
 {{define "main"}}
+    {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
 <h1 class="posthead"><center><u>{{ .Title }}</u></center></h1>
       <h4 class="posthead indent">{{.Description}}</h4>
       <p class="posthead indent">Word Count: {{.WordCount}}</p>
@@ -17,7 +18,7 @@
           <hr \>
     {{ end }}
         
-          {{ if .Params.toc }}
+          {{ if $params.toc }}
           <h2>Table of Contents</h2>
           <p>{{ .TableOfContents}}</p>
           <hr \>

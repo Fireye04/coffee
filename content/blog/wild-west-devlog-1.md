@@ -1,7 +1,7 @@
 ---
 date: "2025-01-30"
 params:
-    update: "0001-01-01"
+    update: "2025-01-31"
     toc: true
 description: I'm making a wild west themed TTRPG! Here I go over my initial thoughts and approach to making the thing happen.
 title: Wild West TTRPG System Devlog 1
@@ -13,6 +13,16 @@ Hi! Welcome to my wild west TTPRG's first devlog! I figured I'd use this blog as
 ## Where did we start?
 
 This wild west TTRPG project extravaganza started back when I was playing 5e very regularly (over four years ago, holy hell i'm old). I've since curtailed my use of the 5e system to take up playing more independent work to draw from in terms of system structure and approach to design, however the wild west system's old doccuments that i'll be picking up are still very rooted in that old 5e-style. It leaned heavily into that moment to moment combat that D&D is well known for and it dealt in minute stat values and to-hit bonuses to weapons and heavy resource management. In other words, I think my digital game design practices crossed with my overwhelming 5e experience to that point resulted in a rather creative, yet bewildering network of systems and ideas that aren't well suited to the TTRPG medium, or at least to the experiences I want to create with this system. Let's take a look at what remnants remain and what I want to do with them.
+
+### Old docs
+
+Here are the old doccuments if anyone's interested in looking them over.
+
+- <a href="/Assets/Wild West Combat - The Homebrewery.pdf" target="_blank">First ruleset rev</a>
+- <a href="/Assets/wild_west_ruleset.pdf" target="_blank">Second ruleset rev</a>
+- <a href="/Assets/wild_west_shenannegans.pdf" target="_blank">Attempted (then quickly abandoned) third rev</a>
+- <a href="/Assets/wild_west_weapons.pdf" target="_blank">Weapons & modding rules</a>
+- <a href="/Assets/wild_west_gunslinger.pdf" target="_blank">Sample gunslinger class</a>
 
 ### Combat
 
@@ -30,13 +40,13 @@ Abstracting the player character's development over the course of the narrative 
 
 #### A quick aside
 
-If I can pull the discussion towards my sweet child, red dead redemption two, i'd like to point out the honor system in that game, as I believe that many game developers, digital or otherwise, can learn a thing or two therein. It's a simple as hell system: Arthur does good things, he gets good points. Bad things get him bad points, which cancel out the good points. And depending on how many points you have, positive or negative, the story changes. This isn't a new idea, but the important thing is how deeply it's connected to every single thing in the game's world. Most actions that artur can take when interacting with the world around him will tie into this system, good or bad. Again, and again, and again. Players can no longer act like complete maiacs and murderhobos with complete impunity because they clicked the "i'm a goodie goodie" button on some dialogue a couple times. Is it perfect? Definitely not, (1 human life equating to approximately 3 "hey there, pardner!"s is comedic at best), but we can almost certainly draw from it here. 
+If I can pull the discussion towards my sweet child, red dead redemption two, i'd like to point out the honor system in that game, as I believe that many game developers, digital or otherwise, can learn a thing or two therein. It's a simple as hell system: Arthur does good things, he gets good points. Bad things get him bad points, which cancel out the good points. And depending on how many points you have, positive or negative, the story changes. This isn't a new idea, but the important thing is how deeply it's connected to every single thing in the game's world. Most actions that Arthur can take when interacting with the world around him will tie into this system, good or bad. Again, and again, and again. Players can no longer act like complete maiacs and murderhobos with complete impunity because they clicked the "i'm a goodie goodie" button on some dialogue a couple times. Is it perfect? Definitely not, (1 human life equating to approximately 3 "hey there, pardner!"s is comedic at best), but we can almost certainly draw from it here. 
 
 Specifially, I'm looking at the idea of individual actions contributing to a larger longer term result. As opposed to abstracting these to numbers and having the player choose how those improvements come about, they're forced to actually do the things that improve them. You get smarter by studying. Stronger by lifting and hitting things. Better at lock picking by lock picking. And there's an opportunity cost to doing things (as I know very well with the sheer number of hobbies and interests i've decided to engage in). These should all contribute to their own skills, without the need for essential stats, which in turn allows the character to evolve over the course of the campaign directly based on how they're played. The trick is how to implement this simply and thoughtfully. That'll have to be the focus of another devlog, because honestly, I haven't figured it out yet, myself! But I'm very excited to give it a crack.
 
 ### Classes
 
-I'm toying with the idea of removing classes outright. They're a simple, helpful abstraction to help the player shape their character, but I'm opposed to the idea of fundimentally separating ideas or skills from others. If D&D's classes are the windows operating system, its navigation bar, desktop environment, notification manager, etc... set up in one specific way for the user, I intend this system to be akin to a version of Linux, giving the user a much wider breadth of fundimental choice at the cost of some user friendliness. Breaking apart classes into a more general pool of available skills, potentially with reccomendations to create common character archetypes, but at a base level affording the player the choice and flexibility to create a truly dynamic, unique character. Again, more on this to come. 
+I'm toying with the idea of removing classes outright. They're a simple, helpful abstraction to help the player shape their character, but I'm opposed to the idea of fundimentally separating ideas or skills from others. If D&D's classes are the windows operating system, its navigation bar, desktop environment, notification manager, etc... set up in one specific way for the user, I intend for this system to be akin to a version of Linux, giving the user a much wider breadth of fundimental choice at the cost of some user friendliness. Breaking apart classes into a more general pool of available skills, potentially with reccomendations to create common character archetypes, but affording the player the choice and flexibility to create a truly dynamic, unique character. Again, more on this to come. 
 
 ### Dice system
 

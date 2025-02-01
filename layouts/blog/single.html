@@ -1,5 +1,5 @@
 {{define "main"}}
-      <h1 class="posthead">{{ .Title }}</h1>
+<h1 class="posthead"><center><u>{{ .Title }}</u></center></h1>
       <h4 class="posthead indent">{{.Description}}</h4>
       <p class="posthead indent">Word Count: {{.WordCount}}</p>
   {{ if compare.Gt .WordCount 500 }}

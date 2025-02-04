@@ -1,19 +1,16 @@
 {{define "footer"}}
 <h2><center><a href="/index.html">Home Sweet Home</a>{{ if compare.Gt .WordCount 500 }}<br><small><small>(But at the bottom of the page this time)</small></small>{{ end }}</center></h2>
           
-<h3><center><a href="/blog">To the Blog!</a></center></h3>
+<h3><center><a href="/changelog">Back to the changelog!</a></center></h3>
 
 {{end}}
 
 {{define "main"}}
+
     {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
-<h1 class="posthead"><center><u>{{ .Title }}</u></center></h1>
-      <h4 class="posthead indent">{{.Description}}</h4>
-      <p class="posthead indent">Word Count: {{.WordCount}}</p>
-  {{ if compare.Gt .WordCount 500 }}
-      <p class="posthead indent">Read Duration: {{.ReadingTime}} minutes</p>
-        {{end}}
-<p class="posthead indent"><em>Published {{time.Format "Jan 02, 2006" .Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</em></p>
+<h1 class="posthead"><center><u>{{time.Format "Jan 02, 2006" .Date }} Updates</u></center></h1>
+<br>
+  <h2 >{{ .Title }}</h2>
       
       <hr \>
 
@@ -21,9 +18,10 @@
 
         {{ if compare.Gt .WordCount 500 }}
           <h2><center><a href="/index.html">Home Sweet Home</a></center></h2>
-          <h3><center><a href="/blog">To the Blog!</a></center></h3>
+      <h3><center><a href="/changelog">Check out other entries!</a></center></h3>
           <hr \>
     {{ end }}
+
         
           {{ if $params.toc }}
           <h2>Table of Contents</h2>
@@ -36,6 +34,7 @@
 
       <hr \>
 
-  <script src="/Scripts/catchall.js" crossorigin="anonymous"></script>
+  
+  <script src="/Scripts/writing.js" crossorigin="anonymous"></script>
 
 {{end}}

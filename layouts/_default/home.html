@@ -7,8 +7,12 @@
 
     <p>Howdy! I'm Kai, and this is my stupid website.</p>
 
-  <p><small><em>Last updated: {{ time.Now | time.Format "January 02, 2006" }}</em></small></p>
+    {{ $posts := where site.RegularPages "Type" "changelog" }}
+    {{ range first 1 $posts.ByPublishDate.Reverse}}
 
+<h4 style="margin:0;margin-bottom: 5px;">Most recent update: <a href="{{ .RelPermalink }}">{{time.Format "Jan 02, 2006" .Page.Date }} - {{ .LinkTitle }}</a></h4><p style="margin:0;"><em>(<a href="/changelog">See full changelog</a>)</em></p>
+
+    {{end}}
     <hr>
 
     <div class="inpage-dir"> 
@@ -96,25 +100,6 @@
       <button class="indent" onclick="location.href='/writing'">See more stories!</button>
 
 <br><br><br>
-<h2><u>Digital Neighbors!</u></h2>
-      <p>A list of cool websites that are friends with this one! (What does that mean? Not sure!)</p>
-
-      <ul>
-        <li><a href="https://theblipbloop.github.io/" target="_blank">theblipbloop.github.io</a></li>
-        <li>That's it for now!</li>
-      </ul>
-
-      <p>Let me know if you'd like to become digital neighbors! I'd love to expand the network above as much as I can &lt;3</p>
-
-<h2><u>My favorite web pages!</u></h2>
-      <p>Here are some of my favorite webpages (If you own one of these, Please let me know if you'd like to be digital neightbors or for me to take it off the list)
-
-      <ul>
-          <li><a href="https://neal.fun" target="_blank">Neal.fun</a></li>
-          <li><a href="https://doodleta.co/" target="_blank">doodletea.co</a></li>
-          <li>That's it for now!</li>
-      </ul>
-  <br>
 
 <h2><u>Stupid quotes? For no good reason? Don't mind if I do.</u></h2>
 

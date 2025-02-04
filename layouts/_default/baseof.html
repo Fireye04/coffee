@@ -29,7 +29,20 @@
       <div class="content">
     {{ block "main" . }}{{ end }}
 
-    {{partial "footer.html" .}}
+    {{block "footer" .}}
+<hr />
+
+    <h2><u>Footer</u> <small><small><small>(if you couldn't tell)</small></small></small></h2>
+
+    <p>Inspired by the geniuses behind <a href="https://perfectmotherfuckingwebsite.com/"
+        target="_blank">perfectmotherfuckingwebsite.com</a> and those that came before.</p>
+
+    <p>And of course, this website's <a href="https://github.com/Fireye04/coffee" target="_blank">Github Page</a>, if
+      you want to check it out. If you find any issues with the site I would really appreciate if you could open up an issue!</p>
+
+
+                {{end}}
+
       </div>
   </main>
 </body>

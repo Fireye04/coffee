@@ -2,6 +2,10 @@
 params:
     update: "2024-01-21"
     toc: false
+categories:
+- blog
+blog_tags:
+- ttrpg
 date: "2023-11-01"
 description: A guide on how I run session 0's in TTRPGs
 title: Kai's Awesome Session 0 Checklist!

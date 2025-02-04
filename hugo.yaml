@@ -3,6 +3,12 @@ disablePathToLower: true
 languageCode: en-us
 title: Kai's Stupid Website
 
+taxonomies:
+  project_status: project_status  
+  category: categories
+  blog_tag: blog-tags
+  project_tag: project-tags
+
 markup:
   goldmark:
     renderer:

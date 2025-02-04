@@ -223,7 +223,7 @@ ol li {
 
 /*########### ITCH IFRAMES #############*/
 
-@media (max-width: 635px) {
+@media (max-width: 800px) {
 
     .itch-iframe {
         display: none;
@@ -234,7 +234,7 @@ ol li {
     }
 }
 
-@media (min-width: 635px) {
+@media (min-width: 800px) {
 
     .itch-iframe {
         display: block;

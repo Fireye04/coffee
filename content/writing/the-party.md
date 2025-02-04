@@ -3,6 +3,8 @@ date: "2025-01-04"
 params:
     toc: false
     update: "0001-01-01"
+categories: 
+- writing
 draft: true
 description: tbd
 title: The Party

@@ -26,6 +26,9 @@
 }
 
 @media (max-width:500px) {
+    .flex {
+        gap:0px;
+    }
     .content {
         width:100%;
     }

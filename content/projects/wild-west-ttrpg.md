@@ -1,6 +1,6 @@
 ---
 date: '2021-01-01'
-draft: true
+draft: false
 title: 'Wild West TTRPG'
 description: A custom ttrpg system specifically designed for the wild west.
 project_status: 

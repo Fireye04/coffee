@@ -1,6 +1,6 @@
 ---
 date: "2024-07-01"
-draft: true
+draft: false
 title: 'Tavern 2'
 description: A stardew-valley-esque tavern management sim with bartering & deeper NPC dialogue
 project_status: 

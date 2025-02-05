@@ -1,6 +1,6 @@
 ---
 date: '2023-01-01'
-draft: true
+draft: false
 title: 'Fireye.Coffee (This website!)'
 description: A personal homepage for myself on the great interweb!
 project_status: 

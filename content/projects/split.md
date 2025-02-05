@@ -1,6 +1,6 @@
 ---
 date: '2021-01-01'
-draft: true
+draft: false
 title: 'Split'
 description: My first unity game.
 project_status: 

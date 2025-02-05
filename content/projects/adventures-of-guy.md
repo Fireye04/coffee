@@ -1,6 +1,6 @@
 ---
 date: '2020-01-01'
-draft: true
+draft: false
 title: 'Adventures of Guy'
 description: My first jam game!
 project_status: 

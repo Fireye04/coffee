@@ -1,6 +1,6 @@
 ---
 date: '2022-01-01'
-draft: true
+draft: false
 title: 'MMUN 2'
 description: A Model Model UN roleplay discord bot.
 project_status: 

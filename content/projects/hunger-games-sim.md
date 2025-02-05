@@ -1,6 +1,6 @@
 ---
 date: '2023-01-01'
-draft: true
+draft: false
 title: 'Hunger Games Sim'
 description: A discord bot that simulates the hunger games with your friends
 project_status: 

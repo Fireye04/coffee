@@ -1,6 +1,6 @@
 ---
 date: '2025-02-04T14:53:08-07:00'
-draft: true
+draft: false
 title: 'Memories of Bloob'
 description: A queer tale of memories and everything being totally normal with nothing bad ever happening ever.
 project_status: 

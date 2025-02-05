@@ -1,6 +1,6 @@
 ---
 date: '2023-01-01'
-draft: true
+draft: false
 title: 'English Game'
 description: Game I made for a school assignment.
 project_status: 

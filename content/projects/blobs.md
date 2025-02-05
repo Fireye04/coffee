@@ -1,6 +1,6 @@
 ---
 date: '2021-01-01'
-draft: true
+draft: false
 title: 'Blobs'
 description: Neat little jam game that I made because I wanted to try controlling two characters.
 project_status: 

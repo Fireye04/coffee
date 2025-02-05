@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+{{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
+
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+
+<body>
+  {{partial "kofi.html" . }}
+  <main class="flex">
+  <div class="flexitem">
+  <div class="dir">
+    <ul>
+          <li {{if eq $params.id "home"}} class="selected" {{end}} ><a href="/"><p><strong>Home</strong></p><img title="Home" src="/Assets/home-alt.svg"> </a></li>
+          <li {{if eq $params.id "projects"}} class="selected" {{end}} ><a href="/projects"><p><strong>Projects</strong></p><img title = "Projects" src="/Assets/favourite-book.svg"></a></li>
+          <li {{if eq $params.id "about"}} class="selected" {{end}} ><a href="/about"><p><strong>About</strong></p><img title= "About" src="/Assets/question-mark.svg"></a></li>
+          <li {{if eq $params.id "blog"}} class="selected" {{end}} ><a href="/blog"><p><strong>Blog</strong></p><img title= "Blog" src="/Assets/book-stack.svg"></a></li>
+          <li {{if eq $params.id "writing"}} class="selected" {{end}} ><a href="/writing"><p><strong>Writing</strong></p><img title= "Writing" src="/Assets/edit-pencil.svg"></a></li>
+    </ul>
+  </div>
+  </div>
+<div class="flexitem invisible" style="order:3">
+  <div class="dir">
+  </div>
+  </div>
+  
+      <div class="content">
+        <h1>
+            <center><u>404! There's nothing here! Yell at me or come back later if you'd like to change that.</u>
+            </center>
+        </h1>
+
+        <h2>
+            <center><a href="/index.html">Home Sweet Home</a></center>
+        </h2>
+
+      </div>
+  </main>
+</body>
+</html>
+
+

@@ -3,6 +3,11 @@ date: "2024-01-27"
 params:
     update: "0001-01-01"
     toc: true
+categories:
+- blog
+blog_tags:
+- game
+- infodump
 description: A curious individual's introduction to the star citizen project
 title: 'The Allure of Star Citizen: A Buyer''s Guide'
 ---

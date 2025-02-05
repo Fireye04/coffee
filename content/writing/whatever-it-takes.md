@@ -3,6 +3,8 @@ date: "2025-01-03"
 params:
     toc: false
     update: "0001-01-01"
+categories: 
+- writing
 description: A tale of a desperate dock worker, a pirate, a rebellion, futility, and a raven named Edgar.
 title: Whatever it takes
 ---

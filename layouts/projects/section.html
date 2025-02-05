@@ -1,0 +1,88 @@
+
+{{ define "main" }}
+
+        <h1>
+            <center><u>Projects!</u></center>
+        </h1>
+
+        <h2>
+            <center><a href="/index.html">Home Sweet Home</a></center>
+        </h2>
+
+        <!-- <p>
+            <a href="./Newsletter.html">Join my Newsletter</a> to get updated when a new post comes out!
+        </p> -->
+  <div>
+        <p>I do love me some projects, even if finishing them is
+                a point of concern. If you want me to finish something,
+                let me know! It's really nice to know someone actually
+                cares about anything I'm doing <strike>and I'll do anything
+                  for external validation!</strike></p>
+  <p>This feed supports RSS! Find it <a href="/projects/index.xml" target="_blank">here!</a></p>
+
+    {{ .Content }}
+
+    {{$taxonomy := .Site.Taxonomies.project_status.in_progress}}
+        
+        <h2 id="right-now" class="under">In Progress</h2>
+    <p>This section is essentially the projects that are currently in my field of vision, and are being actively worked on to some degree. </p>
+    <hr>
+
+    {{ range $taxonomy.Pages }}
+        {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
+        <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+            <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
+        {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
+            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+        </div>
+        <hr />
+    {{ end }}
+    <br>
+    {{$taxonomy := .Site.Taxonomies.project_status.complete}}
+        
+        <h2 id="finished" class="under">Complete</h2>
+
+        <p>If by some miracle I actually finish a project, it'll go here.</p>
+    <hr>
+    {{ range $taxonomy.Pages }}
+        {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
+        <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+            <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
+        {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
+            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+        </div>
+        <hr />
+    {{ end }}
+
+    <br>
+
+    {{$taxonomy := .Site.Taxonomies.project_status.graveyard}}
+        <h2 class="under" id="graveyard">T̸̳̚ḩ̶̇e̵͉͗ ̶̺̿G̷̙̎r̵͈̂â̷̯v̷̨͛ē̷͈y̵̹̆ä̸̬́r̷̙̈́ḋ̵̥</h2>
+    <p>Where projects go to die. Every once in a while I'll do some necromancy,
+            but don't count on it.
+            </p>
+    <hr>
+    {{ range $taxonomy.Pages }}
+        {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
+        <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+            <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
+        {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
+            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+        </div>
+        <hr />
+    {{ end }}
+
+        <h2>
+            <center><a href="/index.html">Home Sweet Home</a><br><small><small>(But at the bottom of the page this
+                        time)</small></small></center>
+        </h2>
+    </div>
+  <script src="/Scripts/blog.js" crossorigin="anonymous"></script>
+{{ end }}
+

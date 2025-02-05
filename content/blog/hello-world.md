@@ -3,6 +3,10 @@ date: "2024-01-20"
 params:
     toc: false
     update: "0001-01-01"
+categories:
+- blog
+blog_tags:
+- infodump
 description: A quick test of jekyll's blog systems, and a little hello world to static
   site generation!
 title: Hello World!

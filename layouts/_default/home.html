@@ -40,19 +40,6 @@
   <hr>
     </div>
     
-
-<h2><a href="/projects">My Projects!</a></h2>
-
-    <p>Check out some of my work!</p>
-
-    <ul class="spaced-buttons" style="list-style-type:none;">
-      <li><button onclick="location.href='/projects#right-now'">Projects currently in progress</button></li>
-      <li><button onclick="location.href='/projects#finished'">Projects that I've finished!</button></li>
-      <li><button onclick="location.href='/projects#graveyard'">Projects in the graveyard 💀</button></li>
-    </ul>
-
-<br>
-
 <h2><a href="/about">About</a></h2>
 
     <p>Here's some of my links, some stuff about me, and some stuff about this website if you're curious :P</p>
@@ -60,7 +47,33 @@
       <button class="indent" onclick="location.href='/about'">I'm Curious!</button>
 
 <br><br>
-    
+
+<h2><a href="/projects">My Projects!</a></h2>
+
+<p>Here are some of my most recent projects!</p>
+{{ $posts := where site.RegularPages "Type" "projects" }}
+    {{ range first 2 $posts.ByPublishDate.Reverse}}
+    <hr />
+    <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+  <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
+
+    </div>
+
+{{end}}
+
+<hr>
+<p>See more projects!</p>
+<ul class="spaced-buttons" style="list-style-type:none;">
+      <li><button onclick="location.href='/projects#right-now'">Projects currently in progress</button></li>
+      <li><button onclick="location.href='/projects#finished'">Projects that I've finished!</button></li>
+      <li><button onclick="location.href='/projects#graveyard'">Projects in the graveyard 💀</button></li>
+    </ul>
+
+
+<br>
+
 <h2><a href="/blog">Here's Some blog posts</a></h2>
     <p>Nobody asked, yet here's some of my (maybe) hot takes anyway.</p>
 

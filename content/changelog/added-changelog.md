@@ -1,6 +1,8 @@
 ---
 date: "2025-02-03"
 title: Added Changelog!
+categories:
+- changelog
 ---
 
 - Added this changelog!

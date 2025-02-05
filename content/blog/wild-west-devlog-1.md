@@ -3,6 +3,11 @@ date: "2025-01-30"
 params:
     update: "2025-01-31"
     toc: true
+categories:
+- blog
+blog_tags:
+- devlog
+- ttrpg
 description: I'm making a wild west themed TTRPG! Here I go over my initial thoughts and approach to making the thing happen.
 title: Wild West TTRPG System Devlog 1
 draft: false

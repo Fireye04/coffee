@@ -6,8 +6,8 @@ title: Kai's Stupid Website
 taxonomies:
   project_status: project_status  
   category: categories
-  blog_tag: blog-tags
-  project_tag: project-tags
+  blog_tag: blog_tags
+  project_tag: project_tags
 
 markup:
   goldmark:

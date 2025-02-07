@@ -12,7 +12,7 @@ project_tags:
 - ttrpg
 params:
     toc: false
-    update: "0001-01-01" 
+    original: '2022-01-01' 
     tools: python, discord.py
     builds: None
 ---

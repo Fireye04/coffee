@@ -1,5 +1,5 @@
 ---
-date: '2021-01-01'
+date: "2025-02-06"
 draft: false
 title: 'Wild West TTRPG'
 description: A custom ttrpg system specifically designed for the wild west.
@@ -12,7 +12,7 @@ project_tags:
 - ttrpg
 params:
     toc: false
-    update: "2025-02-04" 
+    original: '2021-01-01' 
     tools: Creativity!
     builds: None
 ---

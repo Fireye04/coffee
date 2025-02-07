@@ -1,7 +1,7 @@
 ---
 date: "2024-01-27"
 params:
-    update: "0001-01-01"
+    original: "2024-01-27"
     toc: true
 categories:
 - blog

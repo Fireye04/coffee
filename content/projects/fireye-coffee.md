@@ -1,5 +1,5 @@
 ---
-date: '2023-01-01'
+date: "2025-02-04"
 draft: false
 title: 'Fireye.Coffee (This website!)'
 description: A personal homepage for myself on the great interweb!
@@ -11,7 +11,7 @@ project-tags:
 - web
 params:
     toc: false
-    update: "2025-02-04" 
+    original: '2023-01-01' 
     tools: HTML, CSS, JavaScript, Hugo
     builds: Web
 ---

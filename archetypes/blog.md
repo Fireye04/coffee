@@ -9,5 +9,5 @@ blog-tags:
 - default
 params:
     toc: false
-    update: "0001-01-01" 
+    original: '{{ .Date }}' 
 ---

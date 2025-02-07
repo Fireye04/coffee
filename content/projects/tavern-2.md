@@ -1,5 +1,5 @@
 ---
-date: "2024-07-01"
+date: '2025-02-04T11:26:00-07:00'
 draft: false
 title: 'Tavern 2'
 description: A stardew-valley-esque tavern management sim with bartering & deeper NPC dialogue
@@ -12,7 +12,7 @@ project_tags:
 - video game
 params:
     toc: false
-    update: '2025-02-04T11:26:00-07:00'
+    original: "2024-07-01"
     tools: Godot
     builds: None
 ---

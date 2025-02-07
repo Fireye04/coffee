@@ -1,6 +1,6 @@
 ---
 date: '2025-02-04T15:00:37-07:00'
-draft: true
+draft: false
 title: 'Bloob Devlog'
 description: An insight into my intentions as the developer behind the memories of bloob's most controversial mechanic
 categories:

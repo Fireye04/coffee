@@ -35,7 +35,9 @@
             <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
             <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
         {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
-            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+            {{$original := time.Format "2006" $params.Original }}
+            {{$update := time.Format "2006" .Date}}
+            <p class="indent"><strong>Created:</strong> {{$original }} {{if ne $original $update}} | Updated {{$update }} {{ end }}</p>
         </div>
         <hr />
     {{ end }}
@@ -53,7 +55,9 @@
             <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
             <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
         {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
-            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+            {{$original := time.Format "2006" $params.Original }}
+            {{$update := time.Format "2006" .Date}}
+            <p class="indent"><strong>Created:</strong> {{$original }} {{if ne $original $update}} | Updated {{$update }} {{ end }}</p>
         </div>
         <hr />
     {{ end }}
@@ -73,7 +77,9 @@
             <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
             <p class="indent"><strong>Tools:</strong> {{ $params.tools}}</p>
         {{ if ne $params.builds "None"}}<p class="indent"><strong>Builds:</strong> {{ $params.builds}}</p>{{end}}
-            <p class="indent"><strong>Created:</strong> {{time.Format "2006" .Page.Date }} {{if ne $params.Update "0001-01-01"}} | Updated {{time.Format "Jan 02, 2006" $params.Update }} {{ end }}</p>
+        {{$original := time.Format "2006" $params.Original }}
+        {{$update := time.Format "2006" .Date}}
+            <p class="indent"><strong>Created:</strong> {{$original }} {{if ne $original $update}} | Updated {{$update }} {{ end }}</p>
         </div>
         <hr />
     {{ end }}

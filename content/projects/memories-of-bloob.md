@@ -1,5 +1,5 @@
 ---
-date: '2025-02-04T14:53:08-07:00'
+date: '2025-02-07'
 draft: false
 title: 'Memories of Bloob'
 description: A queer tale of memories and everything being totally normal with nothing bad ever happening ever.
@@ -13,14 +13,14 @@ project_tags:
 - jam
 params:
     toc: false
-    update: "0001-01-01" 
+    original: '2025-02-04T14:53:08-07:00' 
     tools: Godot
     builds: Linux, Windows, Mac
 ---
 
 A silly little game made for the 2025 global game jam, done in person! It's veeeery queer. 
 
-I'm planning a devlog about the intentions behind the game's quicktime system, which was interstingly lagely misunderstood as a mechanic.
+Check out the devlog I wrote on its most misunderstood mechanic: the quicktime events. [Here!](/blog/bloob-devlog)
 
 ### Documents
 - [Github](https://github.com/Fireye04/GlobalJam2025)

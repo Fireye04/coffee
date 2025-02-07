@@ -52,7 +52,7 @@
 
 <p>Here are some of my most recent projects!</p>
 {{ $posts := where site.RegularPages "Type" "projects" }}
-    {{ range first 2 $posts.ByPublishDate.Reverse}}
+    {{ range first 3 $posts.ByPublishDate.Reverse}}
     <hr />
     <div class="indent">
       <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>

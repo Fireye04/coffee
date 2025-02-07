@@ -9,7 +9,7 @@ blog_tags:
 - devlog
 params:
     toc: true
-    update: "0001-01-01" 
+    original: '2025-02-04T15:00:37-07:00' 
 ---
 
 After finishing [The Memories of bloob](https://fireye.itch.io/the-memories-of-bloob) and sending it to friends for playtesting, I got a lot of interesting feedback while watching people play through the thing and talk about it afterwards. One of the most interesting pieces of feedback, however, was the general distaste for the Quicktime feature. Let's talk about it.

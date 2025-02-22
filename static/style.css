@@ -356,13 +356,41 @@ button:hover {
 .gbform input {
     margin-bottom: 20px;
     width:80%;
+    padding:8px 3px;
+    margin-top:5px;
+    background-color: #2b333f;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;  
+    transition: width 0.4s ease-in-out;
+}
+
+.gbform input:focus {
+    width: 85%;
+    border: 2px solid #8992f8;
+    outline:none;
 }
 
 .gbform textarea {
     margin-bottom: 20px;
     width:80%;
     height:150px;
+    padding:8px 3px;
+    margin-top:5px;
+    background-color: #2b333f;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;  
+    transition: width 0.4s ease-in-out;
+
 }
+
+.gbform textarea:focus {
+    width: 85%;
+    border: 2px solid #8992f8;
+    outline:none;
+}
+
 
 @media (max-width: 635px) {
     .guestbook {

@@ -46,7 +46,7 @@ async function initGuestbook(){
         <th class="dt">Timestamp</th>`;
         table.appendChild(columnHeaders);
         const hr = document.createElement('tr');
-        hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+        hr.innerHTML = `<td><hr></td><td><hr></td><td class="dt"><hr></td>`
         table.appendChild(hr);
 
         // add table data rows
@@ -64,7 +64,7 @@ async function initGuestbook(){
             }
             table.appendChild(tableRow);
             const hr = document.createElement('tr');
-            hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+            hr.innerHTML = `<td><hr></td><td><hr></td><td class="dt"><hr></td>`
             table.appendChild(hr);
         }
 
@@ -138,7 +138,7 @@ async function guestbookSubmit() {
         }
         table.appendChild(tableRow)
         const hr = document.createElement('tr');
-        hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+        hr.innerHTML = `<td><hr></td><td><hr></td><td class="dt"><hr></td>`
         table.appendChild(hr);
 
         

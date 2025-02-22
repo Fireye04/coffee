@@ -50,7 +50,7 @@ async function initGuestbook(){
         for (let i = jsonResp.length-1; i >= 0; i--) {
             let dt = formatDatetime(new Date(Number(jsonResp[i]["timestamp"])))
             const tableRow = document.createElement('tr');
-            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}</td>
+            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}\n${jsonResp[i]["domain"]}</td>
     <td>${jsonResp[i]["message"]}</td>
     <td class="dt">${dt}</td>`;
             table.appendChild(tableRow);
@@ -86,6 +86,9 @@ async function guestbookSubmit() {
     const Name = document.getElementsByClassName("gbName")[0].value.toString();
     document.getElementsByClassName("gbName")[0].value = "";
 
+    const Domain = document.getElementsByClassName("gbDomain")[0].value.toString();
+    document.getElementsByClassName("gbDomain")[0].value = "";
+
     const Message = document.getElementsByClassName("gbMessage")[0].value.toString();
     document.getElementsByClassName("gbMessage")[0].value = "";
 
@@ -97,6 +100,7 @@ async function guestbookSubmit() {
     const body = {
         Name: Name,
         Message:Message
+        Domain: Domain
     };
     try {
         const response = await fetch("https://fireye-coffee-guestbook.codekai16.workers.dev/api", {headers: {
@@ -111,7 +115,7 @@ async function guestbookSubmit() {
 
         const table = document.getElementsByClassName('guestbook')[0];
         const tableRow = document.createElement('tr');
-        tableRow.innerHTML = `<td>${Name}</td>
+        tableRow.innerHTML = `<td>${jsonResp[i]["name"]}\n${jsonResp[i]["domain"]}</td>
     <td>${Message}</td>
     <td class="dt">${formatDatetime(new Date())}</td>`;
         table.appendChild(tableRow);

@@ -99,7 +99,7 @@ async function guestbookSubmit() {
 
     const body = {
         Name: Name,
-        Message:Message
+        Message:Message,
         Domain: Domain
     };
     try {

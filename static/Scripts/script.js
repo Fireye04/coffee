@@ -45,15 +45,27 @@ async function initGuestbook(){
         <th>Message</th>
         <th class="dt">Timestamp</th>`;
         table.appendChild(columnHeaders);
+        const hr = document.createElement('tr');
+        hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+        table.appendChild(hr);
 
         // add table data rows
         for (let i = jsonResp.length-1; i >= 0; i--) {
             let dt = formatDatetime(new Date(Number(jsonResp[i]["timestamp"])))
             const tableRow = document.createElement('tr');
-            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}<br>${jsonResp[i]["domain"]}</td>
+            if (jsonResp[i]["domain"] === null) {
+                tableRow.innerHTML = `<td>${jsonResp[i]["name"]}</td>
     <td>${jsonResp[i]["message"]}</td>
     <td class="dt">${dt}</td>`;
+            } else {
+                tableRow.innerHTML = `<td>${jsonResp[i]["name"]}<br><a href="https://${jsonResp[i]["domain"]}">${jsonResp[i]["domain"]}</a></td>
+    <td>${jsonResp[i]["message"]}</td>
+    <td class="dt">${dt}</td>`;
+            }
             table.appendChild(tableRow);
+            const hr = document.createElement('tr');
+            hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+            table.appendChild(hr);
         }
 
       } catch (error) {
@@ -65,7 +77,7 @@ async function initGuestbook(){
 function formatDatetime(date) {
     let dt = date.toString().split(" ")
     let time = dt[4].split(":")
-    return time[0] + ":" + time[1] + ", " + dt[1] + " " + dt[2] + ", " + dt[3];
+    return dt[1] + " " + dt[2] + " - " + dt[3];
 }
 
 
@@ -115,10 +127,20 @@ async function guestbookSubmit() {
 
         const table = document.getElementsByClassName('guestbook')[0];
         const tableRow = document.createElement('tr');
-        tableRow.innerHTML = `<td>${jsonResp[i]["name"]}<br>${jsonResp[i]["domain"]}</td>
-    <td>${Message}</td>
-    <td class="dt">${formatDatetime(new Date())}</td>`;
-        table.appendChild(tableRow);
+        if (jsonResp[i]["domain"] === null) {
+            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}</td>
+<td>${jsonResp[i]["message"]}</td>
+<td class="dt">${dt}</td>`;
+        } else {
+            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}<br><a href="https://${jsonResp[i]["domain"]}">${jsonResp[i]["domain"]}</a></td>
+<td>${jsonResp[i]["message"]}</td>
+<td class="dt">${dt}</td>`;
+        }
+        table.appendChild(tableRow)
+        const hr = document.createElement('tr');
+        hr.innerHTML = `<td><hr></td><td><hr></td><td><hr></td>`
+        table.appendChild(hr);
+
         
     } catch (err) {
         alert(err.message);

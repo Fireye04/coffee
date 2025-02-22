@@ -95,13 +95,13 @@ function guestbookClick() {
 }
 
 async function guestbookSubmit() {
-    const Name = document.getElementsByClassName("gbName")[0].value.toString();
+    const Name = document.getElementsByClassName("gbName")[0].value.toString().trim();
     document.getElementsByClassName("gbName")[0].value = "";
 
-    const Domain = document.getElementsByClassName("gbDomain")[0].value.toString();
+    const Domain = document.getElementsByClassName("gbDomain")[0].value.toString().trim();
     document.getElementsByClassName("gbDomain")[0].value = "";
 
-    const Message = document.getElementsByClassName("gbMessage")[0].value.toString();
+    const Message = document.getElementsByClassName("gbMessage")[0].value.toString().trim();
     document.getElementsByClassName("gbMessage")[0].value = "";
 
     if (Name.length === 0 || Message.length === 0) {
@@ -127,14 +127,14 @@ async function guestbookSubmit() {
 
         const table = document.getElementsByClassName('guestbook')[0];
         const tableRow = document.createElement('tr');
-        if (jsonResp[i]["domain"] === null) {
-            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}</td>
-<td>${jsonResp[i]["message"]}</td>
-<td class="dt">${dt}</td>`;
+        if (Domain === "") {
+            tableRow.innerHTML = `<td>${Name}</td>
+<td>${Message}</td>
+<td class="dt">${formatDatetime(new Date()}</td>`;
         } else {
-            tableRow.innerHTML = `<td>${jsonResp[i]["name"]}<br><a href="https://${jsonResp[i]["domain"]}">${jsonResp[i]["domain"]}</a></td>
-<td>${jsonResp[i]["message"]}</td>
-<td class="dt">${dt}</td>`;
+            tableRow.innerHTML = `<td>${Name}<br><a href="https://${Domain}">${Domain}</a></td>
+<td>${Message}</td>
+<td class="dt">${formatDatetime(new Date()}</td>`;
         }
         table.appendChild(tableRow)
         const hr = document.createElement('tr');

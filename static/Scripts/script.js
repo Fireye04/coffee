@@ -130,11 +130,11 @@ async function guestbookSubmit() {
         if (Domain === "") {
             tableRow.innerHTML = `<td>${Name}</td>
 <td>${Message}</td>
-<td class="dt">${formatDatetime(new Date()}</td>`;
+<td class="dt">${formatDatetime(new Date())}</td>`;
         } else {
             tableRow.innerHTML = `<td>${Name}<br><a href="https://${Domain}">${Domain}</a></td>
 <td>${Message}</td>
-<td class="dt">${formatDatetime(new Date()}</td>`;
+<td class="dt">${formatDatetime(new Date())}</td>`;
         }
         table.appendChild(tableRow)
         const hr = document.createElement('tr');

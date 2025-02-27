@@ -8,3 +8,6 @@ Hi! Thanks for checking out the site's github! Please raise an issue if you see 
 - https://github.com/LeoColomb/perfectmotherfuckingwebsite
   - Provided a base for fireye.coffee to build off.
   - Licensed under [WTFPL](http://www.wtfpl.net/)
+- https://iconoir.com/
+  - Provided neat little icons for my Nav menu!
+  - Licensed under [MIT License](https://github.com/iconoir-icons/iconoir/blob/main/LICENSE)!

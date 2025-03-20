@@ -1,45 +1,50 @@
-
 {{ define "main" }}
 
-        <h1>
-            <center><u>My Writing!</u></center>
-        </h1>
+<h1>
+	<center><u>My Writing!</u></center>
+</h1>
 
-        <h2>
-            <center><a href="/index.html">Home Sweet Home</a></center>
-        </h2>
+<h2>
+	<center><a href="/index.html">Home Sweet Home</a></center>
+</h2>
 
-        <!-- <p>
+<!-- <p>
             <a href="./Newsletter.html">Join my Newsletter</a> to get updated when a new post comes out!
         </p> -->
-  <div>
+<div>
+	<p>
+		This page supports RSS! Find it
+		<a href="/writing/index.xml" target="_blank">here!</a>, and if you don't
+		know what that is, you should learn! (or
+		<a href="/newsletter">join my newsletter</a> instead)
+	</p>
 
-    <p>This page supports RSS! Find it <a href="/writing/index.xml" target="_blank">here!</a>, and if you don't know what that is, you should learn! (or <a href="/newsletter">join my newsletter</a> instead)</p>
+	{{ .Content }}
 
-    {{ .Content }}
+	<h2>Pieces by date:</h2>
+	<hr />
+	{{ $pages := where site.RegularPages "Type" "writing" }} {{ $paginator :=
+	.Paginate $pages }} {{ range $paginator.Pages }}
+	<div class="indent">
+		<h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+		<p class="indent">
+			<strong>Description:</strong> {{ .Page.Description }}
+		</p>
+		<p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
+		<p class="indent">
+			<strong>Date:</strong> {{time.Format "Jan 02, 2006" .Page.Date }}
+		</p>
+	</div>
+	<hr />
+	{{ end }} {{ template "_internal/pagination.html" . }}
 
-  <h2>Pieces by date:</h2>
-        <hr />
-    {{ $pages := where site.RegularPages "Type" "writing" }}
-    {{ $paginator := .Paginate $pages }}
-
-    {{ range $paginator.Pages }}
-        <div class="indent">
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-            <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
-            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
-            <p class="indent"><strong>Date:</strong> {{time.Format "Jan 02, 2006" .Page.Date }}</p>
-        </div>
-        <hr />
-    {{ end }}
-
-{{ template "_internal/pagination.html" . }}
-
-        <h2>
-            <center><a href="/index.html">Home Sweet Home</a><br><small><small>(But at the bottom of the page this
-                        time)</small></small></center>
-        </h2>
-    </div>
-  <script src="/Scripts/catchall.js" crossorigin="anonymous"></script>
+	<h2>
+		<center>
+			<a href="/index.html">Home Sweet Home</a><br /><small
+				><small>(But at the bottom of the page this time)</small></small
+			>
+		</center>
+	</h2>
+</div>
+<script src="/Scripts/catchall.js" crossorigin="anonymous"></script>
 {{ end }}
-

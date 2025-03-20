@@ -1,46 +1,65 @@
 {{define "footer"}}
-<h3><center>Writing pieces are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CCO</a>! Attribution is greatly appreciated, though, as I put a lot of work into these!</center></h3>
-<h2><center><a href="/index.html">Home Sweet Home</a>{{ if compare.Gt .WordCount 500 }}<br><small><small>(But at the bottom of the page this time)</small></small>{{ end }}</center></h2>
-          
-      <h3><center><a href="/writing">Check out other pieces!</a></center></h3>
+<h3>
+	<center>
+		Writing pieces are licensed under
+		<a href="https://creativecommons.org/publicdomain/zero/1.0/">CCO</a>!
+		Attribution is greatly appreciated, though, as I put a lot of work into
+		these!
+	</center>
+</h3>
+<h2>
+	<center>
+		<a href="/index.html">Home Sweet Home</a>{{ if compare.Gt .WordCount 500
+		}}<br /><small
+			><small>(But at the bottom of the page this time)</small></small
+		>{{ end }}
+	</center>
+</h2>
 
-{{end}}
+<h3>
+	<center><a href="/writing">Check out other pieces!</a></center>
+</h3>
 
-{{define "main"}}
+{{end}} {{define "main"}} {{$params := cond hugo.IsProduction
+.Page.Params.params .Page.Params}}
+<h1 class="posthead">
+	<center><u>{{ .Title }}</u></center>
+</h1>
+<h4 class="posthead indent">{{.Description}}</h4>
+<p class="posthead indent">Word Count: {{.WordCount}}</p>
+{{ if compare.Gt .WordCount 500 }}
+<p class="posthead indent">Read Duration: {{.ReadingTime}} minutes</p>
+{{end}} {{$original := time.Format "Jan 02, 2006" $params.Original }} {{$update
+:= time.Format "Jan 02, 2006" .Date}}
+<p class="posthead indent">
+	<em
+		>Posted {{$original }} {{if ne $original $update}} | Updated {{$update
+		}} {{ end }}</em
+	>
+</p>
 
-    {{$params := cond hugo.IsProduction .Page.Params.params .Page.Params}}
-<h1 class="posthead"><center><u>{{ .Title }}</u></center></h1>
-      <h4 class="posthead indent">{{.Description}}</h4>
-      <p class="posthead indent">Word Count: {{.WordCount}}</p>
-  {{ if compare.Gt .WordCount 500 }}
-      <p class="posthead indent">Read Duration: {{.ReadingTime}} minutes</p>
-        {{end}}
-        {{$original := time.Format "Jan 02, 2006" $params.Original }}
-        {{$update := time.Format "Jan 02, 2006" .Date}}
-  <p class="posthead indent"><em>Posted {{$original }} {{if ne $original $update}} | Updated {{$update }} {{ end }}</em></p>
-      
-      <hr \>
+<hr \ />
 
-      <section>
+<section>
+	{{ if compare.Gt .WordCount 500 }}
+	<h2>
+		<center><a href="/index.html">Home Sweet Home</a></center>
+	</h2>
+	<h3>
+		<center><a href="/writing">Check out other pieces!</a></center>
+	</h3>
+	<hr \ />
+	{{ end }} {{ if $params.toc }}
+	<h2>Table of Contents</h2>
+	<p>{{ .TableOfContents}}</p>
+	<hr \ />
+	{{ end }}
 
-        {{ if compare.Gt .WordCount 500 }}
-          <h2><center><a href="/index.html">Home Sweet Home</a></center></h2>
-      <h3><center><a href="/writing">Check out other pieces!</a></center></h3>
-          <hr \>
-    {{ end }}
+	<p>{{ .Content }}</p>
+</section>
 
-        
-          {{ if $params.toc }}
-          <h2>Table of Contents</h2>
-          <p>{{ .TableOfContents}}</p>
-          <hr \>
-          {{ end }}
+<hr \ />
 
-        <p>{{ .Content }}</p>
-      </section>
-
-      <hr \>
-
-  <script src="/Scripts/writing.js" crossorigin="anonymous"></script>
+<script src="/Scripts/writing.js" crossorigin="anonymous"></script>
 
 {{end}}

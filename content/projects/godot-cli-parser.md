@@ -1,13 +1,13 @@
 ---
 date: "2025-04-09T12:28:38-07:00"
-draft: true
+draft: false
 title: "Godot CLI Parser"
 description: Godot addon that facilitates the creation of an end user command line interface for Godot applications.
-project-status:
-- in-progress
+project_status:
+- in_progress
 categories:
 - project
-project-tags:
+project_tags:
 - foss
 - tool
 params:

@@ -1,13 +1,13 @@
 ---
 date: "2025-04-09T12:28:45-07:00"
-draft: true
+draft: false
 title: "Nikes House"
 description: An emotional little story-focued game about friendship.
-project-status:
-- in-progress
+project_status:
+- in_progress
 categories:
 - project
-project-tags:
+project_tags:
 - game
 - video game
 - jam

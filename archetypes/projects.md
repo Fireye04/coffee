@@ -3,11 +3,11 @@ date: '{{ .Date }}'
 draft: true
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description: default
-project-status: 
-- in-progress | complete | graveyard
+project_status: 
+- in_progress | complete | graveyard
 categories:
 - project
-project-tags:
+project_tags:
 - default
 params:
     toc: false

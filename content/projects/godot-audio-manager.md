@@ -1,13 +1,13 @@
 ---
 date: "2025-04-09T12:28:22-07:00"
-draft: true
+draft: false
 title: "Godot Audio Manager"
 description: Fork of Godot Dialogue Manager with a focus on support for line-by-line voice over
-project-status:
-- in-progress
+project_status:
+- in_progress
 categories:
 - project
-project-tags:
+project_tags:
 - foss
 - tool
 params:

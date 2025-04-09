@@ -11,7 +11,7 @@ Added new projects, as I realized I was falling behind!
 
 ### FOSS Projects
 
-- [Godot Audio Manager](/projects/godot-audio-manger)
+- [Godot Audio Manager](/projects/godot-audio-manager)
 - [Godot CLI Parser](/projects/godot-cli-parser)
 - [Godot Multiplayer](/projects/godot-multiplayer)
 

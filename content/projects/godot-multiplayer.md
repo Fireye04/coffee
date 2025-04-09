@@ -1,13 +1,13 @@
 ---
 date: "2025-04-09T12:29:51-07:00"
-draft: true
+draft: false
 title: "Godot Multiplayer"
 description: Multiplayer utilities library for Godot
-project-status:
-- in-progress
+project_status:
+- in_progress
 categories:
 - project
-project-tags:
+project_tags:
 - foss
 - tool
 params:

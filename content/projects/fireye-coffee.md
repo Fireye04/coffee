@@ -7,7 +7,7 @@ project_status:
 - in_progress
 categories:
 - project
-project-tags:
+project_tags:
 - web
 params:
     toc: false

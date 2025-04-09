@@ -36,6 +36,14 @@ Credits
 - Kiana Koehler- Art
 - Ben Seckeler- Programming
 
+<div class="itch-button">
+<h3>
+	<center><a href="https://fireye.itch.io/nikes-house" target="_blank">Play Nike's House Itch.io!</a>
+	</center>
+</h3>
+</div>
+<iframe class="itch-iframe" frameborder="0" src="https://itch.io/embed/3454466?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://fireye.itch.io/nikes-house">Nike's House by Fireye</a></iframe>
+
 ### Current Documents
 
 - [Itch Page](https://fireye.itch.io/nikes-house)

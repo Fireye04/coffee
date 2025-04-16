@@ -6,6 +6,7 @@ categories:
 - blog
 blog_tags:
 - ttrpg
+- guide
 date: "2024-01-21"
 description: A guide on how I run session 0's in TTRPGs
 title: Kai's Awesome Session 0 Checklist!

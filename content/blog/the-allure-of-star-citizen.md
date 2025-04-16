@@ -8,6 +8,7 @@ categories:
 blog_tags:
 - game
 - infodump
+- guide
 description: A curious individual's introduction to the star citizen project
 title: 'The Allure of Star Citizen: A Buyer''s Guide'
 ---

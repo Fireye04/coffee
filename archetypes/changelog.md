@@ -9,4 +9,6 @@ categories:
 
 ## Fixes
 
+## Features
+
 ## Backend Updates

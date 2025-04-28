@@ -1,5 +1,6 @@
 ## My personal website!
-https://pride-badges.pony.workers.dev/static/v1?label=enbyware&labelColor=%23555&stripeWidth=8&stripeColors=FCF434%2CFFFFFF%2C9C59D1%2C2C2C2C
+![Enbyware](https://pride-badges.pony.workers.dev/static/v1?label=enbyware&labelColor=%23555&stripeWidth=8&stripeColors=FCF434%2CFFFFFF%2C9C59D1%2C2C2C2C)
+
 Hi! Thanks for checking out the site's github! Please raise an issue if you see anything wrong with the site :)
 
 ## Extra thanks to:

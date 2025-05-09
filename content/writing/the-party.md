@@ -18,7 +18,7 @@ Why am I here? I know I don't like parties. It's so loud. All I've been doing is
 
 "I don't know you." I say, looking them over suspiciously.
 
-"Nope! But why go to a party if not to talk to strangers?" They ask.
+"Nope! But why go to a party if not to talk to strangers?" They ask. Interesting. I half want to tell them to piss off, but something stops me.
 
 "Because your bitchass roomate bulied you into it?" I offer, glaring daggers at Allison. The nerve on her, finally asking me to do something with her then abandoning me for some boytoy the moment we get here.
 

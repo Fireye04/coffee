@@ -1,15 +1,15 @@
 ---
 date: "2025-05-05T17:24:31-07:00"
 draft: false
-title: "Star Citizen-- On Survival"
-description: default
+title: "Star Citizen- On Survival"
+description: A musing on the potential nature of star citizen's survival systems
 categories:
 - blog
 blog-tags:
 - game
 - infodump
 params:
-    toc: false
+    toc: true
     original: "2025-05-05T17:24:31-07:00"
 ---
 

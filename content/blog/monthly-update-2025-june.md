@@ -26,7 +26,7 @@ I'm dropping this with a post I've had laying around for a bit on [survival in s
 
 ## Treehouse TTRPG
 
-I spent a lot of June working on "The Treehouse" (learn more [here](/projects/treehouse)), which is a new TTRPG that I was working on for the "Jam In Silence" Game Jam by possum creek games. I was not able to finish it on time and as such it's sitting incomplete on my hard drive, but damn is it gonna be good when it's done! Imagine a modern setting but focused on the PCs in a tree house where each characters' troubles, flaws and vices are represented as "classes". Feature-wise it's mostly there, with a few additions and tweaks here and there, but content-wise, it's a barren wasteland, which is somewhat terrifying. Definitely gonna return to this soon though, as I'd love to playtest this one with friends.
+I spent a lot of June working on "The Treehouse" (learn more [here](/projects/treehouse)), which is a new TTRPG that I was working on for the "Jam In Silence" Game Jam by possum creek games. I was not able to finish it on time and as such it's sitting incomplete on my hard drive, but damn is it gonna be good when it's done! Imagine a modern setting but focused on the PCs in a treehouse where each characters' troubles, flaws and vices are represented as "classes". Feature-wise it's mostly there, with a few additions and tweaks here and there, but content-wise, it's a barren wasteland, which is somewhat terrifying. Definitely gonna return to this soon though, as I'd love to playtest this one with friends.
 
 ## Vacation
 

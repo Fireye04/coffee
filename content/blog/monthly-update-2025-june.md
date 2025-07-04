@@ -2,7 +2,7 @@
 date: "2025-06-28T17:31:29-07:00"
 draft: false
 title: "Monthly Update June 2025"
-description: default
+description: My monthly update for june 2025!
 categories:
 - blog
 blog-tags:

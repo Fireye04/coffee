@@ -20,6 +20,10 @@ TLDR: It's a summary of what I did this month and what I plan to do next month, 
 
 So, without further ado, let's kick it off.
 
+## Star citizen survival post
+
+I'm dropping this with a post I've had laying around for a bit on [survival in star citizen](/blog/star-citizen-on-survival). The reason I didn't initially release it was that around the time I wrote it the whole blades debacle came up and I just got super depressed about the direction of the project and didn't want to engage in it as much. These days things have generally improved ever so slightly so I figured what the fuck I might as well just release it. All it was really doing was collecting dust anyway.
+
 ## Treehouse TTRPG
 
 I spent a lot of June working on "The Treehouse" (learn more [here](/projects/treehouse)), which is a new TTRPG that I was working on for the "Jam In Silence" Game Jam by possum creek games. I was not able to finish it on time and as such it's sitting incomplete on my hard drive, but damn is it gonna be good when it's done! Imagine a modern setting but focused on the PCs in a tree house where each characters' troubles, flaws and vices are represented as "classes". Feature-wise it's mostly there, with a few additions and tweaks here and there, but content-wise, it's a barren wasteland, which is somewhat terrifying. Definitely gonna return to this soon though, as I'd love to playtest this one with friends.

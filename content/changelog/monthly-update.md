@@ -9,9 +9,4 @@ categories:
 
 - Added a new [Monthly update](/blog/monthly-update-2025-june) which should get sequels every month going forward
 - Added [Treehouse TTRPG](/projects/treehouse)
-
-## Fixes
-
-## Features
-
-## Backend Updates
+- Added an [old post](/blog/star-citizen-on-survival) on star citizen's survival mechanics (I wrote it a while back, refer to the monthly update for why)

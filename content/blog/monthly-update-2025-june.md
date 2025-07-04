@@ -1,6 +1,6 @@
 ---
 date: "2025-06-28T17:31:29-07:00"
-draft: true
+draft: false
 title: "Monthly Update June 2025"
 description: default
 categories:

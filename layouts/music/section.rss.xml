@@ -23,7 +23,7 @@
     </item>
     {{ end }}
 
-	{{ range .Resources.Match "tracks/*" }}
+	{{ range resources.Match "tracks/*" }}
 	<item>
 		{{ $f := split .Name "/"}}
 		{{$f := index $f 1}}

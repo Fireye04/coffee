@@ -129,12 +129,11 @@
 
     <p>I also make music! Here are some of my recent tracks:</p>
 <hr />
-	{{$t := site.GetPage "/music"}}
-	{{$t := $t.Resources.Match "/tracks/*"}}
+	{{ $t :=resources.Match "tracks/*" }}
 
 	{{ range first 3 $t}}
     {{ $f := split .Name "/"}}
-	{{$f := index $f 1}}
+	{{$f = index $f 1}}
 	{{ $n := split $f "."}}
 
 	<p>{{index $n 0}}</p>

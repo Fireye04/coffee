@@ -20,13 +20,10 @@
 
 	<h2>Tracks by date!</h2>
         <hr />
-	{{$i := .Resources.Match "tracks/*"}}
-	{{$j := .Resources}}
-	{{fmt.Print $i}}
-	{{fmt.Print $j}}
-	{{ range .Resources.Match "tracks/*" }}
+	{{ range resources.Match "tracks/*" }}
+
 	{{ $f := split .Name "/"}}
-	{{$f := index $f 1}}
+	{{$f := index $f 2}}
 	{{ $n := split $f "."}}
 
 	<p>{{index $n 0}}</p>

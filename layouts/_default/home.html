@@ -133,7 +133,7 @@
 
 	{{ range first 3 $t}}
     {{ $f := split .Name "/"}}
-	{{$f = index $f 1}}
+	{{$f = index $f 2}}
 	{{ $n := split $f "."}}
 
 	<p>{{index $n 0}}</p>

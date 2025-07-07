@@ -21,7 +21,7 @@
 	<h2>Tracks by date!</h2>
         <hr />
 	{{$i := .Resources.Match "tracks/*"}}
-	{{$j := .Resources.Match "/music/tracks/*"}}
+	{{$j := .Resources}}
 	{{fmt.Print $i}}
 	{{fmt.Print $j}}
 	{{ range .Resources.Match "tracks/*" }}

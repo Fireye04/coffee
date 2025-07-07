@@ -16,5 +16,4 @@ categories:
 ## Features
 
 - Added new [music page](/music) with full subsection status.
-
-## Backend Updates
+- Added a couple new buttons to friendly sites [here!](/about)

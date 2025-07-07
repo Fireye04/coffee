@@ -447,6 +447,15 @@ button:hover {
 
 /*########### NEWSLETTER #############*/
 
+/*########### BUTTON GRID #############*/
+
+.grid-container {
+	display: grid;
+	grid-auto-flow: row;
+}
+
+/*########### BUTTON GRID #############*/
+
 /*########### EASTER EGGS #############*/
 
 #they {

@@ -18,17 +18,20 @@
     <div class="inpage-dir"> 
     <h2>Directory!</h2>
       <ul>
+		<li>
+          <h3><a href="/about">About!</a></h3> (Some stuff about me and the site!)
+        </li>
         <li>
           <h3><a href="/projects">Projects!</a></h3> (Where you can find what stuff I've done)
-        </li>
-  <li>
-          <h3><a href="/about">About!</a></h3> (Some stuff about me and the site!)
         </li>
         <li>
           <h3><a href="/blog">My Blog :P</a></h3> (Where I blog things about games and stuff)
         </li>
-    <li>
+		<li>
           <h3><a href="/writing">My Writing!</a></h3> (Where I self-publish creative writing works of mine!)
+        </li>
+		<li>
+          <h3><a href="/music">My Music!</a></h3> (Where I host the music I make)
         </li>
 
         <!-- <li>
@@ -119,6 +122,31 @@
     <hr />
 <br>
       <button class="indent" onclick="location.href='/writing'">See more stories!</button>
+
+<br><br><br>
+
+<h2><a href="/writing">Here's some Music!</a></h2>
+
+    <p>I also make music! Here are some of my recent tracks:</p>
+<hr />
+	{{ $t :=resources.Match "tracks/*" }}
+
+	{{ range first 3 $t}}
+    {{ $f := split .Name "/"}}
+{{$indexx := cond hugo.IsProduction 1 2}}
+	{{$f = index $f $indexx}}
+	{{ $n := split $f "."}}
+
+	<p>{{index $n 0}}</p>
+	<audio controls>
+		<source src="{{ .RelPermalink }}" type="audio/ogg">
+	Your browser does not support the audio element.
+	</audio>
+
+        <hr />  {{end}}
+<br>
+      <button class="indent" onclick="location.href='/music'">More music!</button>
+
 
 <br><br><br>
 

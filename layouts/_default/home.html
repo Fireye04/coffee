@@ -133,7 +133,7 @@
 
 	{{ range first 3 $t}}
     {{ $f := split .Name "/"}}
-{{$indexx = cond hugo.IsProduction 1 2}}
+{{$indexx := cond hugo.IsProduction 1 2}}
 	{{$f = index $f $indexx}}
 	{{ $n := split $f "."}}
 

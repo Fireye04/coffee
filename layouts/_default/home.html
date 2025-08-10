@@ -59,6 +59,26 @@
 
 <br><br>
 
+<h2><a href="/blog">Here's Some blog posts</a></h2>
+    <p>Nobody asked, yet here's some of my (maybe) hot takes anyway.</p>
+
+    {{ $posts := where site.RegularPages "Type" "blog" }}
+    {{ range first 3 $posts.ByPublishDate.Reverse}}
+    <hr />
+    <div class="indent">
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+  <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
+            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
+
+    </div>
+
+  {{end}}
+    <hr />
+<br>
+      <button class="indent" onclick="location.href='/blog'">See more posts!</button>
+
+<br><br><br>
+
 <h2><a href="/projects">My Projects!</a></h2>
 
 <p>Here are some of my most recent projects!</p>
@@ -85,25 +105,6 @@
 
 <br>
 
-<h2><a href="/blog">Here's Some blog posts</a></h2>
-    <p>Nobody asked, yet here's some of my (maybe) hot takes anyway.</p>
-
-    {{ $posts := where site.RegularPages "Type" "blog" }}
-    {{ range first 3 $posts.ByPublishDate.Reverse}}
-    <hr />
-    <div class="indent">
-      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-  <p class="indent"><strong>Description:</strong> {{ .Page.Description }}</p>
-            <p class="indent"><strong>Word Count:</strong> {{ .Page.WordCount }}</p>
-
-    </div>
-
-  {{end}}
-    <hr />
-<br>
-      <button class="indent" onclick="location.href='/blog'">See more posts!</button>
-
-<br><br><br>
 
 <h2><a href="/writing">Here are some Stories!</a></h2>
     <p>I do creative writing! Here are some stories I've made recently!</p>

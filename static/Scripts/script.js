@@ -33,7 +33,7 @@ async function initGuestbook() {
 
 		const table = document.getElementsByClassName("guestbook")[0];
 
-		var feedback = document.getElementsById("gbload");
+		var feedback = document.getElementById("gbload");
 		feedback.toggleAttribute("hidden");
 
 		document.getElementsByClassName("gbhide")[0].toggleAttribute("hidden");

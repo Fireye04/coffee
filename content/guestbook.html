@@ -1,0 +1,41 @@
+---
+title: Fireye.Coffee guestbook
+description: See a full history of the guestbook!
+Params:
+  id: guestbook
+---
+
+      <h1><center><u>Guestbook</u></center></h1>
+
+       <h2>
+          <center><a href="/index.html">Home Sweet Home</a></center>
+       </h2>
+
+    <p>BEHOLD! The full guestbook page!</p>
+
+    <center><p class="gbload">Loading content...</p></center>
+
+    <div class="gbhide" hidden>
+      <div class="gbscroll">
+        <center><table class="guestbook"></table></center>
+      </div>
+
+      <div class="gbform" hidden>
+        <center><p class="gblabel">Name</p></center>
+        <center><input class="gbName"></center>
+        <center><p class="gblabel">Domain (optional, <abbr title="https://fireye.coffee -> fireye.coffee">no https://)</abbr></p></center>
+        <center><small><p class="gblabel">Where do you hail from, weary traveler?</p></small></center>
+        <center><input class="gbDomain"></center>
+        <center><p class="gblabel">Message</p></center>
+        <center><textarea class="gbMessage"></textarea></center>
+        <center><button onclick="guestbookSubmit()">Submit Entry!</button></center>
+        <center><p><small>Please don't bobby tables my ass I beg you</small></p></center>
+      </div>
+      
+      <center><button class="gbutton" onclick="guestbookClick()">Leave a message!</button></center>
+    </div>
+
+
+
+  <script src="/Scripts/guestbook.js?version=1" crossorigin="anonymous"></script>
+

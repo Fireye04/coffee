@@ -33,7 +33,9 @@ async function initGuestbook() {
 
 		const table = document.getElementsByClassName("guestbook")[0];
 
-		document.getElementsByClassName("gbload")[0].remove();
+		var feedback = document.getElementsById("gbload");
+		feedback.toggleAttribute("hidden");
+
 		document.getElementsByClassName("gbhide")[0].toggleAttribute("hidden");
 
 		const columnHeaders = document.createElement("tr");
@@ -54,9 +56,11 @@ async function initGuestbook() {
     <td>${jsonResp[i]["message"]}</td>
     <td class="dt">${dt}</td>`;
 			} else {
-				tableRow.innerHTML = `<td>${jsonResp[i]["name"]
-					}<br><a href="https://${jsonResp[i]["domain"]}">${jsonResp[i]["domain"]
-					}</a></td>
+				tableRow.innerHTML = `<td>${
+					jsonResp[i]["name"]
+				}<br><a href="https://${jsonResp[i]["domain"]}">${
+					jsonResp[i]["domain"]
+				}</a></td>
     <td>${jsonResp[i]["message"]}</td>
     <td class="dt">${dt}</td>`;
 			}
@@ -92,20 +96,27 @@ function guestbookClick() {
 }
 
 async function guestbookSubmit() {
-	const Name = document.getElementsByClassName("gbName")[0].value.toString()
+	const Name = document
+		.getElementsByClassName("gbName")[0]
+		.value.toString()
 		.trim();
 	document.getElementsByClassName("gbName")[0].value = "";
 
-	const Domain = document.getElementsByClassName("gbDomain")[0].value
-		.toString().trim();
+	const Domain = document
+		.getElementsByClassName("gbDomain")[0]
+		.value.toString()
+		.trim();
 	document.getElementsByClassName("gbDomain")[0].value = "";
 
-	const Message = document.getElementsByClassName("gbMessage")[0].value
-		.toString().trim();
+	const Message = document
+		.getElementsByClassName("gbMessage")[0]
+		.value.toString()
+		.trim();
 	document.getElementsByClassName("gbMessage")[0].value = "";
 
 	if (Name.length === 0 || Message.length === 0) {
-		alert("Empty field detected :(");
+		document.getElementsByClassName("gbload")[0].innerHTML =
+			"Empty name or message detected :(";
 		return;
 	}
 
@@ -130,7 +141,8 @@ async function guestbookSubmit() {
 			throw new Error(`Response status: ${response.status}`);
 		}
 		//TODO: replace with item on page
-		alert(await response.text());
+		feedback.innerHTML = await response.text();
+		feedback.toggleAttribute("hidden");
 
 		const table = document.getElementsByClassName("guestbook")[0];
 		const tableRow = document.createElement("tr");
@@ -139,8 +151,7 @@ async function guestbookSubmit() {
 <td>${Message}</td>
 <td class="dt">${formatDatetime(new Date())}</td>`;
 		} else {
-			tableRow.innerHTML =
-				`<td>${Name}<br><a href="https://${Domain}">${Domain}</a></td>
+			tableRow.innerHTML = `<td>${Name}<br><a href="https://${Domain}">${Domain}</a></td>
 <td>${Message}</td>
 <td class="dt">${formatDatetime(new Date())}</td>`;
 		}
@@ -149,7 +160,8 @@ async function guestbookSubmit() {
 		hr.innerHTML = `<td><hr></td><td><hr></td><td class="dt"><hr></td>`;
 		table.appendChild(hr);
 	} catch (err) {
-		alert(err.message);
+		feedback.innerHTML = err.message;
+		feedback.toggleAttribute("hidden");
 	}
 	guestbookClick();
 }

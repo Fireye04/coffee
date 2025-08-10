@@ -33,7 +33,7 @@ async function initGuestbook() {
 
 		const table = document.getElementsByClassName("guestbook")[0];
 
-		var feedback = document.getElementById("gbload");
+		var feedback = document.getElementsById("gbload");
 		feedback.toggleAttribute("hidden");
 
 		document.getElementsByClassName("gbhide")[0].toggleAttribute("hidden");
@@ -141,8 +141,7 @@ async function guestbookSubmit() {
 			throw new Error(`Response status: ${response.status}`);
 		}
 		//TODO: replace with item on page
-		feedback.innerHTML = await response.text();
-		feedback.toggleAttribute("hidden");
+		alert(await response.text());
 
 		const table = document.getElementsByClassName("guestbook")[0];
 		const tableRow = document.createElement("tr");
@@ -160,8 +159,7 @@ async function guestbookSubmit() {
 		hr.innerHTML = `<td><hr></td><td><hr></td><td class="dt"><hr></td>`;
 		table.appendChild(hr);
 	} catch (err) {
-		feedback.innerHTML = err.message;
-		feedback.toggleAttribute("hidden");
+		alert(err.message);
 	}
 	guestbookClick();
 }

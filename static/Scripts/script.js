@@ -33,7 +33,7 @@ async function initGuestbook() {
 
 		const table = document.getElementsByClassName("guestbook")[0];
 
-		var feedback = document.getElementsById("gbload");
+		var feedback = document.getElementById("gbload");
 		feedback.toggleAttribute("hidden");
 
 		document.getElementsByClassName("gbhide")[0].toggleAttribute("hidden");
@@ -115,8 +115,7 @@ async function guestbookSubmit() {
 	document.getElementsByClassName("gbMessage")[0].value = "";
 
 	if (Name.length === 0 || Message.length === 0) {
-		document.getElementsByClassName("gbload")[0].innerHTML =
-			"Empty name or message detected :(";
+		alert("Empty name or message detected :(");
 		return;
 	}
 

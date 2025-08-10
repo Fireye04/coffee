@@ -296,6 +296,34 @@ ol li {
 	}
 }
 
+.rainbow:link {
+	background-color: #ffffff;
+	background: linear-gradient(
+		to right,
+		violet,
+		red,
+		orange,
+		green,
+		violet,
+		red
+	);
+	background-clip: text;
+	color: transparent;
+	text-decoration: underline #58a6ff;
+	animation: rainbow_animation 3s linear infinite;
+	background-size: 800% 100%;
+}
+@keyframes rainbow_animation {
+	0%,
+	100% {
+		background-position: 0 0;
+	}
+
+	50% {
+		background-position: 100% 0;
+	}
+}
+
 /*########### LINKS #############*/
 
 /*########### BUTTONS #############*/

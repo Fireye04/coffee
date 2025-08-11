@@ -84,61 +84,76 @@ async function loadTODO() {
 			}
 			// console.log(vals[i]);
 		}
-		todo_html += "<h3>High Priority</h3><ul>";
 
-		for (let i = 0; i < high_prio.length; i++) {
-			todo_html +=
-				'<li><a href="' +
-				high_prio[i]["html_url"] +
-				'">' +
-				high_prio[i]["title"] +
-				"</a></li>";
+		if (high_prio.length > 0) {
+			todo_html += "<h3>High Priority</h3><ul>";
+
+			for (let i = 0; i < high_prio.length; i++) {
+				todo_html +=
+					'<li><a href="' +
+					high_prio[i]["html_url"] +
+					'">' +
+					high_prio[i]["title"] +
+					"</a></li>";
+			}
+			todo_html += "</ul>";
 		}
 
-		todo_html += "</ul><h3>Moderate Priority</h3><ul>";
+		if (mod_prio.length > 0) {
+			todo_html += "<h3>Moderate Priority</h3><ul>";
 
-		for (let i = 0; i < mod_prio.length; i++) {
-			todo_html +=
-				'<li><a href="' +
-				mod_prio[i]["html_url"] +
-				'">' +
-				mod_prio[i]["title"] +
-				"</a></li>";
+			for (let i = 0; i < mod_prio.length; i++) {
+				todo_html +=
+					'<li><a href="' +
+					mod_prio[i]["html_url"] +
+					'">' +
+					mod_prio[i]["title"] +
+					"</a></li>";
+			}
+			todo_html += "</ul>";
 		}
 
-		todo_html += "</ul><h3>Low Priority</h3><ul>";
+		if (low_prio.length > 0) {
+			todo_html += "<h3>Low Priority</h3><ul>";
 
-		for (let i = 0; i < low_prio.length; i++) {
-			todo_html +=
-				'<li><a href="' +
-				low_prio[i]["html_url"] +
-				'">' +
-				low_prio[i]["title"] +
-				"</a></li>";
+			for (let i = 0; i < low_prio.length; i++) {
+				todo_html +=
+					'<li><a href="' +
+					low_prio[i]["html_url"] +
+					'">' +
+					low_prio[i]["title"] +
+					"</a></li>";
+			}
+			todo_html += "</ul>";
 		}
 
-		todo_html += "</ul><h3>Content</h3><ul>";
+		if (content.length > 0) {
+			todo_html += "<h3>Content</h3><ul>";
 
-		for (let i = 0; i < content.length; i++) {
-			todo_html +=
-				'<li><a href="' +
-				content[i]["html_url"] +
-				'">' +
-				content[i]["title"] +
-				"</a></li>";
+			for (let i = 0; i < content.length; i++) {
+				todo_html +=
+					'<li><a href="' +
+					content[i]["html_url"] +
+					'">' +
+					content[i]["title"] +
+					"</a></li>";
+			}
+			todo_html += "</ul>";
 		}
 
-		todo_html += "</ul><h3>Uncategorized</h3><ul>";
+		if (uncat.length > 0) {
+			todo_html += "<h3>Uncategorized</h3><ul>";
 
-		for (let i = 0; i < uncat.length; i++) {
-			todo_html +=
-				'<li><a href="' +
-				uncat[i]["html_url"] +
-				'">' +
-				uncat[i]["title"] +
-				"</a></li>";
+			for (let i = 0; i < uncat.length; i++) {
+				todo_html +=
+					'<li><a href="' +
+					uncat[i]["html_url"] +
+					'">' +
+					uncat[i]["title"] +
+					"</a></li>";
+			}
+			todo_html += "</ul>";
 		}
-		todo_html += "</ul>";
 
 		list.innerHTML = todo_html;
 	} catch (error) {

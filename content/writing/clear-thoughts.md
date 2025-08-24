@@ -1,5 +1,5 @@
 ---
-date: '2025-08-17T20:50:02-07:00'
+date: '2025-08-23'
 draft: false
 title: 'Clear Thoughts'
 description: A stream of conciousness, cyberpunk short story.
@@ -7,7 +7,7 @@ categories:
 - writing
 params:
     toc: false
-    original: '2025-08-17T20:50:02-07:00' 
+    original: '2025-08-23' 
 ---
 
 Man I'm bored.

@@ -42,6 +42,6 @@ I run up a git server. I can define the visibility of all my repos, ranging from
 
 ## In summary
 
-We should be splitting off github more but the communal nature of open source is harmed by this fracturing of the community, as beneficial as self hosting may be. We need a way to preserve that community in the process. We need towork to make that happen. 
+We should be splitting off github more but the communal nature of open source is harmed by this fracturing of the community, as beneficial as self hosting may be. We need a way to preserve that community in the process and we need to work to make that happen. 
 
 Thank you for reading and go forth and spread the good word of git federation!

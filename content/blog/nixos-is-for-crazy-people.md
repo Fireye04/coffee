@@ -11,9 +11,14 @@ params:
     toc: false
     original: '2025-09-03T12:23:49-07:00' 
 ---
-I did it. My arch partition is gone, I'm running NixOS on my laptop, and it's for the clinically insane. I'm in the process of writing up a blog post on it at the moment, but suffice it to say, if you are not clinically insane, stick with arch. Arch just works. Trust me. If you are not regular insane enough for arch, stick with mint or some fedora spin. Thank me later. 
 
-As for me? I might be clinically insane, because I'm getting things working slowly but surely. NixOS sounds like a straight upgrade from the outside (Namely Arch), but I would caution against this perspective. Rather, there are tradeoffs. 
+Alright, you (nobody) asked for it, and here it is. I've swapped to NixOS as my main operating system from arch, and I have concluded that Nix is for crazy people. 
+
+TLDR: If you're on Arch, and you're not unfathomably insane, stick with arch. Arch just works. Trust me. If you are not regular insane enough for arch, stick with mint or some fedora spin. Thank me later. 
+
+Now. What about me? Well, I might be unfathomably insane, because I'm getting things working slowly but surely. It's definitely not easy and it's definitely a lot more work than arch, but there are a lot of benefits. And I think once I get everything under my belt, those benefits will pay off. Till then I'll be banging my head on various nix wikis and blog posts till I get everything through my skull.
+
+NixOS sounds like a straight upgrade from the outside (Namely Arch), but I would caution against this perspective. Rather, there are tradeoffs. 
 
 - Determinism in system state? Upgrade. 
 - Effortless rollback? Upgrade. 

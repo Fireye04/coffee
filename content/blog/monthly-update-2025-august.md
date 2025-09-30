@@ -65,7 +65,7 @@ Multiple monitor hot corners are functonal! If I have time I'll see if I can add
 
 # Retrospective
 
-So. You may have noticed a couple things are absent. Oops. First and foremost, Nike's. I still want to work on it, I just didn't have the time. Don't worry it will happen, I will fight god (adhd) to make it happen. Further, I didn't do enogh music this month. Expect more of that going forward. OpenVPN is still T Posing over my sobbing corpse as per usual, and the treehouse did not progress at all. Cooked.
+So. You may have noticed a couple things are absent. Oops. First and foremost, Nike's. I still want to work on it, I just didn't have the time. Don't worry it will happen, I will fight god (adhd) to make it happen. Further, I didn't do enough music this month. Expect more of that going forward. OpenVPN is still T Posing over my sobbing corpse as per usual, and the treehouse did not progress at all. Cooked.
 
 On the other hand, I did get that website update out, I started working on that motherboard fix, and I embarked on the long painful NixOS journey, so not a total loss!
 

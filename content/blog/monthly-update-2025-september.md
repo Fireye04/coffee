@@ -44,7 +44,7 @@ I've been selfishly saving myself for the full release of Hades 2 through the op
 
 ### Hollow Knight
 
-While I was sick I was able to 104% the originl hollow knight. I haven't done the true ending yet, but I thouroughly enjoyed it, with a few annoyances here and there. I might do another post on it as well, but I'll wait till I get that true ending to do so. The writing is unfathomably powerful and it's fucking bonkers how much they're able to do with so little. I ended up crying twice through my playthrough and each such encounter had a number of dialogue lines that you could count on one hand. Truly impressive work, and I'm looking forward to picking up silksong when I get the time. 
+While I was sick I was able to 104% the original hollow knight. I haven't done the true ending yet, but I thouroughly enjoyed it, with a few annoyances here and there. I might do another post on it as well, but I'll wait till I get that true ending to do so. The writing is unfathomably powerful and it's fucking bonkers how much they're able to do with so little. I ended up crying twice through my playthrough and each such encounter had a number of dialogue lines that you could count on one hand. Truly impressive work, and I'm looking forward to picking up silksong when I get the time. 
 
 ## Where's the NixOS post, Jon? 
 

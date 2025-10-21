@@ -67,7 +67,7 @@ If you run the following alias command on your terminal you unlock access to `gi
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 I had a mentor at work give me this one, but I found the alias command again after redoing my system config [here](https://coderwall.com/p/euwpig/a-better-git-log). 
-Beautifil little alias that'll save you so much annoyance.
+Beautiful little alias that'll save you so much annoyance.
 
 The main things to look at in git log, are the commit name, so you know what's in there, and the commit hash, so you know how git referrs to it. 
 All you need to know is a hash is a bunch of (not so) random characters that represent a commit in git's brain, like an id of sorts.

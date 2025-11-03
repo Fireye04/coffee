@@ -4,7 +4,7 @@ draft: false
 title: "Godot Audio Manager"
 description: Fork of Godot Dialogue Manager with a focus on support for line-by-line voice over
 project_status:
-- in_progress
+- complete
 categories:
 - project
 project_tags:
@@ -16,6 +16,10 @@ params:
     tools: Godot
     builds: Linux, Windows, Mac
 ---
+
+# UPDATE
+
+These features are now included in GDM upstream! GAM is now deprecated
 
 [Godot Audio Manager](https://github.com/Fireye04/godot_audio_manager) is a fork of Nathan Hoad's [Godot Dialogue Manager](https://github.com/nathanhoad/godot_dialogue_manager) that intends to improve the plugin's audio pipeline.
 

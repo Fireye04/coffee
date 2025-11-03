@@ -4,7 +4,7 @@ draft: false
 title: "Godot CLI Parser"
 description: Godot addon that facilitates the creation of an end user command line interface for Godot applications.
 project_status:
-- in_progress
+- complete
 categories:
 - project
 project_tags:

@@ -2,7 +2,7 @@
 date: '2025-11-03T11:15:50-07:00'
 draft: false
 title: 'Cabin'
-description: default
+description: GDD for an open source webfishing inspired little game
 project_status: 
 - in_progress 
 categories:

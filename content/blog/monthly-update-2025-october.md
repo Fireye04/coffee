@@ -1,5 +1,5 @@
 ---
-date: '2025-11-01T13:08:43-07:00'
+date: '2025-11-03'
 draft: false
 title: 'Monthly Update 2025 October'
 description: October update stuff (or lack thereof)

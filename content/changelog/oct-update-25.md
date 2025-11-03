@@ -8,9 +8,3 @@ categories:
 ## Content
 - October monthly update is [here](/blog/monthly-update-2025-october).
 - Cabin project GDD is [here](/projects/cabin).
-
-## Fixes
-
-## Features
-
-## Backend Updates

@@ -123,9 +123,9 @@ Design, build, and decorate a cabin with friends, strangers, (or alone) in a com
 
 - Players can craft simple items into more complex ones.
 	- Whoa mama wooden planks
-		- Holy fuck https://www.youtube.com/watch?v=YrJas4_L4Wo
+		- [Holy fuck](https://www.youtube.com/watch?v=YrJas4_L4Wo)
 	- Resources into tools
-	- iron ore into nails (beautiful: https://en.wikipedia.org/wiki/File:Forging_a_nail._Vala%C5%A1sk%C3%A9_muzeum_v_p%C5%99%C3%ADrod%C4%9B.webm)
+	- iron ore into nails [beautiful](https://en.wikipedia.org/wiki/File:Forging_a_nail._Vala%C5%A1sk%C3%A9_muzeum_v_p%C5%99%C3%ADrod%C4%9B.webm)
 	- cooking food
 	- making instruments and trinkets (Whittling minigame?)
 - Generally, inputs -> minigame -> outputs

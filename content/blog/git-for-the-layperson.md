@@ -8,7 +8,7 @@ categories:
 blog-tags:
 - guide
 params:
-    toc: false
+    toc: true
     original: "2025-04-15T13:10:14-07:00"
 ---
 
@@ -303,11 +303,11 @@ These last couple commands are how you get code from github onto your computer.
 `Fetch` is a glance at what's out there without actually doing anything, while `pull` actually grabs changes from github and gets you them locally. 
 Generally you want to be pulling code whenever there's updates, especially to main, and if there are, merging main into your current working branch to keep yourself up to date with the project.
 
-### Best practices (Especially for teams)
+## Best practices (Especially for teams)
 
 Here's a little addendum here, as there are a lot of little things that contribute to a better experience using git, especially with teams, that I didn't fully comment on above.
 
-#### 1. Little changes over big ones.
+### 1. Little changes over big ones.
 
 This applies to both commits and pull requests. 
 Split up diffs into discrete commits. 
@@ -317,7 +317,7 @@ Ideally, you'd open individual branches and pull requests for both, seperately.
 That way they can reach main faster, for your teammates to access more quickly.
 This also really really helps the readability of your project's history.
 
-#### 2. Feature branches over monolithic branches
+### 2. Feature branches over monolithic branches
 
 I alluded to this earlier, but it's worth repeating: make different branches for different things. 
 Individual branches do work for jams and the like, but hardcore break down when working on any long term projects with a team. 
@@ -328,7 +328,7 @@ Many more professional workplaces will have a task management or ticket system (
 
 This also allows teammates to base off your feature branch if they desperately need to build off an in-progress feature, without getting inundated by 83 other changes you happen to have made. 
 
-#### 3. Update off main frequently. 
+### 3. Update off main frequently. 
 
 Always, always, always work off the most recent version of the project. 
 Whenever you sit down, checkout main, pull, checkout your branch, and either merge main into your branch, or rebase your branch on top of main.
@@ -340,7 +340,7 @@ If your team is constantly updating main, and always updating your local version
 This also resolves the problem of whose job is it to resolve merge conflicts, as main is the source of truth, so once it's on main, everyone else has to deal with it on their own branches. 
 (Which conincidentally really incentivizes smaller branches; if you're keeping up a big branch, whoop de do every time someone makes a change to something you've edited you've gotta update your branch. Split it up buddy!)
 
-#### 4. Git is built for text.
+### 4. Git is built for text.
 
 This one is good to know, as git isn't the only VCS (Version Control Software). 
 
@@ -357,7 +357,7 @@ Git is still a great option, but the playing ground does get a bit more competit
 
 If files are openly serialized to readable text, such as in godot, this is not a problem and merging can be performed as normal in git.
 
-#### 5. Git is open source!
+### 5. Git is open source!
 
 Just a quick reminder that git is free software developed largely by volunteers! It's licensed under GPLv2, which means that you can use it as a tool to develop whatever you want with no strings attatched, though i'd definitely reccommend reading through the details of the GPL becuase it's fascinating! (that sentence is the nerdiest shit I've written in a while dear god) 
 

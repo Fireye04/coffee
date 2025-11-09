@@ -1,5 +1,5 @@
 ---
-date: "2025-10-20"
+date: "2025-11-09"
 draft: false
 title: "Git for the Layperson"
 description: A comprehensive guide to using git targetted at the complete beginner.

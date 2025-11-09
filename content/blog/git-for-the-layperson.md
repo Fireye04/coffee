@@ -18,7 +18,7 @@ Updated October 20th and November 9th with some new stuff! Also I would be remis
 
 Hi! First off, welcome to git! Git is huge, and there are any number of guides out there, but this is mine.
 
-If you're using a UI to interface with git, there will be buttons and other input methods to execute the commands that I'll be listing. Rest assured, this information is still incredibly pertinent for you as well, and can be translated with the simple internet search: "do git <command> in <UI here>". (eg: github desktop, gitkraken, sourcetree, vscode plugin, etc...). 
+If you're using a UI to interface with git, there will be buttons and other input methods to execute the commands that I'll be listing. Rest assured, this information is still incredibly pertinent for you as well, and can be translated with the simple internet search: "do git 'command' in 'UI here'". (eg: github desktop, gitkraken, sourcetree, vscode plugin, etc...). 
 
 ## Why do I need to use git in the first place?
 

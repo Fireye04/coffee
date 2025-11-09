@@ -1,7 +1,7 @@
 ---
 date: "2025-10-20"
 draft: false
-title: "Git for the Layman"
+title: "Git for the Layperson"
 description: A comprehensive guide to using git targetted at the complete beginner.
 categories:
 - blog
@@ -12,16 +12,45 @@ params:
     original: "2025-04-15T13:10:14-07:00"
 ---
 
-Updated October 20th with some new stuff! Also I would be remiss to not include a link to [oh shit git](https://ohshitgit.com/), which you should definitely refer to if you ever run into trouble.
+Updated October 20th and November 9th with some new stuff! Also I would be remiss to not include a link to [oh shit git](https://ohshitgit.com/), which you should definitely refer to if you ever run into trouble.
 
 ## Preamble
 
 Hi! First off, welcome to git! Git is huge, and there are any number of guides out there, but this is mine.
-I'm going to start off under the assumption that you understand the value of git, and you're just here to learn how the damn thing works.
-I may do another post about this later on, but just trust me, regardless of your vocation, level of experience, or general computer knowledge, you can benefit from using git.
-It's an integral tool in working with others in teams, and as an added bonus, once you learn it, you'll never worry about losing work ever again.
 
-If you're using a UI to interface with git, there will be buttons and other input methods to execute the commands that I'll be listing. Rest assured, this information is still incredibly pertinent for you as well, and can be translated with the google search: "do <command> in (UI here)". With that said, let's get into it.
+If you're using a UI to interface with git, there will be buttons and other input methods to execute the commands that I'll be listing. Rest assured, this information is still incredibly pertinent for you as well, and can be translated with the simple internet search: "do git <command> in <UI here>". (eg: github desktop, gitkraken, sourcetree, vscode plugin, etc...). 
+
+## Why do I need to use git in the first place?
+
+A previous version of this guide assumed you already knew the value of git and generally VCS, but seeing as the target demographic is the layperson, I'll assume you are walking into this blind.
+If not, feel free to skip this section!
+Perhaps you don't know what git is, or assume it's a programmer thing for programmers, or perhaps are generally skeptical of adding additional steps to your workflow, and see git (or VCS) as optional. 
+I assure you, it is not. 
+Trust me, regardless of your vocation, level of experience, or general computer knowledge, I am confient you can benefit from using git.
+It's an integral tool in working with others in teams, and as an added bonus, once you learn it, you'll never worry about losing work ever again. 
+Allow me to elaborate.
+
+First, show of hands who's lost work on something before? Proficiency in git makes this occurence a relic of the past. 
+
+Not only that, you also gain the power to time travel back to every single iteration of your project, without losing any work, no ctrl+z required.
+
+Further, you get the ability to simultaneously have multiple "versions" of your project that you can swap between. That way, you can have one version that always works, and others that you use to add features and fixes, merging them together when desired.
+
+If you're using a git server (like github) to upload your git repositories, you also gain an invaluable backup project that allows you to retain your full project state even if your hard drive gets lit on fire (no doubt from your nvidia 12 volt high power connector), you'll still be able to get your project back just fine. 
+
+It also allows you to work on the same project seamlessly from multiple computers! 
+
+Sounds great right? Well those are only the benefits for solo developers. If you're on a team (2 or more people), or working at any moderately sane software job (games or otherwise), git goes from "incredibly useful" to simply "mandatory".
+
+Why?
+
+Well, let's imagine what collaboration requires, without git. 
+The project needs to live somewhere, and more often than not, it ends up finding a home on a flash drive or portable drive of some sort that gets handed around based on who needs to work on it.
+But if you don't have the flash drive, what happens? If you have a copy on your computer and make changes how do you know that something you're working on hasn't been updated by someone else? Who has to throw away their work or spend hours of their day getting the two versions working together? Whose edits are the "real" version? And worse, if the thing breaks does anyone have a working, up to date version anywhere? And you're still dealing with all of the problems above in the midst of this chaos!
+
+Proficiency in git almost fully trivializes these problems. Where does the project live? Github. How do different people get the most recent version? Pull from github. How do you reconcile changes? Merge branches and resolve conflicts. What's the "real", working version? The main branch. 
+
+The nuances of all of this are of course a bit more complicated, but I hope this generally gave you an impression of the value of git and why you'd want to put the work into learning it. Now, let's get into exactly that.
 
 ## What is git?
 
@@ -251,7 +280,7 @@ git commit
 git push
 ```
 
-This is the quickest way to get your code from your pc to the remote where other people want it! Notably, push only works on commits! It won't do shit on diffs, even staged ones. Pushing will push your local branch to the linked branch on remote, usually of the same name.
+This is the quickest way to get your code from your pc to the remote where other people want it! Notably, push only works on commits! It won't do shit on diffs, even staged ones. Pushing will push your local branch to the linked branch on remote, usually of the same name. Generally, it's impolite to push directly to a branch that someone is using without asking permission. Instead, consider a pull request, or sending them a message.
 
 Wow! Can I push to any branch, you definitely didn't ask?
 No! Never ever ever ever, ever ever ever push directly to main. 
@@ -265,13 +294,72 @@ How do you get code on main if you can't push to it?
 ### Pull requests
 
 A `pull request` is just a merge happening on github, rather than your computer. 
-What makes it special is that it allows other people to review your code before it's approved and sent off to main properly. They're generally abbreviated to just "PR".
+What makes it special is that it allows other people to review your code before it's approved and sent off to main properly. They're generally abbreviated to just "PR". 
+Generally, on larger projects, it's good practice to keep these open for the duration of a feature or fix's development so that other people can track your progress, rather than just opening one up once the code is ready for main. 
 
 ### Pull/ fetch
 
 These last couple commands are how you get code from github onto your computer. 
 `Fetch` is a glance at what's out there without actually doing anything, while `pull` actually grabs changes from github and gets you them locally. 
 Generally you want to be pulling code whenever there's updates, especially to main, and if there are, merging main into your current working branch to keep yourself up to date with the project.
+
+### Best practices (Especially for teams)
+
+Here's a little addendum here, as there are a lot of little things that contribute to a better experience using git, especially with teams, that I didn't fully comment on above.
+
+#### 1. Little changes over big ones.
+
+This applies to both commits and pull requests. 
+Split up diffs into discrete commits. 
+If you made some big map changes and also fixed a UI element, those two should probably be on seperate commits at least. 
+Ideally, you'd open individual branches and pull requests for both, seperately.
+
+That way they can reach main faster, for your teammates to access more quickly.
+This also really really helps the readability of your project's history.
+
+#### 2. Feature branches over monolithic branches
+
+I alluded to this earlier, but it's worth repeating: make different branches for different things. 
+Individual branches do work for jams and the like, but hardcore break down when working on any long term projects with a team. 
+
+The convention here is to prepend `feature/` to branches adding a feature of some sort, and `patch/` or `fix/` to branches fixing bugs and the like. (eg: `feature/add-shops`)
+Feel free to come up with your own conventions for your own projects though! 
+Many more professional workplaces will have a task management or ticket system (github projects is a great free option!), with branch names mirroring ticket numbers. (eg: `tickets/DM-38901`)
+
+This also allows teammates to base off your feature branch if they desperately need to build off an in-progress feature, without getting inundated by 83 other changes you happen to have made. 
+
+#### 3. Update off main frequently. 
+
+Always, always, always work off the most recent version of the project. 
+Whenever you sit down, checkout main, pull, checkout your branch, and either merge main into your branch, or rebase your branch on top of main.
+
+Seriously, do this. 
+People will complain that git has so many merge conflicts;
+If your team is constantly updating main, and always updating your local versions to track main, I guarantee merge conflicts will become unfathomably easier and vastly more infrequent.
+
+This also resolves the problem of whose job is it to resolve merge conflicts, as main is the source of truth, so once it's on main, everyone else has to deal with it on their own branches. 
+(Which conincidentally really incentivizes smaller branches; if you're keeping up a big branch, whoop de do every time someone makes a change to something you've edited you've gotta update your branch. Split it up buddy!)
+
+#### 4. Git is built for text.
+
+This one is good to know, as git isn't the only VCS (Version Control Software). 
+
+Git handles everything through text, including big binary globs. This makes certain software significantly more annoying to work with, especially proprietary software. 
+I'll call out Unreal engine specifically here. Things like actors, map files, etc... gets serialized into an unreadable jumble of characters. 
+This makes them totally unmergeable (if conflicts exist anyway), which is bad. 
+I personally don't recommend using such software, as merging is incredibly powerful, (and open source software is simply better), however if the choice of software is set in stone, here's the deal.
+
+Git is not great at handling these files, however, other VCS solutions don't really do much more than git in this realm, other than baindaid the problem a bit better.
+Essentially, other VCS solutions will allow users to "lock" files so that other people can't edit them, which you can emulate in git by just communicating with your team.
+If the files are not locked, and two people do work on one such file, one person will simply have to abandon their work on that specific file, and start over. 
+If you do have to work with these, I recommend looking into other VCS software and doing some research. 
+Git is still a great option, but the playing ground does get a bit more competitive in this realm.
+
+If files are openly serialized to readable text, such as in godot, this is not a problem and merging can be performed as normal in git.
+
+#### 5. Git is open source!
+
+Just a quick reminder that git is free software developed largely by volunteers! It's licensed under GPLv2, which means that you can use it as a tool to develop whatever you want with no strings attatched, though i'd definitely reccommend reading through the details of the GPL becuase it's fascinating! (that sentence is the nerdiest shit I've written in a while dear god) 
 
 ## Conclusion
 

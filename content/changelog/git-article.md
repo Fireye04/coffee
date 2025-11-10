@@ -6,7 +6,7 @@ categories:
 ---
 
 ## Content
-- Added a [new article on git](/blog/git-for-the-layman)
+- Added a [new article on git](/blog/git-for-the-layperson)
 
 ## Features
 - Added new "guide" blog tag

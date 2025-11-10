@@ -7,4 +7,4 @@ categories:
 
 ## Content
 
-- Added a bunch of new shit to my [git article](/blog/git-for-the-layman)! It's now much more comprehensive, and acts much better as something I can confidently stand behind.
+- Added a bunch of new shit to my [git article](/blog/git-for-the-layperson)! It's now much more comprehensive, and acts much better as something I can confidently stand behind.

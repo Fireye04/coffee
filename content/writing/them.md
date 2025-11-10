@@ -69,9 +69,9 @@ He must have met Death as well. He must have known them like I did.
 Why else would you kill yourself with a 13 year old kid to take care of? 
 Especially with a motto like "Don't add to the statistics."
 
-He was one of 305 parental suicides that year. 
-My mother was one of the 292 of the previous year.
-I was confident I wouldn't add to that specific statistic, though. Being a parent is evil and I refused to take part in such actions.
+Ironically, he was one of 305 parental suicides that year and my mother one of the 292 of the previous year.
+I was confident I wouldn't add to that specific statistic, though. 
+Being a parent is evil and I refused to take part in such actions.
 
 I felt my body lurch. Odd. 
 I certainly didn't have the strength for such things. 

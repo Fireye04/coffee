@@ -42,18 +42,23 @@ I'm an engineer. I'm a programmer. I've worked with cyberware as far back as I c
 
 However, one thing I am not is a chemist. 
 Perhaps I should have tested my creations on a mouse or something first, but I was desperate. 
-So it took me a moment to process when I saw a ghost of their figure in the bloody mirror fragments. 
+So, it took me a moment to process things when I saw a ghost of their figure in the bloody mirror fragments. 
+
 I gasped and moved to sit up, giving a little lurch instead, making a little "plish" as I landed back into my growing pool of blood and tears.
-My arms simply refused to do as I told them, keeping me strictly anchored to the ground, the slits in my wrists that were supposed to free me instead rooting me in my awful body. 
+My arms simply refused to do as I told them, keeping me strictly anchored to the ground.
+The slits in my wrists that were supposed to free me choosing to instead root me in my awful body. 
+
 I gave a slight chuckle, glancing around at my failed experiment. 
 I was damn foolish to believe that some half corrupted old webpage that I had dug up from the old net would adequately instruct me on the nuances of hormone structure. 
 I glanced a reflection of myself on the volumetric flask containing the concentrated essence of failure. 
-My vision flashed red in sheer self hatred. I wanted it gone, my failure, the flask, everything. 
+The damn thing kept following me around. 
+My vision flashed red in sheer self hatred. I wanted it gone, my failure, the flask, but most of all that awful, evil face that looked back at me.
 My hands of course did nothing, so I opted instead to writhe in desperation.
 
 A soft "splash" of a boot making contact with my pool of misery put my useless movements to a stop. 
+They were back.
 
-"Destroy it all" I felt my hoarse voice say. They finally came into view, kneeling by my side, that look of melancholy still present on their face as I had remembered it years ago.
+"Destroy it all" I felt my hoarse voice say. They finally came into view, kneeling by my side, that look of melancholy still present on their face as I had remembered it all those years ago.
 They placed a hand on my shoulder, grabbing and shaking it slightly. 
 Their eyebrows were pressed together in a look of concern. 
 A plea of some sort. 

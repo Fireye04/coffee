@@ -10,6 +10,9 @@ params:
     original: '2025-11-09T16:08:30-07:00' 
 ---
 
+### Content Warning
+This story contains content involving death and suicide.
+
 The first time I met them was in middle school. 
 They walked up to me, step by deliberate step as I hung in the boy's restroom, our eyes meeting somewhere far away.
 They stopped; I felt a whisper of their outstretched hand caressing my cheek. 

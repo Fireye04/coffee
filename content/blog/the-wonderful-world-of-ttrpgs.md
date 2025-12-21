@@ -14,13 +14,22 @@ params:
 
 One thing I get a lot from D&D 5e players is the statement "What's all this about non-5e systems? 5e is all I need!" 
 Or at least something along those lines. 
-This is a depressing statement from just one person, let alone an entire population, so I've dedicated this blog post to all the 5e players out there. 
-Please, just hear a tired game designer out on this one. 
+This is a bummer of a statement from just one person, let alone an entire population, so I've dedicated this blog post to all of these 5e players out there. 
+Please, just hear your friendly neighborhood game designer out on this one: 
 There's a world of fun out there that you're very likely missing out on, and my goal in this piece is to show you the possibilities. 
 What you do from there is up to you. 
 
 # D&D 5e is not for everyone
 
+Have you ever thoght about what TTRPG system would best suit you and your group? 
+If you're here, the answer is either "Definitely, yes. It's actually the second thought my brain goes to whenever I start a TTRPG" (The first being "who's bringing snacks?") or "No, never. You specifically sent this to me and told me to read it, and I'm now doing so begrudgingly due to some polite society social contract bullshit (thank you!!!!!)" Well, either way welcome!
+
+I've split this one up into two sections. 
+One of 'em (this one) breaks apart what 5e is, and who it's actually for, and the second goes ahead and starts bringing back the curtain on the possibilities out there. 
+
+I'm gonna make this clear: I'll talk about TTRPGs for years to come on this blog, but this is probably the only time I'll ever make a focus of 5e or D&D in general. So, I'm putting everything 5e-related in my brain down here, and going forward, I'll only look in earnest at various indie systems instead. Little designers deserve the world. 
+
+Let's get into it.
 
 ## What even is a TTRPG?
 
@@ -30,7 +39,7 @@ Especially you, random GM that says "Oh i'll just modify 5e for this," every tim
 > A TTRPG is a collection of rules and mechanics that when put together create a system for often collaborative storytelling. 
 
 The key point of this definition that I want to point out is that the end goal is **telling a story**. 
-This end goal of storytelling is super important, as your system's collection of rules and mechanics is, essentially, a well-oiled machine tailor built and tested to make a specific kind of story. 
+This end goal of storytelling is super important, as your system's collection of rules and mechanics is, essentially, a well-oiled machine tailor built and tested to make a specific kind of story. (Yes, patrick, combat is a story!)
 
 See, in game design, (specifically TTRPG design, but many concepts apply more broadly), well-built systems are intentionally made up of mechanics that build towards a central thesis. 
 This thesis can include critically important things, such as genre, setting, mood, tone, and even themes for the stories made within that system.
@@ -45,19 +54,19 @@ At the same time, it's your game, and you are 100% within your rights to modify,
 
 Some systems are intentionally vague or broad to expand the number of stories that can be told with them. 
 Genesys and FATE (which, in turn, is based on "fudge," The more you know!) are good examples of such systems. 
-And they definitely have their uses; Edge of the Empire was built on Genesys, and that system uses the genesys dice system unfathomably well.  
+And they definitely have their uses; Edge of the Empire was built on Genesys, and that system uses the genesys dice system quite well.  
 
 However, broader systems fundimentally sacrifice their capacity to carry out their mechanical vision when they choose flexibility over specialization. 
 In short, when you try to do everything, you do nothing well. 
 Would you rather have one multitool that kinda handles everything kinda ok, or an array of specialized tools, each designed specifically and lovingly with their own hyperspecific application in mind?
 
 5e is designed as a combat system and has been adapted into an everything system by its players. 
-All I'm trying to say is that it's designed vaguely, and if anything specializes in combat. 
+All I'm trying to say is that it's designed vaguely, and if anything, specializes in combat. 
 But heck, it doesn't even do that extraordinarily well, due to its lack of focus!
 
 In a world where people are lovingly crafting games about high school drama and gossip, games about sailing on trees on a chainsaw boat, games about living dungeons that gaze directly into the characters' very souls, games about kids hoverboarding between dimensions, and infinitely many more, each with its own new ideas, mechanics, vibes, artistic visions, and theses... **GASPS FOR AIR**
 
-Why in the everliving fuck would you want to play with a multitool?
+Why would you want to play with a multitool?
 
 ## RP enthusiasts, I'm looking at you.
 
@@ -79,10 +88,10 @@ How much session time does combat take up? It certainly depends on the group, bu
 
 Further, the sheer moment-to-moment detail of the system is nothing short of a second game mode.
 One must keep track of player & enemy positions, initiative order, player & enemy action economy, hit points, and everything must be done within ~6 second actions within the fiction.
-I'll have more to say about the combat later on, but if you're using this for RP it's like hammering a nail with a jackhammer: it's overbuilt in all the wrong ways, and you'd be much better off investing the budget in a nail gun if all you wanted to do was nail nails.
+I'll have more to say about the combat later on, but if you're using this for RP it's like hammering a nail with a ski lift: it's overbuilt in all the wrong ways, and you'd be much better off investing the budget in a nail gun if all you wanted to do was nail nails.
 
 The balance of the combat system is built for numerous combat sessions between long rests. 
-And from personal experience running low-combat 5e campaigns, I don't think my party ever went more than two bouts of combat between long rests, rendering the combat balance way off (casters rarely ran out of spell slots, making them far more powerful than martials).
+And from personal experience running low-combat 5e campaigns, I don't think my party ever went more than two bouts of combat between long rests, rendering the built-in combat balance way off (casters rarely ran out of spell slots, making them far more powerful than martials).
 
 If you want to add something or have a player come up with an item or a trait for their character, as a GM you either
 
@@ -101,28 +110,88 @@ In short, D&D will never be a roleplay-focused TTRPG system and still be D&D.
 ### A small capitulation.
 
 This isn't to say that you *can't* use 5e or any other D&D based system for incredible RP-based storytelling. You totally can! 
-I've done so myself, and I absolutely adore what GMs like Brennan Lee Mulligan and Matt Mercer do with the system. 
+I've done so myself, and I absolutely adore what GMs like Brennan Lee Mulligan do with the system. 
 However, just because a system is popular, doesn't mean it's the system that will give the most enjoyment to you and your party.
 
 Since my fascination with tabletop RPGs hit, I've had so many incredible experiences and told so many beautiful stories that never could have *ever* happened in 5e, raw or modded to the teeth.
 And my goal with this piece is to hopefully share that with you.
 
-You don't gotta take it, or heck, do anything with it. By all menas, play what makes you happy, even if it is 5e.
-
-
-
+You don't gotta take it, or heck, do anything with it. By all means, play what makes you happy, even if it is 5e.
 
 ## Combat enjoyers aren't off the hook either
 
+Remember all that stuff about multitools? 
+Your favorite mechanic may be 5e's design focus, but that focus has become a lot more fuzzy in recent times (especially with the recent influx of all you RP enjoyers)
+
+Wouldn't you like to just play a game that was made specifically for combat and nothing else? 
+Look at something like lancer and tell me that fucking mech combat wouldn't be incredibly badass.
+
 ## Perhaps newbies?
 
-## Who is 5e for? 
+Nope! I'd honestly recommend pretty much anything over 5e for sheer noob friendliness. 
+5e has a bunch of unecessary verbosity and specifics, and, again, gets bogged down in its combat far too easliy. 
+So many other systems flow infinitely better than 5e and can communicate the awesomeness of the hobby much more fluidly, and directly.
 
+Now, in terms of actually recommending an individual person a game, that depends entirely on what gets them excited. 
+I'll pitch them a bunch of stuff and see what they perk up at, regardless of difficulty. 
+People are so much happier to sit through rules if it gets them to a place they're genuinely excited about.
 
-Play specific games!!!
+If that system is 5e, then so be it, but a lot of the time, that's only the case because it's the only thing they've heard of!
 
-#### Sidenote
+## Who is 5e for then, bucko? 
 
-Some systems are intentionally vague or broad to expand the number of stories that can be told with them, 
+In summary, 5e is for you if you 
+- already use the system & don't like learning new things, 
+- enjoy mideval fantasy settings, with a 60-70% combat tilt,
+- like vague, unopinionated sytems,
+- don't mind overly corporate media,
+- just kinda like it (which is totally fair)
 
-Every time I hear someone who likes TTRPGs say they're not interested in learning other systems, that simply sounds to me like someone who enjoys art saying "Nah the mona lisa is my favorite, I'm not going to go and enjoy other art" Or someone who likes movies saying "I really like the avengers im not going to watch anything else ever." Like what???? 
+And if you do fit the bill here, I truly do wish you all the best in your 5e adventures...
+
+But just because one system is for you, doesn't mean others aren't! 
+*pulls away curtain, exaggerated*
+
+# Other systems and why you should play them
+
+Every time I hear someone who likes TTRPGs say they're not interested in learning other systems, I die a little bit inside.
+
+In my brain, that sounds like someone who enjoys art saying "Nah the mona lisa is my favorite, I'm not going to go look at anything else."
+Or someone who likes movies saying "I really like the avengers im not going to watch another movie ever." 
+Like what???? 
+Come on, lil guy! We've got so much to explore, and we've only just begun! Off we go into the wild pale yonder!
+
+## The wild pale yonder
+
+Hey. (I'm dressed in a trench coat beckoning you from a nearby alley) Hey, c'mere. 
+Yeah, that's right, I'm talking to you.
+You wanna roleplay as a fucking mouse?
+
+*I produce the box set of mausritter from the folds of my trench coat*
+
+Or perhaps you're more of a "journal on my own from the point of view of a vampire losing their memories over the course of a thousand years" kinda person?
+
+*I manifest Thousand Year Old Vampire from a brick wall*
+
+No? Then may I interest you in modern detective horror?
+
+*Your bag of groceries transmogrifies into Delta Green and Triangle Agency*
+
+Hmm, scifi horror perhaps? 
+
+*The Mothership box set, having grown spiderlike legs, scuttles up to you*
+
+Or maybe, just a bunch of kids on skateboards. Hoverboards. In portals.
+
+*a portal opens up to your right and at least four teenage kids on hoverboards pile into you sending both you and them sprawling into another portal.*
+
+Ah, well I guess not then. Try not to peel out. Nasty business.
+
+## Other systems
+
+The variety and creativity of the game design community is simply too vast for words. 
+If it's in your brain, there's a system for it, and I almost guarantee you the designer has cooked up at least one mechanic that'll change the way you see tabletop RPGs. 
+
+However, the true beauty is in games that would never have even entered your brain. 
+Stuff that never would have even pinged on your radar, pulled full-focus by a designer who cares about them more than garlic bread. 
+That shit, my friends, is the good stuff.

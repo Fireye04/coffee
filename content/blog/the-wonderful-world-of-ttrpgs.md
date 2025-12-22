@@ -253,5 +253,8 @@ I listed a good few options above, but also, I'd encourage you to take a gander 
 Well that's that. I hope I've made a compelling point here, and I hope you get out there and find games that make you happy!
 If you find anything cool, please let me know!
 
-I alluded to this earlier, but I intend to do more TTRPG-related blog posts going forward.
+Another interesting trend that's almost identical to this one that I hope to write about soon is the broad retiscence to swap operating systems to linux, which is something I figured I'd prod at as well ehehe.
+
+Finally, I alluded to this earlier, but I intend to do more TTRPG-related blog posts going forward, probably reviews as well as deep dives on mechanics and designs. If you're interested, please feel free to add me to your RSS feed!
+
 Thanks once again for reading, and I'll see you next time.

@@ -12,6 +12,7 @@ params:
 
 ### Content Warning
 This story contains content involving death and suicide.
+<hr>
 
 The first time I met them was in middle school. 
 They walked up to me, step by deliberate step as I hung in the boy's restroom, our eyes meeting somewhere far away.

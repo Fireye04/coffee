@@ -17,7 +17,7 @@ Or at least something along those lines.
 This is a bummer of a statement from just one person, let alone an entire population, so I've dedicated this blog post to all of these 5e players out there. 
 
 Please, just hear your friendly neighborhood game designer out on this one: 
-There's a world of fun out there that you're very likely missing out on, and my goal in this piece is to show you the possibilities. 
+There's a world of fun out there that you're very likely missing out on, and my goal in this piece is to show you the possibilities!
 
 What you do from there is up to you. 
 

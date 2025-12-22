@@ -1,6 +1,6 @@
 ---
 date: '2025-09-03T12:23:49-07:00'
-draft: true
+draft: false
 title: 'Nixos Is for Crazy People: A beginners experience'
 description: default
 categories:

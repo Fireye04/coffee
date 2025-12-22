@@ -2,7 +2,7 @@
 date: '2025-12-01T23:26:07-07:00'
 draft: false
 title: 'Monthly Update 2025 November'
-description: default
+description: November update!
 categories:
 - blog
 blog-tags:

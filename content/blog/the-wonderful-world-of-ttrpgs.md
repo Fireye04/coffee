@@ -248,6 +248,8 @@ I listed a good few options above, but also, I'd encourage you to take a gander 
 
 - Lichcraft: You're trans and the wait for gender affirming healthcare is 300 years. Welp time to turn to the dark arts and become a lich!
 
+In addition, I wholeheartedly recommend the youtube channel "[Quinns Quest](https://www.youtube.com/@Quinns_Quest)" for incredibly well-made reviews of these kinds of games.
+
 ## Conclusion
 
 Well that's that. I hope I've made a compelling point here, and I hope you get out there and find games that make you happy!

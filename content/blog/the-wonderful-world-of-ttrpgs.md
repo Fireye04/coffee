@@ -124,7 +124,7 @@ Remember all that stuff about multitools?
 Your favorite mechanic may be 5e's design focus, but that focus has become a lot more fuzzy in recent times (especially with the recent influx of all you RP enjoyers)
 
 Wouldn't you like to just play a game that was made specifically for combat and nothing else? 
-Look at something like lancer and tell me that fucking mech combat wouldn't be incredibly badass.
+Look at something like Lancer and tell me that fucking mech combat wouldn't be incredibly badass.
 
 ## Perhaps newbies?
 
@@ -179,9 +179,9 @@ No? Then may I interest you in modern detective horror?
 
 Hmm, scifi horror perhaps? 
 
-*The Mothership box set, having grown spiderlike legs, scuttles up to you*
+*The Mothership box set, having grown spiderlike legs, scuttles up your leg*
 
-Or maybe, just a bunch of kids on skateboards. Hoverboards. In portals.
+Or maybe, just a bunch of kids on skateboards. \*Hoverboards. In portals. (Slugblaster)
 
 *a portal opens up to your right and at least four teenage kids on hoverboards pile into you sending both you and them sprawling into another portal.*
 
@@ -190,8 +190,53 @@ Ah, well I guess not then. Try not to peel out. Nasty business.
 ## Other systems
 
 The variety and creativity of the game design community is simply too vast for words. 
-If it's in your brain, there's a system for it, and I almost guarantee you the designer has cooked up at least one mechanic that'll change the way you see tabletop RPGs. 
+If it's in your brain, there's a system for it, and sometimes if you're lucky, the designer has cooked up at least one mechanic that'll change the way you see tabletop RPGs, and thus the way you play them. 
 
-However, the true beauty is in games that would never have even entered your brain. 
-Stuff that never would have even pinged on your radar, pulled full-focus by a designer who cares about them more than garlic bread. 
+However, a lot of the time, the true beauty is in games that would never have even entered your brain. 
+Features, settings mechanics, and themes that never would have even pinged on your radar, pulled full-focus by a designer who cares about them more than garlic bread. 
+
 That shit, my friends, is the good stuff.
+
+## So what should I play?
+
+In short, whatever gets you excited! 
+The options are so numerous and diverse, that it simply comes down to personal preference. 
+
+What kind of story do you and your party want to tell? 
+How do you want it to be told?
+Do you have your heart set on a specific setting? 
+A specific vibe?
+
+If so, look for that! If not, go picking around and see what you can find! 
+Read descriptions and check out options!
+See what gets your brain gets jazzed up about! 
+What makes it buzz with interesting characters, plotlines, and ideas! 
+And as discouraged as judging books by their covers is, TTRPGs feature some of the most beautiful art out there. 
+And very often, a game's overall vibe is encapsulated incredibly well by the art it puts on display, so if all else fails find some cool art and go from there!
+
+## My silly recommendations
+
+As a quick disclaimer, this hobby, like many others, is a matter of taste. 
+I, like everyone else, am biased towards a certain kind of game. 
+Specifically, I absolutely adore games that place roleplay at center stage. Games that deal with the complexities of identity. Games with innovative mechanics. Games that present deep ethical quandries. Games that make everyone at the table ponder something menaingful.
+If you like similar games, you'll probably love my recommendations. 
+If you don't, then don't worry!
+There are so many more games out there that will be for you and not for me, (5e included!), and I absolutely love that about this hobby.
+
+I listed a good few options above, but broadly, I'd encourage you to take a gander at a few of the following games, most if not all of which I will write full reviews for eventually:
+
+- Spire: Rise against the opressive high elves in a revolution destined for ruin, in an attempt to make a difference. Check out the fallout system in this one, it's genuinely a game changer.
+
+- Blades in the Dark: Gang warfare: the game. Run a gang in a dark, steampunk, ghost-ridden world, and execute sick heists. Prep is for losers when in-scene you can just flashback to that time you prepared for this exact eventuality.
+
+- Slugblaster: TEENS ON HOVERBOARDS! DOIN' SICK TRICKS! GOIN' THROUGH PORTALS! GETTIN' THAT SWEET SWEET INTERNET CLOUT! RUNNIN' FROM INTERDIMENSIONAL POLICE! YEAHHHHHHHHHHHHHHHHH!!!!!!!!
+
+- Lichcraft: You're trans and the wait for gender affirming healthcare is 300 years. Welp time to turn to the dark arts and become a lich! This one's great for one shots!
+
+# Conclusion
+
+Well that's that. I hope I've made a compelling point here, and I hope you get out there and find games that make you happy!
+If you find anything cool, please let me know!
+
+I alluded to this earlier, but I intend to do more TTRPG-related blog posts going forward.
+Thanks once again for reading, and I'll see you next time.

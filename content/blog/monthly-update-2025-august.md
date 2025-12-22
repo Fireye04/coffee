@@ -22,7 +22,7 @@ This is generally why I missed the monthly update deadline I've set for myself, 
 
 ## NixOS
 
-I did it. My arch partition is gone, I'm running NixOS on my laptop, and it's for the clinically insane. I'm in the process of writing up a blog post on it at the moment, but suffice it to say, if you are not clinically insane, stick with arch. Arch just works. Trust me. If you are not regular insane enough for arch, stick with mint or some fedora spin. Thank me later. 
+I did it. My arch partition is gone, I'm running NixOS on my laptop, and it's for the totally insane. I'm in the process of writing up a blog post on it at the moment, but suffice it to say, if you are not totally insane, stick with arch. Arch just works. Trust me. If you are not regular insane enough for arch, stick with mint or some fedora spin. Thank me later. 
 
 As for me? I might be clinically insane, because I'm getting things working slowly but surely. NixOS sounds like a straight upgrade from the outside (Namely Arch), but I would caution against this perspective. Rather, there are tradeoffs. 
 

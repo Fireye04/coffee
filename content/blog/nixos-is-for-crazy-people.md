@@ -1,15 +1,15 @@
 ---
-date: '2025-09-03T12:23:49-07:00'
+date: '2025-12-19'
 draft: false
-title: 'Nixos Is for Crazy People: A beginners experience'
-description: default
+title: Nixos Is for Crazy People- A beginner's experience
+description: My descent into NixOS and some tips and tricks for those who come after.
 categories:
 - blog
 blog-tags:
 - default
 params:
-    toc: false
-    original: '2025-09-03T12:23:49-07:00' 
+    toc: true
+    original: '2025-12-19' 
 ---
 
 Alright, you (nobody) asked for it, and here it is. I've swapped to NixOS as my main operating system from arch, and I have concluded that Nix is for crazy people. I also happen to still be happily running it ~6 months later. Let's get into it.
@@ -18,7 +18,7 @@ Alright, you (nobody) asked for it, and here it is. I've swapped to NixOS as my 
 
 Imagine, if you will, me waking up, configuring nixos, going about my day, configuring nixos, and going to sleep...
 For two weeks.
-(Now, this did include a full port of every single significant arch dotfile into nix's homemanager, which was no easy task.)
+(Now, this did include a full port of every single significant arch dotfile into nix's homemanager, which was no easy task.) BUT STILL, THAT'S CRAZY.
 
 ### The learning curve
 
@@ -28,14 +28,15 @@ The official docs seem written for experienced users, unlike arch, so you end up
 You just want a simple config that works, but everyone keeps saying things about flakes, but flakes are marked as unstable???
 Everyone also keeps talking about homemanager, what the fuck is that? Do you need it?
 
-At this point I can say that you should certainly use both.
-Also here's a competent guide to actually getting everything working in a sane way: https://nixos-and-flakes.thiscute.world/
-*kisses your forhead* Everything's gonna be alright, buddy.
+At this point I can say with certainty that you should use both.
+Also here's a competent guide to actually getting everything working in a sane way, written in (mostly) plain english: https://nixos-and-flakes.thiscute.world/
+
+\*kisses your forhead\* Everything's gonna be alright, buddy. It gets so much better from here.
 
 ### What's a flake?
 
 Flakes are experimental features of nix that allow users to define the nix equivalent of a function.
-These are widely used in the nix community to provide additional support for programs that don't exist in nixpkgs yet, add native homemanager configuration for certain programs, provide out of the box configuration for certain programs (for example, [nix-citizen](https://github.com/LovingMelody/nix-citizen) provided me a fully optimized SC/wine installation without any config on my end!), and much more.
+These are widely used in the nix community to provide additional support for programs that don't exist in nixpkgs yet, add native homemanager configuration for certain programs, provide out of the box configuration for certain programs (for example, [nix-citizen](https://github.com/LovingMelody/nix-citizen) provided me a fully optimized SC/wine installation without any config on my end. Neato!), and much more.
 
 The best way to manage your system config on nixos these days is by defining a flake to act as an entrypoint. This allows you to define other flakes as "inputs" (read:parameters), that you can feed into your "outputs" (read: other function calls).
 
@@ -72,13 +73,23 @@ There are ups and downs.
 
 Nix is still a tradeoff. If you think you'll get real value out of the benefits, I'd say do it. But if you're happy where you are and don't feel like subjecting yourself to a silly amount of head-banging, you really don't need to!
 
-If you're an operating system nerd (derogatory) like me, i'd definitely recommend it though, it's such a goddamn enigma, hahaha.
+If you're an operating system nerd (derogatory) like me, i'd definitely recommend it though, it's such a wonderful little thing.
+
+## Conclusion
+
+Thanks for reading! 
+Sorry this one took me awhile, but I'm glad it's out now!
+
+I'll chuck some tips & tricks below if you're follwing in my footsteps. 
+Nix is beautiful and definitely my end-game linux distro, that I'll almost certainly be using for years to come. And I still have so much to learn! (Time to start making my own derivations ehehe) 
+
+Have a good one, and I'll see you next time!
 
 ## Tips & tricks
 
 Here's some nix specific stuff i figured out that I'd find super useful if I were learning from scratch again.
 
-#### My Big notes
+### My Big notes
 
 - Set up git in your /etc/nixos folder. very very handy.
 - In userspace I'll use a quick `sudo -i` to get root access to /etc/nixos for painless editing
@@ -90,7 +101,7 @@ Here's some nix specific stuff i figured out that I'd find super useful if I wer
 - And finally, `nix-collect-garbage` actually frees storage space of unused packages (but also clears out old versions of stuff so you can't roll back to them anymore without another download)
 
 
-#### Shell Shortcuts
+### Shell Shortcuts
 
 - I have `ninit` mapped to `cd /etc/nixos;nvim .`
 - `gupdate` to `git add --all; git commit -m "rev"; git push; sudo nixos-rebuild switch` (still haven't gotten the time to make a bash script with dynamic commit names, whoops) 

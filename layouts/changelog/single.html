@@ -1,4 +1,5 @@
 {{define "footer"}}
+  <p>This feed supports RSS! Find it <a href="/changelog/index.xml" target="_blank">here!</a>, and if you don't know what that is, you should learn! (or <a href="/newsletter">join my newsletter</a> instead)</p>
 <h2><center><a href="/index.html">Home Sweet Home</a>{{ if compare.Gt .WordCount 500 }}<br><small><small>(But at the bottom of the page this time)</small></small>{{ end }}</center></h2>
           
 <h3><center><a href="/changelog">Check out the changelog!</a></center></h3>
@@ -19,9 +20,8 @@
         {{ if compare.Gt .WordCount 500 }}
           <h2><center><a href="/index.html">Home Sweet Home</a></center></h2>
       <h3><center><a href="/changelog">Check out the changelog!</a></center></h3>
-    {{ end }}
-  <p>This feed supports RSS! Find it <a href="/changelog/index.xml" target="_blank">here!</a>, and if you don't know what that is, you should learn! (or <a href="/newsletter">join my newsletter</a> instead)</p>
           <hr \>
+    {{ end }}
 
         
           {{ if $params.toc }}

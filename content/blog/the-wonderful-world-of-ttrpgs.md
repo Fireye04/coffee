@@ -1,7 +1,7 @@
 ---
 date: '2025-12-19T14:10:41-07:00'
 draft: false
-title: 'The Wonderful World of TTRPGs'
+title: 'D&D 5e is not for everyone.'
 description: A deconstruction of D&D 5e, and an plea for 5e players to try something else!
 categories:
 - blog

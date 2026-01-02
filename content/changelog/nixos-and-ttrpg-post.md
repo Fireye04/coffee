@@ -7,4 +7,4 @@ categories:
 
 ## Content
 - New [nixos blog post](/blog/nixos-is-for-crazy-people)! (finally)
-- [PLAY INDIE TTRPGs, YOU ANIMALS](/blog/the-wonderful-world-of-ttrpgs)!!! (a blog post)
+- [PLAY INDIE TTRPGs, YOU ANIMALS](/blog/dnd-is-not-for-everyone)!!! (a blog post)

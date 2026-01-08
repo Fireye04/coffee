@@ -47,6 +47,14 @@ And even better, GDT Member [mailoeckchen](https://mailoeckchen.neocities.org/) 
 I've been chippping away at the treehouse game here and there to hopefully get the thing released at some point. 
 Nothing huge, but we're seeing incremental progress.
 
+## Blog Posts
+
+I made a couple blog posts this month! 
+
+[D&D isn't for everyone](/blog/dnd-is-not-for-everyone) is a pretty comprehensive piece on 5e as a system, who it's for, and what you can try to play instead!
+
+[On Mediums](/blog/on-mediums) is a bit of a meta piece where I just sorta yap into Nvim.
+
 ## Music!
 
 I DO MAKE MUSIC, I SWEAR!! 

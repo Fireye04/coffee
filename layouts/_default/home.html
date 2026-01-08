@@ -54,6 +54,7 @@
 <h2><a href="/neighborhood">The Fireye.coffee neighborhood</a></h2>
 
 <p>Check out this site's Webrings, site neighbors and other assorted neat places on the web!</p>
+<p>I also run a little webring for game designers! <a href="https://gdt.fireye.coffee/" target="_blank">Check it out</a>!</p>
 
       <button class="indent" onclick="location.href='/neighborhood'">To the neighborhood!</button>
 
@@ -137,17 +138,23 @@
 
     <p>I also make music! Here are some of my recent tracks:</p>
 <hr />
-	{{ $t :=resources.Match "tracks/*" }}
 
-	{{ range first 3 $t}}
-    {{ $f := split .Name "/"}}
-{{$indexx := cond hugo.IsProduction 1 2}}
-	{{$f = index $f $indexx}}
-	{{ $n := split $f "."}}
+{{$songs := dict }}
+	{{ range resources.Match "tracks/*" }}
 
-	<p>{{index $n 0}}</p>
+        {{ $f := split .Name "/"}}
+        {{$indexx := cond hugo.IsProduction 1 2}}
+        {{$f = index $f $indexx}}
+        {{ $n := split $f "."}}
+        {{$o := split (index $n 0) ":"}}
+        {{ $songs = merge $songs (dict "songs" (dict (index $o 0) (dict "name" (index $o 0) "link" .RelPermalink "time" (index $o 1))))}}
+    {{end}}
+
+
+   {{ range first 3 (sort $songs.songs "time" "desc")}}
+	<p>{{.name}} <small>(Released {{.time}})</small> </p>
 	<audio controls>
-		<source src="{{ .RelPermalink }}" type="audio/ogg">
+		<source src="{{ .link }}" type="audio/ogg">
 	Your browser does not support the audio element.
 	</audio>
 

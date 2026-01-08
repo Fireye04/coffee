@@ -18,20 +18,27 @@
 
     {{ .Content }}
 
+    
 	<h2>Tracks by date!</h2>
         <hr />
+    {{$songs := dict }}
 	{{ range resources.Match "tracks/*" }}
 
-	{{ $f := split .Name "/"}}
-	{{$f = index $f 1}}
-	{{ $n := split $f "."}}
+        {{ $f := split .Name "/"}}
+        {{$f = index $f 2}}
+        {{ $n := split $f "."}}
+        {{$o := split (index $n 0) ":"}}
+        {{ $songs = merge $songs (dict "songs" (dict (index $o 0) (dict "name" (index $o 0) "link" .RelPermalink "time" (index $o 1))))}}
+    {{end}}
 
-	<p>{{index $n 0}}</p>
+
+   {{ range sort $songs.songs "time" "desc"}}
+   <p>{{.name}} <small>(Released {{.time}})</small> </p>
 	<audio controls>
-		<source src="{{ .RelPermalink }}" type="audio/ogg">
+		<source src="{{ .link }}" type="audio/ogg">
 	Your browser does not support the audio element.
 	</audio>
-	{{ end }}
+    {{end}}
 
         <hr />
     {{ $pages := where site.RegularPages "Type" "music" }}

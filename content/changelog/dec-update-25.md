@@ -1,5 +1,5 @@
 ---
-date: '2026-01-06T19:32:50-07:00'
+date: '2026-01-07T19:32:50-07:00'
 title: 'December Update 2025'
 categories:
 - changelog

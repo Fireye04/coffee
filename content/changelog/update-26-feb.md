@@ -6,6 +6,6 @@ categories:
 ---
 
 ## Content
-- Added [February monthly report](blog/monthly-update-2026-february)
-- Added [Disco Tools](projects/disco-tools) (RAHHHH)
+- Added [February monthly report](/blog/monthly-update-2026-february)
+- Added [Disco Tools](/projects/disco-tools) (RAHHHH)
 

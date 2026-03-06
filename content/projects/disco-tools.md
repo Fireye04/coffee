@@ -20,7 +20,7 @@ Disco tools is a collection of helpful scripts and tools that help you create ga
 
 
 ### Current Documents
-- (Codeberg repo (codebase))[https://codeberg.org/Fireye/disco-tools]
-- (Docs repo (where the wiki on the main page is versioned))[https://codeberg.org/Fireye/disco-tools-docs]
+- [Codeberg repo (codebase)](https://codeberg.org/Fireye/disco-tools)
+- [Docs repo (where the wiki on the main page is versioned)](https://codeberg.org/Fireye/disco-tools-docs)
 
 

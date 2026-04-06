@@ -95,6 +95,25 @@ I don't want to make any statments regarding what exactly those agreements may o
 
 Notably, these too taint the creative output of the individual. Take something as small as referral links. If you're a computer hardware reviewer, are you going to rank a device without a referral link higher than one with a referral link, even if you know you'll get less money? Even if everything does have referral links, will you be more inspired to create buyers guides for more expensive products if the kickback is higher? If a corporation has sent you a thing, are you more likely to review it than otherwise?
 
+### Evil Design and Dark Patterns. 
+
+Ever wonder why it takes half a second and a misclick to accidentally sign up for a subscription of some sort, but 3 days' hard labour to cancel? This is an example of a dark pattern. 
+
+A dark pattern is simply a series of design decisions that when put together exploit users into certain, usually profitable behavior. Think of it as a form of psychological manipulation. 
+Once you're aware of these, they show up *everywhere*. Those big countdowns on shopping sites. Raising prices on goods then discounting them to make them appear better value for money. 
+
+At some level, a lot of design patterns fall into this category. Think of the algorithmic feed, for example. Some may argue this is a feature, rather than a dark pattern. I would argue that while not necessarily a dark pattern, the constituent components of most algorithmic feeds: data collection for personalization and infinite scroll, among others, combined with the advertising profit motive of most social media companies, almost certainly result in something that is. Something designed to consume as much user time as possible. Something that collects and feeds off user data and optimizes itself to perpetuate that consumption of time even further, as well as market that data to advertisers. Whenever you scroll an algorithmic feed, you're battling a team of engineers and psychologists each paid hundreds of thousands a year to capture your attention, data, and time. If you're aware of it, maybe next time you'll be able to put up a fight.
+
+These properties are not incidental; They're designed.
+
+### Decentralization and Federation
+
+These two ideas frequently come hand in hand, with some caveats. 
+
+Decentralization entails the idea that no one entity has full control of something. Something like discord is centralized, where something like email is decentralized: Anyone can run up their own email server, but only discord can run up discord servers. Big email can't tell you to shut down your email server if they don't like what you're sending (your government can, but that's a whole other can of worms). Discord, however, reserves the right to shut down servers for whatever reason. 
+
+Another benefit of decentralization is your capacity to own your own data. Everything you send on a discord server is unencrypted and lives on discord's servers. They can (and do) just read it. Sell it. Hand it to governments. This data can also leak by accident, or by coordinated effort
+
 ## Fixing the internet: A Guide
 
 ### General web browsing
@@ -111,6 +130,8 @@ Some browser suggestions:
 
 ### Conventional Social Media
 
+This one's gonna be tough. People are little gremlins about their social media of choice so telling people to stop using something is about as helpful as eating sand. Won't stop me from trying though! (omnomnomnomnom)
+
 #### Youtube
 
 If you, like me, still use youtube because you're a slave to long-form video content (hbomberguy release the adobe essay please i'm fiending for it), the following modifications can improve your quality of life considearably. 
@@ -126,4 +147,27 @@ These changes combine to a platform with clear end points. If a video's over, it
 
 If you use youtube on your phone, you'll notice the app doesn't benefit from browser addons, unless you want to use the web app, which is not great. For android users, you can actually patch a custom youtube app via [revanced](https://github.com/revanced/revanced-manager). This allows you to make most of the above modifications, in the app. Including the adblock and sponsorblock. Waiter waiter! 3 bajillion dollars to the revanced team please!
 
-#### 
+##### Alternatives
+
+Youtube is a tough one to replace due to the heavy infrastructure video upload and playback requires. Nonetheless, [Peertube](https://joinpeertube.org/), a FOSS alternative, has risen to the occasion. It's not a full youtube replacement yet, but functionally it works, so now it just needs to build the userbase. As an added bonus, it's also federated, which means you can host your own peertube instance and have everything hosted on your own hardware, while also optinoally communicating with other people doing the same.
+
+You can actually find my peertube account [here](https://makertube.net/c/fireye.coffee)! (Thanks a bunch to makertube for letting me onto their server!). 
+
+#### Discord
+
+We got complacent with discord. For a while, they provided a free service without ads, and maintained it sanely. Take it from someone whose first baby steps into programming was making little discord bots in discord.py: That discord is dead. It has been gutted by the forces of capital and thrown in a ditch to rot, save for its skin, which is now worn by its killers. 
+
+Now, a [former blizzard executive and McKinsey consultant](https://en.wikipedia.org/wiki/Humam_Sakhnini) sits in charge of the corporation, charged with driving value for investors in the company's looming [IPO](https://www.reuters.com/business/chat-platform-discord-confidentially-file-us-ipo-bloomberg-news-reports-2026-01-06/). They've [reduced](https://www.dexerto.com/tech/discord-lowers-free-upload-limit-to-10mb-storage-management-is-expensive-2887809/) the free upload file size limit. They've introduced deeply integrated [ads](https://discord.com/blog/discord-orbs) into their platform, to great effect, and concerningly little backlash. They've been trying to insert themselves as critical game infrastructure in the form of their [social SDK](https://discord.com/developers/social-sdk) And are using the metric tons of data users give them to, at the very least, train predictive models off of: "we have an internal system that works to accurately determine your age." ([Stanislav Vishnevskiy](https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing), discord CTO) How does it do that discord? Please elaborate! 
+
+Speaking of, let's get into age verification, shall we? They've kept user government ID photos that they claim to delete "within sixty days after the age appeal ticket is closed" ([source](https://support.discord.com/hc/en-us/articles/5431812448791-How-long-Discord-keeps-your-information)) as showcased by the recent [data breach](https://cybersecuritynews.com/discord-data-breach-sensitive-data/) that exposed government IDs of at least 70,000 people who submitted one to discord. (Yes I am aware the breach was from a subcontractor. No, I do not care. Corporations should be held fully accountable and liable for vetting and overseeing their subcontractors, period.) And this was before the whole recent mandatory verification thing!  Now they're rolling out [global age verification](https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing) without governmental obligation in a vast number of the areas it will apply. For what purpose? If I had to guess, I'd say brand safety going into the IPO. Accusations of grooming and CSAM on your platform scare investors, so you need a convenient defense to hide behind while doing nothing to actually help the situation. And No, collecting a bunch of high value data on children in a convenient little bundle for hackers, and creating further stratification between adults and children where groomers can simply choose to move to childrens' spaces is NOT helping kids. 
+ 
+
+#### Twitter-likes
+
+You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) and a [Benn Jordan Video](https://youtu.be/GZ5XN_mJE8Y?si=PVcaiaMntopHy4SE) that highlight some pretty major problems with the platform. And while those may be macro issues and you're just one silly little guy, your presence still lends backing to the platform's decisions and adds to the platform's power. If you agree the world would be a better place if everyone sane simultaneously stopped using twitter, I would urge you to consider being the change you want to see in the world, taking the hit, and leaving yourself. Or event just shopping around. It costs nothing to have multiple accounts. 
+
+##### Mastodon
+
+More and more, I've been convinced that open source, decentralized, federated social media is the only way forward. And no project is more emblematic of that ideal than [mastodon](https://joinmastodon.org/). 
+
+Anyone can run up a mastodon server and federate it to the rest of them, or keep it local. This makes the community, communal. It involves people that exist on the platform as well as those who run it. This also makes it less prone to evil design and dark patterns.

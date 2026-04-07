@@ -147,7 +147,7 @@ I jokingly listed a few examples above, but in theory, a hermit could come along
 
 Now you figure out what's feasable for you to do, right now, that will make it a little bit better. Then you do it. And you keep doing it. That's the only way any of this gets any better. A shit ton of people doing little things, a bit at a time.
 
-I don't know what the future holds, but I know it'll be better if everyone did thier best to put in a bit of work, little by lttle, over a long period of time. 
+I don't know what the future holds, but I know it'll be better if everyone did their best to put in a bit of work here and there, little by lttle, over a long period of time. 
 
 #### Sidenote: Not there yet.
 
@@ -168,7 +168,9 @@ Needless to say, this natural FOMO buildup is ruthlessly profited off, due to th
 First off, calm down. Perhaps you've built up a lot of social infrastructure on said platform and would suffer negative social consequenses for leaving. Which is a fair point! 
 But if you think about it, isn't that itself a problem? Would you be able to reach the people you care about if the platform went down? Or you account got banned? 
 
-Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This, in turn makes it easier for other people to leave as well, as they can follow your lead.
+Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This, in turn makes it easier for other people to leave as well, as they can follow your lead. 
+
+And honestly, in my experience, poking around different software can be really fun! Looking at different ways that people tried to approach design problems, different UI, different performance, all puts all of your other experience in context. You now have one more data point to look at the world of software with. 
 
 ## Wrangling the modern internet: A Guide
 

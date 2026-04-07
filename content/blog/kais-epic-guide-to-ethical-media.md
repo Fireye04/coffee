@@ -135,13 +135,40 @@ For you non-technical people reading this because you want to feel included, bas
 
 ### Use is endorsement
 
-TODO
+When you use something, you're endorsing it. Period. There's a base level of buy-in contained in simply choose to use something, and continue using it. A level that even words to the contrary can't counter, as much as we hope they might. Did you pay money for it? Does it send telemetry to the manufacturer? Does it show you ads? Have you developed a set of skills or expertise in its usage? Do other people see you using it? These, and many many more, are all forms of endorsement. 
+
+The reason I want to hammer this one home is that I hear a lot of people excusing their use of problematic technology, and heck, a lot of other stuff this way. "I don't support elon but I'm just on twitter for this random ass meme account." "I support trans people, but i just bought this harry potter merch for the nostalgia." "I don't support the bigotry, but I'm just using hyprland for the animations." (Just use [Niri](https://github.com/niri-wm/niri), you're welcome). 
+
+Shade aside, we should stop excusing our unethical behavior like this. Rather, recognize yourself as an imperfect entity, acknowledge the flaws and drawbacks to your specific technology use, and try to make them better, one step at a time. Because, again, nobody is perfect, and I wholeheartedly include myself in this group.
+
+I jokingly listed a few examples above, but in theory, a hermit could come along out of the mountains and declare my usage of a laptop computer as unethical due to its sourcing involving the exploitation of labourers around the world, that my purchase and usage of it is a direct endorsement of that system, and **they'd be right.** 
+
+#### Ok so everything sucks, got it. What now?
+
+Now you figure out what's feasable for you to do, right now, that will make it a little bit better. Then you do it. And you keep doing it. That's the only way any of this gets any better. A shit ton of people doing little things, a bit at a time.
+
+I don't know what the future holds, but I know it'll be better if everyone did thier best to put in a bit of work, little by lttle, over a long period of time. 
+
+#### Sidenote: Not there yet.
+
+Please don't beat yourself up if you can't do any of this. I've been there. Sometimes you're just not in a place where you can worry about big stuff, and you just have to focus on putting one foot in front of the other. That's alright too. It won't help anyone to burn yourself out worrying about this shit on top of your own garbage. Focus on yourself right now, and hopefully you too will eventually have the luxury of worrying about ethics. 
 
 ### Extracting from an embedded platform 101
 
+When thinking about social media platforms, the idea of one or another being "embedded" is almost a socially accepted default. Try to take ten steps into your local music scene without seeing an instagram page, I dare you.
+
+The idea of an embedded social media platform is one in which the majority of the userbase is currently on. One that becomes less socially accceptable to not have, and one in which a large body of social interaction takes place. This is convenient for users as it's a bit of a hassle to move between platforms, however it's also really profitable for corporations. They can do whatever they want! What are you going to do? leave? LOL!
+
+Needless to say, this natural FOMO buildup is ruthlessly profited off, due to the incredibly inelastic demand. (Read: Corporations take advantage of you via ruthless advertising and data collection , and they just can as a result of you socially being unable to leave). But leave we must. 
+
+#### I don't want to, your honor!
+
 > "But Kai! All of my friends are on {{nondescript platform name here}}! If I didn't have it, I would DIE!"
 
+First off, calm down. Perhaps you've built up a lot of social infrastructure on said platform and would suffer negative social consequenses for leaving. Which is a fair point! 
+But if you think about it, isn't that itself a problem? Would you be able to reach the people you care about if the platform went down? Or you account got banned? 
 
+Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This, in turn makes it easier for other people to leave as well, as they can follow your lead.
 
 ## Wrangling the modern internet: A Guide
 
@@ -178,7 +205,7 @@ If you use youtube on your phone, you'll notice the app doesn't benefit from bro
 
 #### Alternatives
 
-Youtube is a tough one to replace due to the heavy infrastructure video upload and playback requires. Nonetheless, [Peertube](https://joinpeertube.org/), a FOSS alternative, has risen to the occasion. It's not a full youtube replacement yet, but functionally it works, so now it just needs to build the userbase. As an added bonus, it's also federated, which means you can host your own peertube instance and have everything hosted on your own hardware, while also optinoally communicating with other people doing the same.
+Youtube is a tough one to replace due to the heavy infrastructure that video upload and playback requires. Nonetheless, [Peertube](https://joinpeertube.org/), a FOSS alternative, has risen to the occasion. It's not a full youtube replacement yet, but functionally it works, so now it just needs to build the userbase. As an added bonus, it's also federated, which means you can host your own peertube instance and have everything hosted on your own hardware, while also optinoally communicating with other people doing the same.
 
 You can actually find my peertube account [here](https://makertube.net/c/fireye.coffee)! (Thanks a bunch to makertube for letting me onto their server!). 
 

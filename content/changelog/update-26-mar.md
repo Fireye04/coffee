@@ -6,7 +6,7 @@ categories:
 ---
 
 ## Content
-- Added makertube account to [About](/About)
+- Added makertube account to [About](/about)
 
 ## Fixes
 

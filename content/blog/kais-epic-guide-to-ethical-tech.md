@@ -1,7 +1,7 @@
 ---
 date: '2026-03-23T13:56:30-07:00'
 draft: false
-title: "Kai's epic guide to ethical media consumption"
+title: "Kai's epic guide to ethical technology"
 description: default
 categories:
 - blog
@@ -12,7 +12,7 @@ params:
     original: '2026-03-23T13:56:30-07:00' 
 ---
 
-This is post one in a two post combo: this one details how you can manage your own media consumption, and the other details how you can start owning your own online identity via creating your own website. Both are targetted at people who know next to nothing about such concepts. 
+This is post one in a two post combo: this one details how you can manage your own technology use, and the other details how you can start owning your own online identity via creating your own website. Both are targetted at people who know next to nothing about such concepts. 
 
 In this blog post, I'm going to go over a lot of ethical ideas on the internet and how I've found we should use it. I'm also going to be providing a lot of free tools and applications that pretty much anyone my benefit from. If you just want the latter, you can scroll down and go link fishing. Otherwise, strap in for a *lot* of yapping. It's gonna be a bumpy ride.
 
@@ -44,12 +44,12 @@ Not only are modern operating systems designed meticulously for user retention a
 Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. (Windows, anyone?)
 Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
 
-Regardless, this topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system for many windows and mac users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V, or burning your phone with gasoline and casting it into the cursed pit from whence it came.
+Regardless, this topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and mac users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V, or burning your phone with gasoline and casting it into the cursed pit from whence it came.
 
 ### Free & Open Source Software
 
 You've probably heard the term "Open Source" thrown around in regards to software, and have correctly ascertained that this means the code that makes the software do things is, well... open. 
-Not all public code is open source, though, as open source specifically refers to public code that *anyone* can do *anything* with. 
+Not all public code is open source, though, and open source specifically refers to public code that *anyone* can do *anything* with. 
 There are a few things that this *means*, though, that I'm not sure are well understood by the layperson, so I want to give a quick crash course on it now. 
 
 First off, you've used open source software before. You probably use it every day. Youtube uses [FFMPEG](https://ffmpeg.org/) for video transcoding. Pretty much every website uses a [linux](https://kernel.org/)-based server to send you http(s) results, potentially via [Nginx](https://github.com/nginx/nginx) or [Apache](https://github.com/apache/httpd). You know those sketchy youtube to mp3/mp4 downloaders? They're all almost certainly running [yt-dlp](https://github.com/yt-dlp/yt-dlp) behind the scenes. Though for some reason, *cough* advertising *cough*, people don't really know that they can use open source software directly, as well as indirectly. 
@@ -60,6 +60,7 @@ From a user perspective, you simply swap over to the new fork, and keep using it
 If you want a new feature, you can ask, and see what exactly is going on, and how progress is coming. 
 If you want to learn how the thing works, or modify it, you can *just do that*. 
 If you want to share your changes with everyone else, you can. 
+It's like an entire area of industry completely free of garbage copyright systems-- it's beautiful.
 
 Not everyone will want to take full advantage of the above, but just the comfort alone of knowing that some probably publicly traded company isn't going to totally lose their shit and fuck me over for having learned their software has made the swap well worth it. Fuck you, Unity.
 
@@ -108,6 +109,42 @@ At some level, a lot of design patterns fall into this category. Think of the al
 
 These properties are not incidental; They're designed.
 
+### LLMs and Generative Models
+
+I've been at ends about slop posting on my blog. My main thought pattern is thus: I simply don't want to give it credence by talking about it more, and the less time it spends cluttering my mind, the better. That said, in a manifesto-style schitzo-post on tech usage such as this one, there's really no getting around it. 
+
+I will be referring to these concepts as "LLMs and Generative Models" or more succinctly, just "slop". The term "AI" is unfathomably broad and applies to completely unrelated concepts such as enemy behavior trees in games. It is also the preferred corporate langauage for these objects that also just so happens to evoke profitable misconceptions about the functionality and efficacy therein, so I will not be using it.
+
+Off the bat, I do not use LLMs and Generative Models, I avoid tools that include slop features wherever possible, and I've been working to avoid [software that is built with these tools](https://codeberg.org/small-hack/open-slopware) where I can. Though that last point has become almost entirely unfesable, as I will get into later.
+
+I'll also be starting by defining what we're working with: what these things are (broadly), use cases, and downsides/ pitfalls, then moving on to the ethical implications of usage, so please bear with me. This is a field that's still relatively new and incredibly frought, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
+
+#### LLMs 
+
+First order of business, LLMs are autocorrect. That's literally it. Autocorrect is not your friend. Autocorrect is not an expert. Autocorrect is not an omniscient god. Though, autocorrect is actually a pretty good thesaurus. And if we're getting philosophical, it's also a pretty good mirror of the internet and broader societal perception as a whole. 
+
+My [Ethics Teacher](https://ramielali.com/) has likened a LLM to a lossy snapshot of the internet. I really like this comparison, as it succinctly captures the essence of a LLM. The only reason LLMs can do what they do is the sheer mass of data that they require to operate. They get this data by scraping the internet. I'll get into the more dubious elements therein later, but for our purposes right now, this accumulation of data allows someone to ask a model something, and get the "average" answer. Not necessarily the correct answer, as LLMs have no idea what truth even is, but the average answer, as represented by the accumulation of data. The goal with this data is to reproduce natural-sounding langauage. In this goal, I think everyone can generally agree, LLMs have succeeded. Is this a genuine use case? Perhaps a little bit, as I mentioned above, as a thesaurus. However, as I said earlier, they have no conception of the truth, and thus the validity of any generated statment should be perpetually in question.
+
+"[ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5)" (Hicks, Humphries, Slater) is an ethics paper that describes LLM output not as truths, lies, or hallucination, but rather as "Bullshit." And it does so in a technical sense, rather than a colloquial one. The term "bullshit" in this context sits at odds with the ideas of truth and lies. Both truth and lies acknowledge the presence of a truth, they simply have opposing goals regarding it. Conversely, Bullshit has no regard for truth whatsoever. Doubtlessly, many people are adept bullshitters in this sense, but this characterization of LLM output seems pretty spot on to me. The paper goes on to contest the term "hallucination" in the context of falsehoods contained within LLM output, as it suggests a level of perception that exists in the model in the first place that is then being undermined in some way. This perception does not exist in the first place, so this term unduly anthropomorphises models and gives users a false image of their capabilities and salience. Further, they argue the process that results in a generated falsehood and the process that does not are one and the same. These falsehoods are not a hiccup or bug of the model, but are simply artifacts of the LLM, as designed. The term "hallucination" unduly characterizes them as such, where "bullshit" does not. 
+
+The agreggate data elements of LLMs are pretty genuinely fascinating though, especially as a mode of querying societal perceptions and ineqity. A few of the examples that my ethics teacher showed me in class involved asking a LLM to give you a jail sentence in days based on two crimes, and change only the gender or race between the two (a black person was given double the sentence as a white person, all else equal), asking a LLM whether certain groups of people deserved basic human rights, (to which it responded "all people deserve human rights"), then asking whether palestinians deserve human rights, (to which it responded a concerningly long and verbose "it's complicated"). Like it or not, this is what we're working with. This is the aggregate of pretty much the entire internet and every  single piece of information that AI companies could get their hands on. And like it or not, that does say something about the people whose information trained it. All of us.
+
+Of course, this is a mostly un-scientific mode of drawing conclusions, but it does highlight a lot of important ideas and issues with our society as a whole, and if that can shake someone out of the malaise of ignorance or apathy, then I think the technology does have a bit of genuine value! Of course, coming back to planet earth, we're not using LLMs like this. We've actually sprinted away from this kind of LLM behaviour as fast as our little legs can take us. After all, nobody wants to hear about modern day prejudice, and it would be a lot more convenient to duct tape those parts of the model off so the shareholders don't see our model going haywire and calling itself something crazy like "mecha hitler" or something. God forbid they start thinking there might be something wrong with the society and individuals that ended up producing that output. No, no. Better to guardrail it and pretend everything's fine. Much easier than making positive societal change.
+
+Unfortunately in the context of how we use LLMs now (Read: for literally fucking everything why the fuck are we putting LLMs in toothbrushes fuck literally everything I just $50 of RAM to cost $50 *sobbing*), I think realistically the best case scenario is that those guardrails get real good real fast. Heavy benefit of the doubt here, but assuming the whole Grok CSAM thing wasn't intentional, that kind of usage is just going to get more common as models become more and more accessible. These companies in charge must be held to standards and regulation hitherto unseen, or some really fucking bad shit is going to happen. Though, what am I even saying, you probably heard a little laugh track in your head at the word "regulation." Me too, buddy. Me too.
+
+#### Open source slop is not real (mostly)
+
+There's a quite good, if a little technical, [blog post](https://tante.cc/2024/10/16/does-open-source-ai-really-exist/) by Smashing Frames that gets into this in much more depth than I have time for in this already quite huge post, but suffice it to say, just throwing a bunch of weights out there without saying how you got them, or from where, is not open. This is equivalent of publishing a binary blob to github and calling it "open source." This is only open source in the sense that "everything's open source if you have unlimited time and can read decompiler output," which, for the layperson, is a hacking joke and not actually indicative of open source status.
+
+#### Slop in open source
+
+Instead, 
+
+#### Avoiding Slop
+
+That's the neat part, you can't.
+
 ### Decentralization and Federation
 
 These two ideas frequently come hand in hand, with some caveats. 
@@ -148,6 +185,8 @@ I jokingly listed a few examples above, but in theory, a hermit could come along
 Now you figure out what's feasable for you to do, right now, that will make it a little bit better. Then you do it. And you keep doing it. That's the only way any of this gets any better. A shit ton of people doing little things, a bit at a time.
 
 I don't know what the future holds, but I know it'll be better if everyone did their best to put in a bit of work here and there, little by lttle, over a long period of time. 
+
+There's another good Smashing Frames [post](https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/) on this, that i'd also recommend. You don't need to agree with everything in there to get a lot out of it; It's a very thought-provoking piece.
 
 #### Sidenote: Not there yet.
 

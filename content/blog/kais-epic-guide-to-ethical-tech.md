@@ -8,7 +8,7 @@ categories:
 blog-tags:
 - default
 params:
-    toc: false
+    toc: true
     original: '2026-03-23T13:56:30-07:00' 
 ---
 
@@ -117,7 +117,7 @@ I will be referring to these concepts as "LLMs and Generative Models" or more su
 
 Off the bat, I do not use LLMs and Generative Models, I avoid tools that include slop features wherever possible, and I've been working to avoid [software that is built with these tools](https://codeberg.org/small-hack/open-slopware) where I can. Though that last point has become almost entirely unfesable, as I will get into later.
 
-I'll also be starting by defining what we're working with: what these things are (broadly), use cases, and downsides/ pitfalls, then moving on to the ethical implications of usage, so please bear with me. This is a field that's still relatively new and incredibly frought, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
+I'll also be starting by defining what we're working with: what these things are (broadly), use cases, and downsides/ pitfalls, then moving on to the ethical implications of usage, so please bear with me. This is a field that's still relatively new and incredibly nuanced, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
 
 #### LLMs 
 
@@ -125,13 +125,45 @@ First order of business, LLMs are autocorrect. That's literally it. Autocorrect 
 
 My [Ethics Teacher](https://ramielali.com/) has likened a LLM to a lossy snapshot of the internet. I really like this comparison, as it succinctly captures the essence of a LLM. The only reason LLMs can do what they do is the sheer mass of data that they require to operate. They get this data by scraping the internet. I'll get into the more dubious elements therein later, but for our purposes right now, this accumulation of data allows someone to ask a model something, and get the "average" answer. Not necessarily the correct answer, as LLMs have no idea what truth even is, but the average answer, as represented by the accumulation of data. The goal with this data is to reproduce natural-sounding langauage. In this goal, I think everyone can generally agree, LLMs have succeeded. Is this a genuine use case? Perhaps a little bit, as I mentioned above, as a thesaurus. However, as I said earlier, they have no conception of the truth, and thus the validity of any generated statment should be perpetually in question.
 
-"[ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5)" (Hicks, Humphries, Slater) is an ethics paper that describes LLM output not as truths, lies, or hallucination, but rather as "Bullshit." And it does so in a technical sense, rather than a colloquial one. The term "bullshit" in this context sits at odds with the ideas of truth and lies. Both truth and lies acknowledge the presence of a truth, they simply have opposing goals regarding it. Conversely, Bullshit has no regard for truth whatsoever. Doubtlessly, many people are adept bullshitters in this sense, but this characterization of LLM output seems pretty spot on to me. The paper goes on to contest the term "hallucination" in the context of falsehoods contained within LLM output, as it suggests a level of perception that exists in the model in the first place that is then being undermined in some way. This perception does not exist in the first place, so this term unduly anthropomorphises models and gives users a false image of their capabilities and salience. Further, they argue the process that results in a generated falsehood and the process that does not are one and the same. These falsehoods are not a hiccup or bug of the model, but are simply artifacts of the LLM, as designed. The term "hallucination" unduly characterizes them as such, where "bullshit" does not. 
+"[ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5)" (Hicks, Humphries, Slater) is an ethics paper that describes LLM output not as truths, lies, or hallucination, but rather as "Bullshit." And it does so in a technical sense, rather than a colloquial one. The term "bullshit" in this context sits at odds with the ideas of truth and lies. Both truth and lies acknowledge the presence of a truth, they simply have opposing goals regarding it. Conversely, Bullshit has no regard for truth whatsoever. Doubtlessly, many people are adept bullshitters in this sense, but this characterization of LLM output seems pretty spot on to me. 
+
+The paper goes on to contest the term "hallucination" in the context of falsehoods contained within LLM output, as it suggests a level of perception that exists in the model in the first place that is then being undermined in some way. This perception does not exist in the first place, so this term unduly anthropomorphises models and gives users a false image of their capabilities and salience. Further, they argue the process that results in a generated falsehood and the process that does not are one and the same. These falsehoods are not a hiccup or bug of the model, but are simply artifacts of the LLM, as designed. The term "hallucination" does not characterize them as such, where "bullshit" does. 
 
 The agreggate data elements of LLMs are pretty genuinely fascinating though, especially as a mode of querying societal perceptions and ineqity. A few of the examples that my ethics teacher showed me in class involved asking a LLM to give you a jail sentence in days based on two crimes, and change only the gender or race between the two (a black person was given double the sentence as a white person, all else equal), asking a LLM whether certain groups of people deserved basic human rights, (to which it responded "all people deserve human rights"), then asking whether palestinians deserve human rights, (to which it responded a concerningly long and verbose "it's complicated"). Like it or not, this is what we're working with. This is the aggregate of pretty much the entire internet and every  single piece of information that AI companies could get their hands on. And like it or not, that does say something about the people whose information trained it. All of us.
 
 Of course, this is a mostly un-scientific mode of drawing conclusions, but it does highlight a lot of important ideas and issues with our society as a whole, and if that can shake someone out of the malaise of ignorance or apathy, then I think the technology does have a bit of genuine value! Of course, coming back to planet earth, we're not using LLMs like this. We've actually sprinted away from this kind of LLM behaviour as fast as our little legs can take us. After all, nobody wants to hear about modern day prejudice, and it would be a lot more convenient to duct tape those parts of the model off so the shareholders don't see our model going haywire and calling itself something crazy like "mecha hitler" or something. God forbid they start thinking there might be something wrong with the society and individuals that ended up producing that output. No, no. Better to guardrail it and pretend everything's fine. Much easier than making positive societal change.
 
 Unfortunately in the context of how we use LLMs now (Read: for literally fucking everything why the fuck are we putting LLMs in toothbrushes fuck literally everything I just $50 of RAM to cost $50 *sobbing*), I think realistically the best case scenario is that those guardrails get real good real fast. Heavy benefit of the doubt here, but assuming the whole Grok CSAM thing wasn't intentional, that kind of usage is just going to get more common as models become more and more accessible. These companies in charge must be held to standards and regulation hitherto unseen, or some really fucking bad shit is going to happen. Though, what am I even saying, you probably heard a little laugh track in your head at the word "regulation." Me too, buddy. Me too.
+
+#### Generative Models
+
+I don't think I fully understand the value of generative models. Images, video, music, speech, etc... At the very least it's a modeately interesting technical problem, but its existence only really serves to replace people in creative industry with the hollow shell of pure output. This touches a bit on the idea of commoditization of art, and the kantian use of people as mere means. 
+
+##### Art posting
+
+Broadly, I like to define art as human expression. This definition is quite broad and includes a lot of crazy shit that people might not conventionally think of as "art." I do not care. Perspective is a key aspect of art, so gatekeeping an artist by telling them their art isn't art isn't productive nor helpful. Instead, we should critique the art itself, and if necessary, simply concede that it's not for us, whatever it may be. The value in art, however, is not the residue that it sometimes results in, but rather in the process itself. The lessons learned. The skills obtained. The base human joy of creation and expression. This is what makes art beautiful and what makes us grow as artists and as people.
+
+However,this system of ours prioritizes only what can be sold: that residue. And in doing so, it tells people that the rest does not matter. If there's only one take away you're taking from this section, I want it to be that you should appreciate the beauty of the artistic process just a little bit more.
+
+##### Slop == art?
+
+So, what does this make slop? Well, it's complicated. 
+
+First off, let's look at the model itself. I think the engineering and programming that people did to create such a thing definitely qualifies as such. In this sense, a LLM or generative model itself is art. Now, I'm not making any statments as to the quality, morality, or societal implications of the piece, but I do think it's art. 
+
+Now for the output. I want to take a leaf out of other artistic mediums here to make my argument. Imagine, if you will, an art exhibit that involves the viewer somehow. This could be an interactive museum exhibit or a pretentious art installation in a gallery. For the sake of the argument I'll imaigne a contraption of some sort with a weight, and a paintbrush, and a set of canvases. Viewers are encouraged to gently push the weight in their preferred direction, and observe the contraption paint. There is no argument that the contraption itself is art. However, in its inclusion of the viewer, it creates some further questions: is the interaction between the viewer and the piece art? And is the resulting painting artistic residue? I would argue yes. 
+
+In my mind, this is actually a very simple game. 
+
+And, hot take, I think we should be moving towards a future where people can spend *more* of their time making art, not less. 
+
+#### Cracks In systems
+
+Interestingly, the advent of this kind of technology is showcasing all kinds of problems, not only with itself, but with our society and our systems. 
+
+##### School System
+
+##### Copyright System
 
 #### Open source slop is not real (mostly)
 
@@ -144,6 +176,8 @@ Instead,
 #### Avoiding Slop
 
 That's the neat part, you can't.
+
+#### Corpo Slop, homemade slop
 
 ### Decentralization and Federation
 
@@ -176,9 +210,11 @@ When you use something, you're endorsing it. Period. There's a base level of buy
 
 The reason I want to hammer this one home is that I hear a lot of people excusing their use of problematic technology, and heck, a lot of other stuff this way. "I don't support elon but I'm just on twitter for this random ass meme account." "I support trans people, but i just bought this harry potter merch for the nostalgia." "I don't support the bigotry, but I'm just using hyprland for the animations." (Just use [Niri](https://github.com/niri-wm/niri), you're welcome). 
 
-Shade aside, we should stop excusing our unethical behavior like this. Rather, recognize yourself as an imperfect entity, acknowledge the flaws and drawbacks to your specific technology use, and try to make them better, one step at a time. Because, again, nobody is perfect, and I wholeheartedly include myself in this group.
+Shade aside, we should stop excusing our unethical behavior like this. Rather, recognize yourself as an imperfect entity, acknowledge the flaws and drawbacks to your specific actions, and try to make them better, one step at a time. Because, again, nobody is perfect, and I wholeheartedly include myself in this group.
 
 I jokingly listed a few examples above, but in theory, a hermit could come along out of the mountains and declare my usage of a laptop computer as unethical due to its sourcing involving the exploitation of labourers around the world, that my purchase and usage of it is a direct endorsement of that system, and **they'd be right.** 
+
+Friends of mine have made very good points that I completely agree with about the ethical benefits of [biking](https://enemyhideout.com/) as opposed to driving, or [vegetarianism](https://theblipbloop.github.io/) as opposed to supporting the meatpacking industry. I currently continue to do both; I couldn't go climbing as frequently without+ a car, and would probably starve to death without the protien input that meat provides. Does this undermine my ethical 
 
 #### Ok so everything sucks, got it. What now?
 

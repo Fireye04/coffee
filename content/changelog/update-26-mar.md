@@ -9,6 +9,7 @@ categories:
 - Added makertube account to [About](/about)
 
 ## Fixes
+- Updated homepage with better RSS references.
 
 ## Features
 - We now support the [Human.json](https://codeberg.org/robida/human.json) protocol

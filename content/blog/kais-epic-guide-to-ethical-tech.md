@@ -157,12 +157,20 @@ In my mind, this is actually a very simple game. Games feature an interesting di
 
 Perhaps they take the weight off and attempt to paint a friend's portrait using the mechanics of the contraption. Or figure out a modification for the mechanics that allow the machine to interpret the swinging of the weight completely differently. Or use the machine as a paperweight. This is very similar to [how many D&D players use 5e](/blog/dnd-is-not-for-everyone/)! Most players, however, will simply choose the simplest or most straightforward, optimal option. As game designers, this is what we optimize and design for; Our goal is to make this optimal option also the most fun option. Or the most punishing option. Or the most thematically interesting option. In doing so, we are designing around player behavior. We are shaping this secondary art's possibility space. We are (usually) not designing for when players decompile our game and hack in an infinite cheese spawner. Yet the latter is, without a doubt, a much more creative mode of secondary art than simple, straightforward engagement with the provided systems.
 
-These varying modes of secondary art create a spectrum of creativity within the possibility space, ranging from art that many would refuse to consider art, to [works of genuine wonder](https://www.youtube.com/watch?v=0RPfhmECbX4)\*. I don't wish to make unfathomably huge sweeping conclusions, however, in the vast majority of cases I would argue this secondary spectrum of creativity is simply of lower creative value than its corresponding primary spectrum. Game mods as compared to games. Fanfic as compared to the original pieces. Rarely do we see 
+These varying modes of secondary art create a spectrum of creativity within the possibility space, ranging from art that many would refuse to consider art, to [works of genuine wonder](https://www.youtube.com/watch?v=0RPfhmECbX4)\*. All this to say: I would pose that the idle generation of slop by a human is a form of secondary art, low on the secondary creativity spectrum.
 
-
-All this to say: I would pose that the idle generation of slop by a human is a form of secondary art, low on this creativity spectrum.
+However, one quick little problem. Where does this spectrum begin and end? Have you created low-creativity secondary art simply by looking at a piece? Thinking about it? NOT thinking about it? (You just lost [the game](https://en.wikipedia.org/wiki/The_Game_(mind_game)) lol) Moreover, if you draw inspiration from another piece in your creation of primary art, is it now secondary art? 
 
 \*: Disclaimer: *This link is included for \*comedic effect\*. If you do not consider it a work of genuine wonder, feel free to substitute it in your mind for something that is, such as an innovative game mod/ hack or some other form of secondary art. <abbr title="THIS IS ALSO A JOKE">There's nothing I can do about bad taste, unfortunately</abbr>.*
+
+##### Gender isn't real
+
+Just like the socially constructed concept of human gender, I have crafted a false binary structure between primary and secondary art. (Yes, both of those were me; I regret my actions). While there generally "feels" like there should be a distinction, I don't think there is. Art is derivative, after all. Outside a vaccum why should one art be considered "Primary" and another "secondary?" Each of our tools is a piece of art in some respect, and we all take inspiration from the people and works around us. Is a [game mod of theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), in which a game mod copies the original source code and completely rewrites it, secondary or primary art? 
+
+
+Would you say most super mario playthroughs are more artistically fullfilling than the game itself?
+
+
 
 ##### What does this actually mean?
 

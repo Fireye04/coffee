@@ -117,7 +117,7 @@ I will be referring to these concepts as "LLMs and Generative Models" or more su
 
 Off the bat, I do not use LLMs and Generative Models, I avoid tools that include slop features wherever possible, and I've been working to avoid [software that is built with these tools](https://codeberg.org/small-hack/open-slopware) where I can. Though that last point has become almost entirely unfesable, as I will get into later.
 
-I'll also be starting by defining what we're working with: what these things are (broadly), use cases, and downsides/ pitfalls, then moving on to the ethical implications of usage, so please bear with me. This is a field that's still relatively new and incredibly nuanced, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
+I'll also be starting by temporarily putting the many ethical implications of using such tools aside, and defining what we're working with: what these things are (broadly), some use cases, and some potential inherent problems in the technology, then moving on to those full ethical implications, so please bear with me. This is a field that's still relatively new and incredibly nuanced, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
 
 #### LLMs 
 
@@ -141,7 +141,7 @@ I don't think I fully understand the value of generative models. Images, video, 
 
 ##### Art posting
 
-Broadly, I like to define art as human expression. This definition is quite broad and includes a lot of crazy shit that people might not conventionally think of as "art." I do not care. Perspective is a key aspect of art, so gatekeeping an artist by telling them their art isn't art isn't productive nor helpful. Instead, we should critique the art itself, and if necessary, simply concede that it's not for us, whatever it may be. The value in art, however, is not the residue that it sometimes results in, but rather in the process itself. The lessons learned. The skills obtained. The base human joy of creation and expression. This is what makes art beautiful and what makes us grow as artists and as people.
+Oh boy here I go art posting again! Broadly, I like to define art as human expression. This definition is quite broad and includes a lot of crazy shit that people might not conventionally think of as "art." I do not care. Perspective is a key aspect of art, so gatekeeping an artist by telling them their art isn't art isn't productive nor helpful. Instead, we should critique the art itself, and if necessary, simply concede that it's not for us, whatever it may be. The value in art, however, is not the residue that it sometimes results in, but rather in the process itself. The lessons learned. The skills obtained. The base human joy of creation and expression. This is what makes art beautiful and what makes us grow as artists and as people.
 
 However,this system of ours prioritizes only what can be sold: that residue. And in doing so, it tells people that the rest does not matter. If there's only one take away you're taking from this section, I want it to be that you should appreciate the beauty of the artistic process just a little bit more.
 
@@ -165,32 +165,43 @@ However, one quick little problem. Where does this spectrum begin and end? Have 
 
 ##### Gender isn't real
 
-Just like the socially constructed concept of human gender, I have crafted a false binary structure between primary and secondary art. (Yes, both of those were me; I regret my actions). While there generally "feels" like there should be a distinction, I don't think there is. Art is derivative, after all. Outside a vaccum why should one art be considered "Primary" and another "secondary?" Each of our tools is a piece of art in some respect, and we all take inspiration from the people and works around us. Is a [game mod of theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), in which a game mod copies the original source code and completely rewrites it, secondary or primary art? 
+Just like the socially constructed concept of human gender, I have crafted a false binary structure between primary and secondary art. (Yes, both of those were me; I regret my actions). While there generally "feels" like there should be a distinction, I don't think there is. Art is derivative, after all. Outside a vaccum why should one art be considered "Primary" and another "secondary?" Each of our tools is a piece of art in some respect, and we all take inspiration from the people and works around us. Is a [game mod of theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), in which a game mod copies the original source code and completely rewrites it, secondary or primary art? I don't think the idea of primary and secondary art is entirely useless as a concept to help frame ideas, but push comes to shove, it simply does not hold itself up to scrutiny.
 
+So now that we no longer have our helpful little dichotomy, what do we do about the whole slop problem? Unfortunately, not much. I'm having trouble decoupling the value of art from its effect on the artist. Yes we have this vague idea of a scale of creativity and some concept of learning and aquiring skills, however the only hard and fast conclusion I can come to here is that this effect is fully individualized. There is no true "objective value" of art, insofar as its impact on the artist, (which is generally unmeasurable), as much as I'd like there to be one. 
 
-Would you say most super mario playthroughs are more artistically fullfilling than the game itself?
+I feel strongly that in the use of a tool, especially one as sweeping as a generative model, in the place of learning a craft, the world has lost something of value. Just as craftsmanship declined with the rise of the industrial revolution and the advent of mass-production, replaced with the souless, uncomprehending usage of machines, and the centralization of production within corporations, I am concerned about another such event occurring here. This is, of course, a subjective opinion though. The admiration I have for true mastery and understanding of a craft, is, to some, unproductive. The process of art is of little to no importance to them. Subjectively, they might find more value in generating slop than creating something themselves. Why waste time learning something, they ask, when a tool could do it for you? To which I'd like to respond: "[If you're nothing without the suit then you shouldn't have it.](https://www.youtube.com/watch?v=Jdz0DfLcJTE)" But, while I thouroughly disagree with this worldview, can I in good conscience refute it on objective grounds? Tell them that their opinion of art is simply incorrect? Unfortunately, due to the subjectivity that permeates my definition of art, I don't think so. 
 
+This lands us at a rather stupid, vague, and useless conclusion: Pretty much everything related to human action is art, and no specific piece is inherently more valueable than another. I think one can potentially attempt to tie some form of external value to the art by querying the audience and obtaining a collective opinion and determining the collective impact. However, this process neglets the value of pieces that do not posess or appeal to an audience, as well as lends undue weight to pieces that are used as mere means of wealth and fame, as opposed to ends in themselves. I will not be exploring it. 
 
+##### I just zoned out really bad, what?
 
-##### What does this actually mean?
+Basically, TL;DR, art is subjective and performative, so if someone thinks they did art, then they have. We may criticize this art for whatever we wish on an individual level, but from my perspective, one cannot categorially reject another's actions as "not art," nor can we make objective statments on the superiority of certain modes of art over others. 
 
-I just said a lot of theoretical things, let's hook this train back into this idea of art commodification. The widespread use and marketing of these models is not one of artistic intent, but rather of corporate profit seeking. While they may afford a commodified art experience, their indended goal is to create saleable, marketable artistic residue, while minimizing or replacing as much of the genuine artistic process as possible. On an individual level, this focus on results over craft might mean less engagement in the artistic process, and less control and understanding of the craft involved. On a societal level, this means that corporations who wish to minimize cost of labour in the production of commodities can simply stop paying artists, making an already impossible career somehow even worse. 
+This is rather frustrating, as I myself very badly want to claim that typing a handful of words into a corporate web portal isn't art or is at the very least objectively worse than *actual* art. But this is just a crude form of poetry is it not? And many people have exclusionary opinions on stupid performance arts ([relevant dropout clip](https://www.youtube.com/watch?v=Yt5VzZCVYqQ)), or even [video games](https://en.wikipedia.org/wiki/Video_games_as_an_art_form)! I think these forms of exclusion are frankly stupid, which is why my definition of art has evolved in the way that it has. You're welcome to disagree with my premise, however, I can't in good conscience breach my own definition of art in this way.
 
-We as consumers need to stop seeing artists and workers as a [mere means](https://plato.stanford.edu/entries/persons-means/) of obtaining art residue and rather as other human beings with desires, struggles, and joys, just like everyone else, who simply want to make a living making art. Observing the current landscape, the use of generated content in place of human art undermines this idea, as the money and resources that would have gone to them, instead makes its way to corporations\*. Like it or not, with the way things are now, fewer artists will be able to survive in this climate, with largely worse-paying, less stable employment, all while corporations use the tech to consolidate power.
+Did I need that many words to say that? I don't even know at this point. 
 
-Thus, this mode of technology should be categorically rejected on ethical grounds until systematic change brings the capacity for artists to comfortably live off their work in conjunction with the use of such technology. 
+Now, let's get this train back on the rails.
 
-My vision of an ideal future is one where people can spend more time making meaningful art and less time working to afford life. I don't think this kind of future needs to explicity exclude clearly marked model-generated content, however, its current existence is almost certainly moving us away from, rather than towards, that future.
+#### Slop and Society
 
-\*: Note: Some may argue that as I have declared the use of models themselves to be a form of (secondary) art, the art that was taken from an artist in this exchange has been adequately transferred to the human generating the art residue through the model. 
+Interesingly, the advent of this kind of technology is showcasing all kinds of problems, not necessarily with itself, but rather with our society and our systems. 
 
-#### Cracks In systems
-
-Interestingly, the advent of this kind of technology is showcasing all kinds of problems, not only with itself, but with our society and our systems. 
 
 ##### School System
 
 ##### Copyright System
+
+##### Capitalism
+
+The widespread use and marketing of these models is not one of artistic intent, but rather of corporate profit seeking. While they may afford a commodified art experience, their indended goal is to create saleable, marketable artistic residue, while minimizing or replacing as much of the genuine artistic process as possible. On an individual level, this focus on results over craft might mean less engagement in the artistic process, and less control and understanding of the craft involved. On a societal level, this means that corporations who wish to minimize cost of labour in the production of commodities can simply stop paying artists and craftspeople, making an already impossible career somehow even worse.
+
+We as consumers need to stop seeing artists and craftspeople as a [mere means](https://plato.stanford.edu/entries/persons-means/) of obtaining art residue and rather as other human beings with desires, struggles, and joys, just like everyone else, who simply want to make a living making art. Observing the current landscape, the use of generated content in place of human art undermines this idea, as the money and resources that would have gone to them, instead makes its way to corporations in exchange for the tools that have replaced them. Like it or not, even if you consider users of such models as such, fewer artists will be able to survive in this climate, with largely worse-paying, less stable employment, all while corporations use the tech to consolidate power. And this assumes the tools are well built and reliable, which [they are not](https://neuromatch.social/@jonny/116324676116121930). If we build infrastructure upon this stuff we will be sacrificing our own capacity to create as well as setting ourselves up for disaster should these tools enshittify or fail outright.
+
+My vision of an ideal future is one where people can spend more time making meaningful art and less time working to afford life, endlessly striving for infinite productivity, the excesses of which are all gained by executives and shareholders rather than individuals. The current existence of generative models is almost certainly moving us away from, rather than towards, that future, at least under modern systems.
+
+Thus, I believe this mode of technology should be categorically rejected until systematic change brings the capacity for artists and craftspeople to comfortably live off their work in conjunction with the use of such technology. 
+
 
 #### Open source slop is not real (mostly)
 

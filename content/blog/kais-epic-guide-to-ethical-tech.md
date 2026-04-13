@@ -169,7 +169,7 @@ Just like the socially constructed concept of human gender, I have crafted a fal
 
 So now that we no longer have our helpful little dichotomy, what do we do about the whole slop problem? Unfortunately, not much. I'm having trouble decoupling the value of art from its effect on the artist. Yes we have this vague idea of a scale of creativity and some concept of learning and aquiring skills, however the only hard and fast conclusion I can come to here is that this effect is fully individualized. There is no true "objective value" of art, insofar as its impact on the artist, (which is generally unmeasurable), as much as I'd like there to be one. 
 
-I feel strongly that in the use of a tool, especially one as sweeping as a generative model, in the place of learning a craft, the world has lost something of value. Just as craftsmanship declined with the rise of the industrial revolution and the advent of mass-production, replaced with the souless, uncomprehending usage of machines, and the centralization of production within corporations, I am concerned about another such event occurring here. This is, of course, a subjective opinion though. The admiration I have for true mastery and understanding of a craft, is, to some, unproductive. The process of art is of little to no importance to them. Subjectively, they might find more value in generating slop than creating something themselves. Why waste time learning something, they ask, when a tool could do it for you? To which I'd like to respond: "[If you're nothing without the suit then you shouldn't have it.](https://www.youtube.com/watch?v=Jdz0DfLcJTE)" But, while I thouroughly disagree with this worldview, can I in good conscience refute it on objective grounds? Tell them that their opinion of art is simply incorrect? Unfortunately, due to the subjectivity that permeates my definition of art, I don't think so. 
+That said, I feel strongly that in the use of a tool, especially one as sweeping as a generative model, in the place of learning a craft, the world has lost something of value. Just as craftsmanship declined with the rise of the industrial revolution and the advent of mass-production, replaced with the souless, uncomprehending usage of machines, and the centralization of production within corporations, I am concerned about another such event occurring here. This is, of course, a subjective opinion though. The admiration I have for true mastery and understanding of a craft, is, to some, unproductive. The process of art is of little to no importance to them. Subjectively, they might find more value in generating slop than creating something themselves. Why waste time learning something, they ask, when a tool could do it for you? To which I'd like to respond: "[If you're nothing without the suit then you shouldn't have it.](https://www.youtube.com/watch?v=Jdz0DfLcJTE)" But, while I thouroughly disagree with this worldview, can I in good conscience refute it on objective grounds? Tell them that their opinion of art is simply incorrect? Unfortunately, due to the subjectivity that permeates my definition of art, I don't think so. 
 
 This lands us at a rather stupid, vague, and useless conclusion: Pretty much everything related to human action is art, and no specific piece is inherently more valueable than another. I think one can potentially attempt to tie some form of external value to the art by querying the audience and obtaining a collective opinion and determining the collective impact. However, this process neglets the value of pieces that do not posess or appeal to an audience, as well as lends undue weight to pieces that are used as mere means of wealth and fame, as opposed to ends in themselves. I will not be exploring it. 
 
@@ -177,7 +177,7 @@ This lands us at a rather stupid, vague, and useless conclusion: Pretty much eve
 
 Basically, TL;DR, art is subjective and performative, so if someone thinks they did art, then they have. We may criticize this art for whatever we wish on an individual level, but from my perspective, one cannot categorially reject another's actions as "not art," nor can we make objective statments on the superiority of certain modes of art over others. 
 
-This is rather frustrating, as I myself very badly want to claim that typing a handful of words into a corporate web portal isn't art or is at the very least objectively worse than *actual* art. But this is just a crude form of poetry is it not? And many people have exclusionary opinions on stupid performance arts ([relevant dropout clip](https://www.youtube.com/watch?v=Yt5VzZCVYqQ)), or even [video games](https://en.wikipedia.org/wiki/Video_games_as_an_art_form)! I think these forms of exclusion are frankly stupid, which is why my definition of art has evolved in the way that it has. You're welcome to disagree with my premise, however, I can't in good conscience breach my own definition of art in this way.
+This is rather frustrating, as I myself very badly want to claim that typing a handful of words into a corporate web portal isn't art or is at the very least objectively worse than *actual* art. But this is just a crude form of poetry is it not? And many people have exclusionary opinions on stupid performance arts ([relevant dropout clip](https://www.youtube.com/watch?v=Yt5VzZCVYqQ)), [musical compositions](https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3), or even [video games](https://en.wikipedia.org/wiki/Video_games_as_an_art_form)! I think these forms of exclusion are frankly stupid, which is why my definition of art has evolved in the way that it has. You're welcome to disagree with it as a premise, however, I can't in good conscience breach my own definition of art in this way.
 
 Did I need that many words to say that? I don't even know at this point. 
 
@@ -185,12 +185,21 @@ Now, let's get this train back on the rails.
 
 #### Slop and Society
 
-Interesingly, the advent of this kind of technology is showcasing all kinds of problems, not necessarily with itself, but rather with our society and our systems. 
-
+Interesingly, the advent of this kind of technology is showcasing all kinds of problems, not necessarily with itself, but rather with our society and our systems; Under different systems the nature of such a technology might not be as negative as it is under ours, which is partially why I'm capable of coming to such an oddly pro-generated art conclusion in the purely theoretical vaccum I presented above. 
 
 ##### School System
 
+As someone in school, the amount of model usage I see is frankly appalling. I can't comment on whether or not models *can* be used educationally, but I know for damn sure that they can be used in lieu of genuine understanding of concepts, and I'd hazard a guess that the majority of usage falls to the latter. 
+
+I'd argue, however, that this is not fully an inherent flaw in models, but rather one in the school system. The gamification of learning through grades was frankly stupid before generative models came around and it'll be stupid long after. And as far as university goes, I'd argue it's more of a corporate tool than it is a learning institution. How many corporations use degree ownership as an applicant sorting mechanism? How many university students are here to satisfy that requirement, or out of some nebulous societal obligation, rather than to actually learn shit?
+
+My distate for the school system is a blog post on its own, but these problems already existed before the dissemination of generative models. The models just made them far more evident and expolitable. 
+
 ##### Copyright System
+
+Models are trained upon anything and everything corporations have been able to get their hands on, with no permission or compensation. This has driven immense bot traffic to websites, the ownsers of which have been left to pick up the bill of serving https requests to tens of thousands of bots. This disproportionately affects open source projects and non-profits, many of which are already suffering financially. This also creates the distinct problem of "License washing" where GPL code or otherwise can be consumed then reproduced by a model under a completely different, more permissive license. Many people have found their art or writing styles perfectly reproduced by models upon request without their consent, which is simply disgusting. 
+
+Not all of these problems are a fault of the copyright system, but many are. Copyright is not a tool of the individual, but rather one of corporations or those with the money for legal counsel. If we simply retreat back to the copyright system to protect our work from being used without our consent, we will be retreating back to a system that will inevitably be used to exploit us in the same way, but legally. Remember that legality and morality are different things; laws can and are changed by those in power to benefit themselves, morally or not.
 
 ##### Capitalism
 
@@ -200,8 +209,7 @@ We as consumers need to stop seeing artists and craftspeople as a [mere means](h
 
 My vision of an ideal future is one where people can spend more time making meaningful art and less time working to afford life, endlessly striving for infinite productivity, the excesses of which are all gained by executives and shareholders rather than individuals. The current existence of generative models is almost certainly moving us away from, rather than towards, that future, at least under modern systems.
 
-Thus, I believe this mode of technology should be categorically rejected until systematic change brings the capacity for artists and craftspeople to comfortably live off their work in conjunction with the use of such technology. 
-
+Thus, I believe this mode of technology should be categorically rejected until systematic change brings, at the very least, the capacity for artists and craftspeople to comfortably live off their work in conjunction with the use of such technology. 
 
 #### Open source slop is not real (mostly)
 

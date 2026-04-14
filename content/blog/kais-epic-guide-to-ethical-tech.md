@@ -280,6 +280,16 @@ For instagram, which I see as the biggest hurdle here, there's a great, mastodon
 
 For any messaging functionality, I'd defer to [Signal](https://signal.org).
 
+### Dating apps
+
+I don't see this one talked about a lot, but it's personally a little horrifying how normalized these have become. Skirting over the many problems with objectifying people that plague these platforms, they also suffer from the same corporate greed that runs social media companies. Keeping people on-platform is how they make money. Doing their literal job is the antithesis to the point of their existence. They just need to jingle some keys in front of you to give you hope every now and then, and ka bam, instant money printer. It also feels pretty icky to me how they play with social dynamics for profit, though in fairness, pretty much any profit-focused social media company will also be doing this.
+
+#### Alternatives
+
+The death of third spaces fucking sucks, but that doesn't mean we need to stop trying. Local maker spaces, events, and hobby/user groups still exist, they're just a bit harder to find. Go outside and talk to strangers. Set up a recurring board game night at your place. Make a community, a support system. Asking friends to set you up on dates isn't normalized anymore, but you can still try.
+
+Bottom line, there are things you can do to meet people. It's not as easy as I hear it used to be, but nothing ever is. We still have to try.
+
 ### Github
 
 Ok ok I know no sane layperson is going to be thinking about github in their spare time, so feel free to skip this one if you just don't care.
@@ -309,6 +319,8 @@ The worst part is that there's a thriving open source competitor to minecraft ca
 This was probably pretty depressing up to now. Not to worry, this post gets better!
 
 ## The Indie Web: An Introduction
+
+Did that last section give you crippling depression about the horrors of modern technology and our collective overreliance on them, as they've slowly but surely co-opted our support systems and  to rely upon them
 
 ### Surfing the Indie Web
 

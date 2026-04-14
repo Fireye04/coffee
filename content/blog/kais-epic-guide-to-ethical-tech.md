@@ -34,18 +34,6 @@ Do remember as you read this that nobody is perfect. Everyone's going to have a 
 
 There's some stuff that I need to go over before we get into the meat and potatoes, or else you won't know what the hell I'm on about.
 
-### Prologue: Accessing the internet
-
-I want to begin by pointing out that the device you use to access the internet isn't just a neutral conduit to the internet; 
-Rather, it's an incredibly sohisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
-(The internet isn't a neutral entity either, but I digress)
-
-Not only are modern operating systems designed meticulously for user retention and data collection (especially mobile ones), but even the hardware is getting more invasive and locked down.
-Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. (Windows, anyone?)
-Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
-
-Regardless, this topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and mac users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V, or burning your phone with gasoline and casting it into the cursed pit from whence it came.
-
 ### Free & Open Source Software
 
 You've probably heard the term "Open Source" thrown around in regards to software, and have correctly ascertained that this means the code that makes the software do things is, well... open. 
@@ -111,119 +99,7 @@ These properties are not incidental; They're designed.
 
 ### LLMs and Generative Models
 
-I've been at ends about slop posting on my blog. My main thought pattern is thus: I simply don't want to give it credence by talking about it more, and the less time it spends cluttering my mind, the better. That said, in a manifesto-style schitzo-post on tech usage such as this one, there's really no getting around it. 
-
-I will be referring to these concepts as "LLMs and Generative Models" or more succinctly, just "slop". The term "AI" is unfathomably broad and applies to completely unrelated concepts such as enemy behavior trees in games. It is also the preferred corporate langauage for these objects that also just so happens to evoke profitable misconceptions about the functionality and efficacy therein, so I will not be using it.
-
-Off the bat, I do not use LLMs and Generative Models, I avoid tools that include slop features wherever possible, and I've been working to avoid [software that is built with these tools](https://codeberg.org/small-hack/open-slopware) where I can. Though that last point has become almost entirely unfesable, as I will get into later.
-
-I'll also be starting by temporarily putting the many ethical implications of using such tools aside, and defining what we're working with: what these things are (broadly), some use cases, and some potential inherent problems in the technology, then moving on to those full ethical implications, so please bear with me. This is a field that's still relatively new and incredibly nuanced, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inacuracies in the following.
-
-#### LLMs 
-
-First order of business, LLMs are autocorrect. Autocorrect is not your friend. Autocorrect is not an expert. Autocorrect is not an omniscient god. Though, autocorrect is actually a pretty good thesaurus. I can't necessarily speak to its programming capabilities due to my ethical aversion, (though I'm skeptical of misuse and laziness), but I'll link a recent [blog post](https://enemyhideout.com/2026/04/sins-of-ai-usage/) from a friend who has a bit more depth of experience and can speak to the tech a bit better. And finally, if we're getting philosophical, it's also a pretty good mirror of the internet and broader societal perception as a whole. Let's talk.
-
-My [Ethics Teacher](https://ramielali.com/) has likened a LLM to a lossy snapshot of the internet. I really like this comparison, as it succinctly captures the essence of a LLM. The only reason LLMs can do what they do is the sheer mass of data that they require to operate. They get this data by scraping the internet. I'll get into the more dubious elements therein later, but for our purposes right now, this accumulation of data allows someone to ask a model something, and get the "average" answer. Not necessarily the correct answer, as LLMs have no idea what truth even is, but the average answer, as represented by the accumulation of data. The goal with this data is to reproduce natural-sounding langauage. In this goal, I think everyone can generally agree, LLMs have succeeded. Is this a genuine use case? Perhaps a little bit, as I mentioned above, as a thesaurus. However, as I said earlier, they have no conception of the truth, and thus the validity of any generated statment should be perpetually in question.
-
-"[ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5)" (Hicks, Humphries, Slater) is an ethics paper that describes LLM output not as truths, lies, or hallucination, but rather as "Bullshit." And it does so in a technical sense, rather than a colloquial one. The term "bullshit" in this context sits at odds with the ideas of truth and lies. Both truth and lies acknowledge the presence of a truth, they simply have opposing goals regarding it. Conversely, Bullshit has no regard for truth whatsoever. Doubtlessly, many people are adept bullshitters in this sense, but this characterization of LLM output seems pretty spot on to me. 
-
-The paper goes on to contest the term "hallucination" in the context of falsehoods contained within LLM output, as it suggests a level of perception that exists in the model in the first place that is then being undermined in some way. This perception does not exist in the first place, so this term unduly anthropomorphises models and gives users a false image of their capabilities and salience. Further, they argue the process that results in a generated falsehood and the process that does not are one and the same. These falsehoods are not a hiccup or bug of the model, but are simply artifacts of the LLM, as designed. The term "hallucination" does not characterize them as such, where "bullshit" does. 
-
-The agreggate data elements of LLMs are pretty genuinely fascinating though, especially as a mode of querying societal perceptions and ineqity. A few of the examples that my ethics teacher showed me in class involved asking a LLM to give you a jail sentence in days based on two crimes, and change only the gender or race between the two (a black person was given double the sentence as a white person, all else equal), asking a LLM whether certain groups of people deserved basic human rights, (to which it responded "all people deserve human rights"), then asking whether palestinians deserve human rights, (to which it responded a concerningly long and verbose "it's complicated"). Like it or not, this is what we're working with. This is the aggregate of pretty much the entire internet and every  single piece of information that AI companies could get their hands on. And like it or not, that does say something about the people whose information trained it. All of us.
-
-Of course, this is a mostly un-scientific mode of drawing conclusions, but it does highlight a lot of important ideas and issues with our society as a whole, and if that can shake someone out of the malaise of ignorance or apathy, then I think the technology does have a bit of genuine value! Of course, coming back to planet earth, we're not using LLMs like this. We've actually sprinted away from this kind of LLM behaviour as fast as our little legs can take us. After all, nobody wants to hear about modern day prejudice, and it would be a lot more convenient to duct tape those parts of the model off so the shareholders don't see our model going haywire and calling itself something crazy like "mecha hitler" or something. God forbid they start thinking there might be something wrong with the society and individuals that ended up producing that output. No, no. Better to guardrail it and pretend everything's fine. Much easier than making positive societal change.
-
-Unfortunately in the context of how we use LLMs now (Read: for literally fucking everything why the fuck are we putting LLMs in toothbrushes fuck literally everything I just $50 of RAM to cost $50 *sobbing*), I think realistically the best case scenario is that those guardrails get real good real fast. Heavy benefit of the doubt here, but assuming the whole Grok CSAM thing wasn't intentional, that kind of usage is just going to get more common as models become more and more accessible. These companies in charge must be held to standards and regulation hitherto unseen, or some really fucking bad shit is going to happen. Though, what am I even saying, you probably heard a little laugh track in your head at the word "regulation." Me too, buddy. Me too.
-
-#### Generative Models
-
-I don't think I fully understand the value of generative models. Images, video, music, speech, etc... At the very least it's a modeately interesting technical problem, but its existence only really serves to replace people in creative industry with the hollow shell of pure output. This touches a bit on the idea of commodification of art, and the kantian use of people as mere means. 
-
-##### Art posting
-
-Oh boy here I go art posting again! Broadly, I like to define art as human expression. This definition is quite broad and includes a lot of crazy shit that people might not conventionally think of as "art." I do not care. Perspective is a key aspect of art, so gatekeeping an artist by telling them their art isn't art isn't productive nor helpful. Instead, we should critique the art itself, and if necessary, simply concede that it's not for us, whatever it may be. The value in art, however, is not the residue that it sometimes results in, but rather in the process itself. The lessons learned. The skills obtained. The base human joy of creation and expression. This is what makes art beautiful and what makes us grow as artists and as people.
-
-However,this system of ours prioritizes only what can be sold: that residue. And in doing so, it tells people that the rest does not matter. If there's only one take away you're taking from this section, I want it to be that you should appreciate the beauty of the artistic process just a little bit more.
-
-##### Slop == art?
-
-So, what does this make slop? Well, it's complicated. 
-
-First off, let's look at the model itself. I think the engineering and programming that people did to create such a thing definitely qualifies as such. In this sense, a LLM or generative model itself is art. Now, I'm not making any statments as to the quality, morality, or societal implications of the piece, but I do think it's art. 
-
-Now for the output. I want to take a leaf out of other artistic mediums here to make my argument. Imagine, if you will, an art exhibit that involves the viewer somehow. This could be an interactive museum exhibit or a pretentious art installation in a gallery. For the sake of the argument I'll imaigne a contraption of some sort with a weight, and a paintbrush, and a set of canvases. Viewers are encouraged to gently push the weight in their preferred direction, and observe the contraption paint. There is no argument that the contraption itself is art. However, in its inclusion of the viewer, it creates some further questions: is the interaction between the viewer and the piece art? And is the resulting painting artistic residue? I would argue yes. 
-
-In my mind, this is actually a very simple game. Games feature an interesting dichotomy of art, where both the game itself is art, but so are the players' interactions with it (eg: speedrunning). Let's label this derivative art "secondary art." These secondary arts are (almost always) both an intended and a designed effect by the designer of the primary piece. The designer of our painting machine designed the thing to be interacted with in a certain way: Pushing the weight. However the secondary artist need not interact with it thus. 
-
-Perhaps they take the weight off and attempt to paint a friend's portrait using the mechanics of the contraption. Or figure out a modification for the mechanics that allow the machine to interpret the swinging of the weight completely differently. Or use the machine as a paperweight. This is very similar to [how many D&D players use 5e](/blog/dnd-is-not-for-everyone/)! Most players, however, will simply choose the simplest or most straightforward, optimal option. As game designers, this is what we optimize and design for; Our goal is to make this optimal option also the most fun option. Or the most punishing option. Or the most thematically interesting option. In doing so, we are designing around player behavior. We are shaping this secondary art's possibility space. We are (usually) not designing for when players decompile our game and hack in an infinite cheese spawner. Yet the latter is, without a doubt, a much more creative mode of secondary art than simple, straightforward engagement with the provided systems.
-
-These varying modes of secondary art create a spectrum of creativity within the possibility space, ranging from art that many would refuse to consider art, to [works of genuine wonder](https://www.youtube.com/watch?v=0RPfhmECbX4)\*. All this to say: I would pose that the idle generation of slop by a human is a form of secondary art, low on the secondary creativity spectrum.
-
-However, one quick little problem. Where does this spectrum begin and end? Have you created low-creativity secondary art simply by looking at a piece? Thinking about it? NOT thinking about it? (You just lost [the game](https://en.wikipedia.org/wiki/The_Game_(mind_game)) lol) Moreover, if you draw inspiration from another piece in your creation of primary art, is it now secondary art? 
-
-\*: Disclaimer: *This link is included for \*comedic effect\*. If you do not consider it a work of genuine wonder, feel free to substitute it in your mind for something that is, such as an innovative game mod/ hack or some other form of secondary art. <abbr title="THIS IS ALSO A JOKE">There's nothing I can do about bad taste, unfortunately</abbr>.*
-
-##### Gender isn't real
-
-Just like the socially constructed concept of human gender, I have crafted a false binary structure between primary and secondary art. (Yes, both of those were me; I regret my actions). While there generally "feels" like there should be a distinction, I don't think there is. Art is derivative, after all. Outside a vaccum why should one art be considered "Primary" and another "secondary?" Each of our tools is a piece of art in some respect, and we all take inspiration from the people and works around us. Is a [game mod of theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), in which a game mod copies the original source code and completely rewrites it, secondary or primary art? I don't think the idea of primary and secondary art is entirely useless as a concept to help frame ideas, but push comes to shove, it simply does not hold itself up to scrutiny.
-
-So now that we no longer have our helpful little dichotomy, what do we do about the whole slop problem? Unfortunately, not much. I'm having trouble decoupling the value of art from its effect on the artist. Yes we have this vague idea of a scale of creativity and some concept of learning and aquiring skills, however the only hard and fast conclusion I can come to here is that this effect is fully individualized. There is no true "objective value" of art, insofar as its impact on the artist, (which is generally unmeasurable), as much as I'd like there to be one. 
-
-That said, I feel strongly that in the use of a tool, especially one as sweeping as a generative model, in the place of learning a craft, the world has lost something of value. Just as craftsmanship declined with the rise of the industrial revolution and the advent of mass-production, replaced with the souless, uncomprehending usage of machines, and the centralization of production within corporations, I am concerned about another such event occurring here. This is, of course, a subjective opinion though. The admiration I have for true mastery and understanding of a craft, is, to some, unproductive. The process of art is of little to no importance to them. Subjectively, they might find more value in generating slop than creating something themselves. Why waste time learning something, they ask, when a tool could do it for you? To which I'd like to respond: "[If you're nothing without the suit then you shouldn't have it.](https://www.youtube.com/watch?v=Jdz0DfLcJTE)" But, while I thouroughly disagree with this worldview, can I in good conscience refute it on objective grounds? Tell them that their opinion of art is simply incorrect? Unfortunately, due to the subjectivity that permeates my definition of art, I don't think so. 
-
-This lands us at a rather stupid, vague, and useless conclusion: Pretty much everything related to human action is art, and no specific piece is inherently more valueable than another. I think one can potentially attempt to tie some form of external value to the art by querying the audience and obtaining a collective opinion and determining the collective impact. However, this process neglets the value of pieces that do not posess or appeal to an audience, as well as lends undue weight to pieces that are used as mere means of wealth and fame, as opposed to ends in themselves. I will not be exploring it. 
-
-##### I just zoned out really bad, what?
-
-Basically, TL;DR, art is subjective and performative, so if someone thinks they did art, then they have. We may criticize this art for whatever we wish on an individual level, but from my perspective, one cannot categorially reject another's actions as "not art," nor can we make objective statments on the superiority of certain modes of art over others. 
-
-This is rather frustrating, as I myself very badly want to claim that typing a handful of words into a corporate web portal isn't art or is at the very least objectively worse than *actual* art. But this is just a crude form of poetry is it not? And many people have exclusionary opinions on stupid performance arts ([relevant dropout clip](https://www.youtube.com/watch?v=Yt5VzZCVYqQ)), [musical compositions](https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3), or even [video games](https://en.wikipedia.org/wiki/Video_games_as_an_art_form)! I think these forms of exclusion are frankly stupid, which is why my definition of art has evolved in the way that it has. You're welcome to disagree with it as a premise, however, I can't in good conscience breach my own definition of art in this way.
-
-Did I need that many words to say that? I don't even know at this point. 
-
-Now, let's get this train back on the rails.
-
-#### Slop and Society
-
-Interesingly, the advent of this kind of technology is showcasing all kinds of problems, not necessarily with itself, but rather with our society and our systems; Under different systems the nature of such a technology might not be as negative as it is under ours, which is partially why I'm capable of coming to such an oddly pro-generated art conclusion in the purely theoretical vaccum I presented above. 
-
-##### School System
-
-As someone in school, the amount of model usage I see is frankly appalling. I can't comment on whether or not models *can* be used educationally, but I know for damn sure that they can be used in lieu of genuine understanding of concepts, and I'd hazard a guess that the majority of usage falls to the latter. 
-
-I'd argue, however, that this is not fully an inherent flaw in models, but rather one in the school system. The gamification of learning through grades was frankly stupid before generative models came around and it'll be stupid long after. And as far as university goes, I'd argue it's more of a corporate tool than it is a learning institution. How many corporations use degree ownership as an applicant sorting mechanism? How many university students are here to satisfy that requirement, or out of some nebulous societal obligation, rather than to actually learn shit?
-
-My distate for the school system is a blog post on its own, but these problems already existed before the dissemination of generative models. The models just made them far more evident and expolitable. 
-
-##### Copyright System
-
-Models are trained upon anything and everything corporations have been able to get their hands on, with no permission or compensation. This has driven immense bot traffic to websites, the ownsers of which have been left to pick up the bill of serving https requests to tens of thousands of bots. This disproportionately affects open source projects and non-profits, many of which are already suffering financially. This also creates the distinct problem of "License washing" where GPL code or otherwise can be consumed then reproduced by a model under a completely different, more permissive license. Many people have found their art or writing styles perfectly reproduced by models upon request without their consent, which is simply disgusting. 
-
-Not all of these problems are a fault of the copyright system, but many are. Copyright is not a tool of the individual, but rather one of corporations or those with the money for legal counsel. If we simply retreat back to the copyright system to protect our work from being used without our consent, we will be retreating back to a system that will inevitably be used to exploit us in the same way, but legally. Remember that legality and morality are different things; laws can and are changed by those in power to benefit themselves, morally or not.
-
-##### Capitalism
-
-The widespread use and marketing of these models is not one of artistic intent, but rather of corporate profit seeking. While they may afford a commodified art experience, their indended goal is to create saleable, marketable artistic residue, while minimizing or replacing as much of the genuine artistic process as possible. On an individual level, this focus on results over craft might mean less engagement in the artistic process, and less control and understanding of the craft involved. On a societal level, this means that corporations who wish to minimize cost of labour in the production of commodities can simply stop paying artists and craftspeople, making an already impossible career somehow even worse.
-
-We as consumers need to stop seeing artists and craftspeople as a [mere means](https://plato.stanford.edu/entries/persons-means/) of obtaining art residue and rather as other human beings with desires, struggles, and joys, just like everyone else, who simply want to make a living making art. Observing the current landscape, the use of generated content in place of human art undermines this idea, as the money and resources that would have gone to them, instead makes its way to corporations in exchange for the tools that have replaced them. Like it or not, even if you consider users of such models as such, fewer artists will be able to survive in this climate, with largely worse-paying, less stable employment, all while corporations use the tech to consolidate power. And this assumes the tools are well built and reliable, which [they are not](https://neuromatch.social/@jonny/116324676116121930). If we build infrastructure upon this stuff we will be sacrificing our own capacity to create as well as setting ourselves up for disaster should these tools enshittify or fail outright.
-
-My vision of an ideal future is one where people can spend more time making meaningful art and less time working to afford life, endlessly striving for infinite productivity, the excesses of which are all gained by executives and shareholders rather than individuals. The current existence of generative models is almost certainly moving us away from, rather than towards, that future, at least under modern systems.
-
-Thus, I believe this mode of technology should be categorically rejected until systematic change brings, at the very least, the capacity for artists and craftspeople to comfortably live off their work in conjunction with the use of such technology. 
-
-#### Open source slop is not real (mostly)
-
-There's a quite good, if a little technical, [blog post](https://tante.cc/2024/10/16/does-open-source-ai-really-exist/) by Smashing Frames that gets into this in much more depth than I have time for in this already quite huge post, but suffice it to say, just throwing a bunch of weights out there without saying how you got them, or from where, is not open. This is equivalent of publishing a binary blob to github and calling it "open source." This is only open source in the sense that "everything's open source if you have unlimited time and can read decompiler output," which, for the layperson, is a hacking joke and not actually indicative of open source status.
-
-#### Slop in open source
-
-Instead, 
-
-#### Avoiding Slop
-
-That's the neat part, you can't.
-
-#### Corpo Slop, homemade slop
+I was initially going to tackle this topic, but after too many days of work, I have concluded its scope is simply too big to include in this post. When finished, I will add a link to the finished product here.
 
 ### Decentralization and Federation
 
@@ -253,6 +129,10 @@ For you non-technical people reading this because you want to feel included, bas
 ### Use is endorsement
 
 When you use something, you're endorsing it. Period. There's a base level of buy-in contained in simply choose to use something, and continue using it. A level that even words to the contrary can't counter, as much as we hope they might. Did you pay money for it? Does it send telemetry to the manufacturer? Does it show you ads? Have you developed a set of skills or expertise in its usage? Do other people see you using it? These, and many many more, are all forms of endorsement. 
+
+> "But Kai these issues are so big and pervasive! And I'm just one silly little guy, what's one more little silly guy?"
+
+Your presence still lends backing to the platform's decisions and adds to the platform's power. If you agree the world would be a better place if everyone sane simultaneously stopped doing something, I would urge you to consider being the change you want to see in the world, taking the hit, and stopping yourself. Or even just shopping around for alternatives.
 
 The reason I want to hammer this one home is that I hear a lot of people excusing their use of problematic technology, and heck, a lot of other stuff this way. "I don't support elon but I'm just on twitter for this random ass meme account." "I support trans people, but i just bought this harry potter merch for the nostalgia." "I don't support the bigotry, but I'm just using hyprland for the animations." (Just use [Niri](https://github.com/niri-wm/niri), you're welcome). 
 
@@ -291,27 +171,41 @@ Needless to say, this natural FOMO buildup is ruthlessly profited off, due to th
 First off, calm down. Perhaps you've built up a lot of social infrastructure on said platform and would suffer negative social consequenses for leaving. Which is a fair point! 
 But if you think about it, isn't that itself a problem? Would you be able to reach the people you care about if the platform went down? Or you account got banned? 
 
-Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This, in turn makes it easier for other people to leave as well, as they can follow your lead. 
+Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This in turn makes it easier for other people to leave as well, as they can follow your lead. 
 
-And honestly, in my experience, poking around different software can be really fun! Looking at different ways that people tried to approach design problems, different UI, different performance, all puts all of your other experience in context. You now have one more data point to look at the world of software with. 
+## Wrangling modern tech: A Guide
 
-## Wrangling the modern internet: A Guide
+I did not set out to write a hit piece, but I have started and cannot be stopped. If you wish to skip the turmoil, skip over to the next header.
 
 ### General web browsing
 
-First, get an adblocker. [Ublock Origin](https://github.com/gorhill/uBlock) is open source and incredibly powerful. Chromium based browsers (Chrome, edge, opera, brave, vivaldi, etc...) do not support the full version due to google being monopolistic assholes, but firefox-based ones (Firefox, Librewolf, Zen, Waterfox, etc...) do. There is a Lite version that supports chromium, which I would recommend if you're committed to a chromium browser. 
+Chromium makes up an immense amount of the web browser market (everything that's not firefox and saf\*ri), and it's completely controlled by google who are in the process of making adblockers less effective. [Ublock Origin](https://github.com/gorhill/uBlock) is open source and incredibly powerful (stop reading and go install it now if you haven't already), however Chromium based browsers (Chrome, edge, opera, brave, vivaldi, etc...) do not support the full version due to this. There is a Lite version that supports chromium, which I would recommend if you're committed to a chromium browser.
 
-Chromium makes up an immense amount of the web browser market (everything that's not firefox and saf\*ri), and it's completely controlled by google, so I'd recommend using firefox or a firefox fork, which is only *Partially* controlled by google. Baby steps, people.
+#### Alternatives
 
-Some browser suggestions: 
+Firefox! It's not perfect (It's primarily funded by google; oops!), but it is *better*. 
+
+Some firefox-based browser suggestions: 
 - [Librewolf](https://librewolf.net/) - Don't wanna think about it? Do this one.
 - [Waterfox](https://www.waterfox.com/) - Has some really neat features, such as tree style tabs.
 - [Zen](https://github.com/zen-browser/desktop) - Beta, lets you "glance" at a window and quick return to the original webpage.
 - [Firefox](https://firefox.com) - It works!
 
-### Conventional Social Media
+### Operating Systems
 
-This one's gonna be tough. People are little gremlins about their social media of choice so telling people to stop using something is about as helpful as eating sand. Won't stop me from trying though! (omnomnomnomnom)
+The device you use to access the internet isn't just a neutral conduit to the internet; 
+Rather, it's an incredibly sohisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
+(The internet isn't a neutral entity either, but I digress)
+
+Not only are modern operating systems designed meticulously for user retention and data collection (especially mobile ones), but even the hardware is getting more invasive and locked down.
+Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. 
+Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
+
+Further, for any windows or xbox users out there, I want to flag that microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the israeli millitary for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
+
+#### Alternatives
+
+This topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and [mac](https://asahilinux.org/) users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V (my beloved), or burning your phone with gasoline and casting it into the cursed pit from whence it came.
 
 ### Youtube
 
@@ -352,25 +246,67 @@ A few of the above links were helpfully sourced from [this rogue article](https:
 
 TL;DR? Fuck Discord! 
 
-### Twitter-likes
+#### Alternatives
 
-You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) and a [Benn Jordan Video](https://youtu.be/GZ5XN_mJE8Y?si=PVcaiaMntopHy4SE) that highlight some pretty major problems with the platform. And while those may be macro issues and you're just one silly little guy, your presence still lends backing to the platform's decisions and adds to the platform's power. If you agree the world would be a better place if everyone sane simultaneously stopped using twitter, I would urge you to consider being the change you want to see in the world, taking the hit, and leaving yourself. Or event just shopping around. It costs nothing to have multiple accounts. 
+I can solidly recommend the [matrix protocol](https://matrix.org/) (specifically the [element client](https://element.io/en)) as something that's been put through its paces. It's got pretty much every feature out there. 
 
-#### Mastodon
+If you're in the mood to try something younger, [fluxer](https://fluxer.app/) has pretty much feature parity with discord, (sans a mobile app, for the moment), and has a solid roadmap; i'm pretty optimistic about its direction.
 
-More and more, I've been convinced that open source, decentralized, federated social media is the only way forward. And no project is more emblematic of that ideal than [mastodon](https://joinmastodon.org/). 
+Additionally, if you only really need group chats, I've found [signal](https://signal.org/) really well designed, and generally use it for as much as I can, especially after leaving discord.
 
-Anyone can run up a mastodon server and federate it to the rest of them, or keep it local. This makes the community, communal. It involves people that exist on the platform as well as those who run it. This also makes it less prone to evil design and dark patterns.
+For communities, L + self-host [discourse](https://www.discourse.org/). It's not a chat platform. That's what makes it great. Instant messaging for online communities was a mistake. Reject modernity; return to forum.
 
-#### Bluesky
+### Twitter
 
-TODO
+You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) and a [Benn Jordan Video](https://youtu.be/GZ5XN_mJE8Y?si=PVcaiaMntopHy4SE) that highlight some pretty major problems with the platform. 
+
+#### Alternatives
+
+More and more, I've been convinced that open source, decentralized, federated social media is the only way forward. And no project is more emblematic of that ideal than [mastodon](https://joinmastodon.org/). Give mastodon a shot; look around for good servers, they're like little communities scattered around. I'm [here](https://peoplemaking.games/@fireye) on peoplemaking.games. The best part is whichever one you choose, you can still talk to the entire rest of the network. This is how digital spaces should work. 
+
+[Bluesky](https://bsky.app/) definitely exists. It's technically open source, though it's very centralized in its design, and it's developers are taking [VC money](https://bsky.social/about/blog/03-19-2026-series-b) to scale it, which doesn't exactly give me the warm fuzzies. More people (and bots) are on it than mastodon though, so if you care about that, then this might be the way to go. 
+
+### Literally anything by Facebook
+
+These fuckers explicity allow [trans slurs](https://theintercept.com/2025/01/09/facebook-instagram-meta-hate-speech-content-moderation/) on their platforms. Like that shit was *written out* on *training material*. Their [hateful conduct policy](https://transparency.meta.com/policies/community-standards/hateful-conduct/) also kindly allows us to be discriminated against, and called mentally ill. Fun!
+
+They've also intentionally [stopped investigations](https://www.reuters.com/investigations/meta-is-earning-fortune-deluge-fraudulent-ads-documents-show-2025-11-06/) into scam ads on their platforms due to the profit motive. 
+
+Even their most "private" application, whatsapp (which implements the signal protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
+
+### Alternatives
+
+For instagram, which I see as the biggest hurdle here, there's a great, mastodon-based, FOSS alternative called [Pixelfed](https://pixelfed.org/).
+
+For any messaging functionality, I'd defer to [Signal](https://signal.org).
 
 ### Github
 
 Ok ok I know no sane layperson is going to be thinking about github in their spare time, so feel free to skip this one if you just don't care.
 
 Since I've gotten further into FOSS, github has become something of a bastion. A stupid percentage of FOSS projects use github as a collaborative platform, and as such, I'm complelled to be on there as well, and for a time did so happily. 
+
+These days it's a monopoly on the FOSS ecosystem held in place by microsoft. That's why we haven't seen [federation](/blog/FEDERATE-GIT) take off for code forges. It's simply more convenient for microsoft that everyone be platform locked to github. It's effectively holding the community hostage. Want traffic? Use github.
+
+And given the aforementioned [boycott](https://bdsmovement.net/news/boycott-microsofts-xbox), I have been making an effort to leave.
+
+#### Alternatives
+
+[Codeberg](https://codeberg.org/) is perfect if you just need something to work and you're cool with your code being public. [git.gay](https://git.gay) seemss silly as well, but I can't speak to their uptime.
+
+I personally have a [forgejo](https://forgejo.org/) server on my homelab that I use for private projects (read: a dwarf fortress game I'm playing with a friend)
+
+### Minecraft
+
+Yeah. It hurts me too, but it's microsoft and it's literally called out on the [fucking boycott page](https://bdsmovement.net/news/boycott-microsofts-xbox). 
+
+#### Alternatives
+
+The worst part is that there's a thriving open source competitor to minecraft called [lunati](https://www.luanti.org/en/). It's like right there, people! Then again, we play minecraft for the nostalgia, not the gameplay, so perhaps this one's a harder sell than I give it credit for. 
+
+### Conclusion
+
+This was probably pretty depressing up to now. Not to worry, this post gets better!
 
 ## The Indie Web: An Introduction
 

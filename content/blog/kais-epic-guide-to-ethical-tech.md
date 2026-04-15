@@ -191,6 +191,20 @@ Some firefox-based browser suggestions:
 - [Zen](https://github.com/zen-browser/desktop) - Beta, lets you "glance" at a window and quick return to the original webpage.
 - [Firefox](https://firefox.com) - It works!
 
+### Search Engines
+
+Believe it or not, these are different from your browser! A search engine is a website; a browser is the program that runs on your computer to show you websites.
+
+Unfortunately, google pays pretty much every major browser to make Google the default search engine. And now, google unhelpfully presents bullshit as the first result, which most people will simply read and take at face value. That combined with the number of ads that google is shoving into their results, and their recent use of LLMs to [rewrite headlines](https://www.techrepublic.com/article/news-google-search-rewriting-headlines-ai/), the case for swapping off remains strong.
+
+There are browser addons that allow modification of google search results, such as the helpfully named [google ai overviews blocker](https://github.com/zbarnz/Google_AI_Overviews_Blocker). But I'm sure more exist.
+
+#### Alternatives
+
+I'd recommend [Startpage](https://www.startpage.com/) or [Duckduckgo](https://duckduckgo.com) for the layperson.
+
+For the power users [SearXNG](https://docs.searxng.org/) might be worth a shot. I think I might run up an instance on my homelab soonish.
+
 ### Operating Systems
 
 The device you use to access the internet isn't just a neutral conduit to the internet; 
@@ -203,11 +217,21 @@ Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if
 
 Further, for any windows or xbox users out there, I want to flag that microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the israeli millitary for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
 
+If you still need to use windows, in full or in part (dual booting is a great option for bi(OS)-curious individuals!), I'd recommend looking at the [winutil](https://github.com/ChrisTitusTech/winutil) framework to make the thing even a little bit usable.
+
 #### Alternatives
 
 This topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and [mac](https://asahilinux.org/) users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V (my beloved), or burning your phone with gasoline and casting it into the cursed pit from whence it came.
 
+### Email
+
+I forshadowed this one earlier, but email is notoriously centralized, despite being an open protocol, due simply to the fact that major providers that host most everyday peoples' emails have broadly agreed to be assholes about it. 
+
+#### Alternatives
+
 ### Youtube
+
+It's genuinely insane how monopolized the video hosting market is as a result of youtube. It's not an easy problem, nor is it a cheap one, but just because one platform is giving out free shit, should we allow them to dominate the market?
 
 If you, like me, still use youtube because you're a slave to long-form video content (hbomberguy release the adobe essay please i'm fiending for it), the following modifications can improve your quality of life considearably. 
 
@@ -221,6 +245,8 @@ It also lets you make a couple more important modifications to youtube as a whol
 These changes combine to a platform with clear end points. If a video's over, it's over. If I've run out of subscribed content, then I can't keep watching youtube. Simple as that.
 
 If you use youtube on your phone, you'll notice the app doesn't benefit from browser addons, unless you want to use the web app, which is not great. For android users, you can actually patch a custom youtube app via [revanced](https://github.com/revanced/revanced-manager). This allows you to make most of the above modifications, in the app. Including the adblock and sponsorblock. Waiter waiter! 3 bajillion dollars to the revanced team please!
+
+Want to go even further? Check out [invidious](https://invidious.io/) which does away with the classic youtube frontend entirely.
 
 #### Alternatives
 
@@ -246,6 +272,10 @@ A few of the above links were helpfully sourced from [this rogue article](https:
 
 TL;DR? Fuck Discord! 
 
+If you wish to continue using discord in full or in part, I would recommend using [vencord](https://vencord.dev/) or another client mod to prevent discord from having clientside access to your computer. If possible, try uninstalling any native apps and just accessing it via web. 
+
+It's a worse experience, and that's the point. The added friction makes using the platform more difficult, and as such I can move towards using it less. I personally lost a lot of time and energy constantly sifting through notifications and getting distracted by pings (That shit is literally just a skinner box istg), so having to conciously make my way to the website irrecularly when I choose to was incredibly helpful. I also set clear digital boundaries with friends and told them that I would no longer be reliably reachable over discord. If someone wishes to contact me urgently, I have offered everyone I care about my contact information via text and signal. 
+
 #### Alternatives
 
 I can solidly recommend the [matrix protocol](https://matrix.org/) (specifically the [element client](https://element.io/en)) as something that's been put through its paces. It's got pretty much every feature out there. 
@@ -256,9 +286,17 @@ Additionally, if you only really need group chats, I've found [signal](https://s
 
 For communities, L + self-host [discourse](https://www.discourse.org/). It's not a chat platform. That's what makes it great. Instant messaging for online communities was a mistake. Reject modernity; return to forum.
 
+### Twitch
+
+
+
+#### Alternatives
+
 ### Twitter
 
 You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) and a [Benn Jordan Video](https://youtu.be/GZ5XN_mJE8Y?si=PVcaiaMntopHy4SE) that highlight some pretty major problems with the platform. 
+
+I personally have never used twitter, so I can't help very much as far as usage goes, but general social media etiquette concepts as discussed elsewhere in this piece should apply here. I've seen [nitter](https://nitter.net/about) tossed around as an alternative frontend, but I have no experience with it, so I can't speak to its quality.
 
 #### Alternatives
 
@@ -274,7 +312,9 @@ They've also intentionally [stopped investigations](https://www.reuters.com/inve
 
 Even their most "private" application, whatsapp (which implements the signal protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
 
-### Alternatives
+As far as continued use goes, facebook is really locked down, so any attempts at recreating an alternative frontend have died. 
+
+#### Alternatives
 
 For instagram, which I see as the biggest hurdle here, there's a great, mastodon-based, FOSS alternative called [Pixelfed](https://pixelfed.org/).
 

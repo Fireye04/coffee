@@ -12,7 +12,7 @@ params:
     original: '2026-03-23T13:56:30-07:00' 
 ---
 
-This is post one in a two post combo: this one details how you can manage your own technology use, and the other details how you can start owning your own online identity via creating your own website. Both are targetted at people who know next to nothing about such concepts. 
+This is post one in a two post combo: this one details how you can manage your own technology use, and the other details how you can start owning your own online identity via creating your own website. Both are targeted at people who know next to nothing about such concepts. 
 
 In this blog post, I'm going to go over a lot of ethical ideas on the internet and how I've found we should use it. I'm also going to be providing a lot of free tools and applications that pretty much anyone my benefit from. If you just want the latter, you can scroll down and go link fishing. Otherwise, strap in for a *lot* of yapping. It's gonna be a bumpy ride.
 
@@ -26,9 +26,9 @@ If you still happen to use an algorithmic feed regularly, I invite you to ponder
 
 If you happen to not love where that pondering has led you, that's why I'm making this post. 
 
-This isn't going to be a "burn the entire internet" post, but rather one that hopes to recontextualize the way you percieve it, and hopefully change the way you use it so that it works for you, not the multibillion dollar corporation profiting off your attention and time. 
+This isn't going to be a "burn the entire internet" post, but rather one that hopes to re-contextualize the way you perceive it, and hopefully change the way you use it so that it works for you, not the multi-billion dollar corporation profiting off your attention and time. 
 
-Do remember as you read this that nobody is perfect. Everyone's going to have a limit whether that's time or technical expertise, or something else, and that's perfectly ok. This kinda stuff isn't linear either. Sometimes you do a bunch of things, then nothing for a while, then undo some stuff, then do some more. As long as you're making your best effort to move toward ethical and beneficial usage, that's what counts.
+Do remember as you read this that nobody is perfect. Everyone's going to have a limit whether that's time or technical expertise, or something else, and that's perfectly OK. This kinda stuff isn't linear either. Sometimes you do a bunch of things, then nothing for a while, then undo some stuff, then do some more. As long as you're making your best effort to move toward ethical and beneficial usage, that's what counts.
 
 ## Background
 
@@ -36,7 +36,7 @@ There's some stuff that I need to go over before we get into the meat and potato
 
 ### Free & Open Source Software
 
-You've probably heard the term "Open Source" thrown around in regards to software, and have correctly ascertained that this means the code that makes the software do things is, well... open. 
+You've probably heard the term "Open Source" thrown around in regards to software, and have correctly ascertained that this means the code that makes the software do things is, well... ]pen. 
 Not all public code is open source, though, and open source specifically refers to public code that *anyone* can do *anything* with. 
 There are a few things that this *means*, though, that I'm not sure are well understood by the layperson, so I want to give a quick crash course on it now. 
 
@@ -56,7 +56,7 @@ Are open source alternatives perfect? Nope. Depending on what kind of software y
 
 > "But Kai, it's free! Doesn't that mean it's bad?"
 
-Don't make me get out the spray bottle. Is a community garden bad because it's free? No! People volunteer their time and labour for the sake of building something worthwhile, together. With software, you even have the added bonus that there is functionally no scarcity or marginal cost, and thus minimal adverse effects of free riders. With proprietary software getting more and more enshittified, requiring accounts and internet connections, shamelessly havesting metric tons of user data without permission, moving to subscription models, and generally leveraging users' sunk cost in their platforms for shameless profiteering, does a free and open source alternative really sound that bad? 
+Don't make me get out the spray bottle. Is a community garden bad because it's free? No! People volunteer their time and labor for the sake of building something worthwhile, together. With software, you even have the added bonus that there is functionally no scarcity or marginal cost, and thus minimal adverse effects of free riders. With proprietary software getting more and more enshittified, requiring accounts and internet connections, shamelessly harvesting metric tons of user data without permission, moving to subscription models, and generally leveraging users' sunk cost in their platforms for shameless profiteering, does a free and open source alternative really sound that bad? 
 
 Further, just because it is free doesn't mean the work people are doing isn't worth paying for. I'd argue it makes it *more* worth paying for, as you get value out of your money in the form of better software, but *everyone else* gets that value too! And the people spending their spare time and effort making this thing that everyone uses get compensated for that time and effort, so they can dedicate more of that time and effort back into the project. 
 
@@ -64,15 +64,15 @@ Rather backwardly, I suggest that you should instead think about paying for free
 
 ### Ads and Adblocking
 
-This blog post is gonna mention a lot about ads. Ads are how the modern internet works. They're why huge corporations like Google and Facebook are able to make a profit by giving so much free shit away. They're also why ai generated slop populates the vast majority of cooking search results these days. Here's my silly opinion on ads:
+This blog post is gonna mention a lot about ads. Ads are how the modern internet works. They're why huge corporations like Google and Facebook are able to make a profit by giving so much free shit away. They're also why LLM generated slop populates the vast majority of cooking search results these days. Here's my silly opinion on ads:
 
 You should block every single one from ever reaching your eyes, and, god forbid, your thoughts. If you ever think about an ad or engage with an ad, the corporation the bought that ad is getting their money's worth. You can't get that time or mental energy back; It has already been bought and paid for. This, I would argue, is *bad*.
 
 If you feel guilty about blocking ads, as that takes money from individuals, you should determine exactly how much time and attention those ads were taking from your life, give your time and sanity some monetary value, and pay creators you care about directly via donations, merch, subscriptions, kofi/patreon, etc... Even if this is just a couple bucks, it's almost certainly orders of magnitude more than they get from you watching ads on their content, and likely gives them a larger portion of the money as well, as they can choose a platform that allows them a better cut. 
 
-I'd also like to point out that viewing ads is a net negative for you as an individual, as it allows corporations to directly influence you and your thoughts. Further, in the age of targetted advertising, viewing ads makes you more valueable to corporations, and thus more profitable to advertise to. Who would you rather serve an ad to, someone who makes an effort to block them and might not see it, or someone who doesn't? Yep, you simply looking at ads is making corporations money. They're definitely thankful, but not thankful enough to give you a cut.
+I'd also like to point out that viewing ads is a net negative for you as an individual, as it allows corporations to directly influence you and your thoughts. Further, in the age of targeted advertising, viewing ads makes you more valuable to corporations, and thus more profitable to advertise to. Who would you rather serve an ad to, someone who makes an effort to block them and might not see it, or someone who doesn't? Yep, you simply looking at ads is making corporations money. They're definitely thankful, but not thankful enough to give you a cut.
 
-This sentiment has been echoed ad-nauseum, but if you're getting a corporate product with ads for free, you're the product. Ads make you a product. Every single social media service is working night and day not to make the experience of using their platforms better, but rather to make it more addictive. They only make money when you're on the platform; ergo, the longer they can keep you on there, the more money they make. The logic holds with news. That cooking example I mentioned earlier. The longer you stay on the page, the more ads you see, thus the content is influenced to be longer, more verbose, in order to keep you on that page. You want to game that youtube algorithm as a creator? Make content that keeps people watching youtube and you'll do fine. Youtube will make sure of it.
+This sentiment has been echoed ad-nauseam, but if you're getting a corporate product with ads for free, you're the product. Ads make you a product. Every single social media service is working night and day not to make the experience of using their platforms better, but rather to make it more addictive. They only make money when you're on the platform; ergo, the longer they can keep you on there, the more money they make. The logic holds with news. That cooking example I mentioned earlier. The longer you stay on the page, the more ads you see, thus the content is influenced to be longer, more verbose, in order to keep you on that page. You want to game that youtube algorithm as a creator? Make content that keeps people watching youtube and you'll do fine. Youtube will make sure of it.
 
 This culminates in a rot that has spread across the internet. Most people are not creating to create. Writing to write. The very things that you as the internet denizen are here to experience are being corrupted by the very thing that brings you them for free. They are not. This is the cost.
 
@@ -82,13 +82,13 @@ In summary: pay for free things and fuck ads.
 
 Some of you may be wondering about individual sponsorships that advertisers will give directly to individuals, as opposed to large, platform-wide campaigns that you see on google ads or whatever.
 
-I don't want to make any statments regarding what exactly those agreements may or may not contain as I assume it's largely individualized, however I do want to refer you to the above idea on skipping them and just giving the creator money directly. Same deal here. I would rather a creator be able to sustain themselves without having to resort to corporate sponsorships than otherwise, though I do understand that many cannot. 
+I don't want to make any statements regarding what exactly those agreements may or may not contain as I assume it's largely individualized, however I do want to refer you to the above idea on skipping them and just giving the creator money directly. Same deal here. I would rather a creator be able to sustain themselves without having to resort to corporate sponsorships than otherwise, though I do understand that many cannot. 
 
 Notably, these too taint the creative output of the individual. Take something as small as referral links. If you're a computer hardware reviewer, are you going to rank a device without a referral link higher than one with a referral link, even if you know you'll get less money? Even if everything does have referral links, will you be more inspired to create buyers guides for more expensive products if the kickback is higher? If a corporation has sent you a thing, are you more likely to review it than otherwise?
 
 ### Evil Design and Dark Patterns. 
 
-Ever wonder why it takes half a second and a misclick to accidentally sign up for a subscription of some sort, but 3 days' hard labour to cancel? This is an example of a dark pattern. 
+Ever wonder why it takes half a second and a misclick to accidentally sign up for a subscription of some sort, but 3 days' hard labor to cancel? This is an example of a dark pattern. 
 
 A dark pattern is simply a series of design decisions that when put together exploit users into certain, usually profitable behavior. Think of it as a form of psychological manipulation. 
 Once you're aware of these, they show up *everywhere*. Those big countdowns on shopping sites. Raising prices on goods then discounting them to make them appear better value for money. 
@@ -109,7 +109,7 @@ These two ideas frequently come hand in hand, with some caveats.
 
 Decentralization entails the idea that no one entity has full control of something. Something like discord is centralized, where something like email is decentralized: Anyone can run up their own email server, but only discord can run up discord servers. Big email can't tell you to shut down your email server if they don't like what you're sending (your government can, but that's a whole other can of worms). Discord, however, reserves the right to shut down servers for whatever reason and they just can. They own the servers.
 
-Another benefit of decentralization is your capacity to own your own data. Everything you send on a discord server is unencrypted and lives on discord's servers. They can (and do) just read it. Sell it. Hand it to ICE- ***(SUBTLE FORSHADOWING)***. This data can also leak by accident, or by coordinated effort from a third party, which gets significantly more likely the more data there is in one place, and the more valueable that data is. Remember kids, data leaks are a "when". Not an "if". If you want your data to be safe, never give it to anyone in the first place.
+Another benefit of decentralization is your capacity to own your own data. Everything you send on a discord server is un-encrypted and lives on discord's servers. They can (and do) just read it. Sell it. Hand it to ICE- ***(SUBTLE FORESHADOWING)***. This data can also leak by accident, or by coordinated effort from a third party, which gets significantly more likely the more data there is in one place, and the more valuable that data is. Remember kids, data leaks are a "when". Not an "if". If you want your data to be safe, never give it to anyone in the first place.
 
 #### Federation 
 
@@ -124,7 +124,7 @@ This technology is still getting improved as time goes on, but there are already
 
 Yeah I know that email example is a little weak in practice. I've found that it serves as a really good explainer for newbies though, as everyone's heard of and used email, and are at least mostly familiar with its ins and outs. 
 
-For you non-technical people reading this because you want to feel included, basically, in theory, email should work as I described, but in practice, if an email isn't coming from a trusted source, most mainstream providers will mark it as spam and thus the recipient may only find it in their [spam](https://www.youtube.com/watch?v=anwy2MPT5RE) folder, or in some cases not at all. This makes self hostng more difficult, but still not impossble. You can use a SMTP relay to get around this problem, but either way you get the idea and this sidenote has probably overstayed its welcome.
+For you non-technical people reading this because you want to feel included, basically, in theory, email should work as I described, but in practice, if an email isn't coming from a trusted source, most mainstream providers will mark it as spam and thus the recipient may only find it in their [spam](https://www.youtube.com/watch?v=anwy2MPT5RE) folder, or in some cases not at all. This makes self hosting more difficult, but still not impossible. You can use a SMTP relay to get around this problem, but either way you get the idea and this sidenote has probably overstayed its welcome.
 
 ### Use is endorsement
 
@@ -134,23 +134,23 @@ When you use something, you're endorsing it. Period. There's a base level of buy
 
 Your presence still lends backing to the platform's decisions and adds to the platform's power. If you agree the world would be a better place if everyone sane simultaneously stopped doing something, I would urge you to consider being the change you want to see in the world, taking the hit, and stopping yourself. Or even just shopping around for alternatives.
 
-The reason I want to hammer this one home is that I hear a lot of people excusing their use of problematic technology, and heck, a lot of other stuff this way. "I don't support elon but I'm just on twitter for this random ass meme account." "I support trans people, but i just bought this harry potter merch for the nostalgia." "I don't support the bigotry, but I'm just using hyprland for the animations." (Just use [Niri](https://github.com/niri-wm/niri), you're welcome). 
+The reason I want to hammer this one home is that I hear a lot of people excusing their use of problematic technology, and heck, a lot of other stuff this way. "I don't support Elon but I'm just on twitter for this random ass meme account." "I support trans people, but i just bought this harry potter merch for the nostalgia." "I don't support the bigotry, but I'm just using hyprland for the animations." (Just use [Niri](https://github.com/niri-wm/niri), you're welcome). 
 
 Shade aside, we should stop excusing our unethical behavior like this. Rather, recognize yourself as an imperfect entity, acknowledge the flaws and drawbacks to your specific actions, and try to make them better, one step at a time. Because, again, nobody is perfect, and I wholeheartedly include myself in this group.
 
-I jokingly listed a few examples above, but in theory, a hermit could come along out of the mountains and declare my usage of a laptop computer as unethical due to its sourcing involving the exploitation of labourers around the world, that my purchase and usage of it is a direct endorsement of that system, and **they'd be right.** 
+I jokingly listed a few examples above, but in theory, a hermit could come along out of the mountains and declare my usage of a laptop computer as unethical due to its sourcing involving the exploitation of laborers around the world, that my purchase and usage of it is a direct endorsement of that system, and **they'd be right.** 
 
-Friends of mine have made very good points that I completely agree with about the ethical benefits of [biking](https://enemyhideout.com/) as opposed to driving, or [vegetarianism](https://theblipbloop.github.io/) as opposed to supporting the meatpacking industry. I currently continue to do both; I couldn't go climbing as frequently or live my current day-to-day without a car, and would probably starve to death without the protien input that meat provides.
+Friends of mine have made very good points that I completely agree with about the ethical benefits of [biking](https://enemyhideout.com/) as opposed to driving, or [vegetarianism](https://theblipbloop.github.io/) as opposed to supporting the meatpacking industry. I currently continue to do both; I couldn't go climbing as frequently or live my current day-to-day without a car, and would probably starve to death without the protein input that meat provides.
 
-#### Ok so everything sucks, got it. What now?
+#### OK so everything sucks, got it. What now?
 
-Now you figure out what's feasable for you to do, right now, that will make it just a little bit better, a little more ethical. Then you do it. And you keep doing it. That's the only way any of this gets any better. A shit ton of people doing little things, a bit at a time. 
+Now you figure out what's feasible for you to do, right now, that will make it just a little bit better, a little more ethical. Then you do it. And you keep doing it. That's the only way any of this gets any better. A shit ton of people doing little things, a bit at a time. 
 
-For me, that might involve taking my bike out instead of my car on mondays. Or taking an afternoon to look for more accessible meat substitutions that I can start integrating into my day to day. I don't know what the future holds, but I know it'll be better if everyone did their best to put in a bit of work here and there, little by little, over a long period of time. 
+For me, that might involve taking my bike out instead of my car on Mondays. Or taking an afternoon to look for more accessible meat substitutions that I can start integrating into my day to day. I don't know what the future holds, but I know it'll be better if everyone did their best to put in a bit of work here and there, little by little, over a long period of time. 
 
-These little step-by-step improvements will be inconvenient; That's the point. <abbr title="if I just blasted a joker image into your brain, sorry, not sorry lol">We live in a society</abbr> that has normalized a lot of unethical practices and ideas that will have made themselves a mainstay within our lives, due simply to the adoption-by-default that just happens within these kinds of group structures. Ovver the course of our lives, it is our job and responsibility as individuals to, at the very least, deconstruct them, question them, and when necessary, deem them unethical. From there we can gauge the degree to which that breach of ethics exists, and finally, at long last, make a truly educated decision as to whether the pros outweigh the cons, and what actions you may be able to take from there to minimize cons and maximize pros. Maybe you do decide to change nothing, but at least you can do so knowing you have made an informed decision. 
+These little step-by-step improvements will be inconvenient; That's the point. <abbr title="if I just blasted a joker image into your brain, sorry, not sorry lol">We live in a society</abbr> that has normalized a lot of unethical practices and ideas that will have made themselves a mainstay within our lives, due simply to the adoption-by-default that just happens within these kinds of group structures. Over the course of our lives, it is our job and responsibility as individuals to, at the very least, deconstruct them, question them, and when necessary, deem them unethical. From there we can gauge the degree to which that breach of ethics exists, and finally, at long last, make a truly educated decision as to whether the pros outweigh the cons, and what actions you may be able to take from there to minimize cons and maximize pros. Maybe you do decide to change nothing, but at least you can do so knowing you have made an informed decision. 
 
-There's another good Smashing Frames [post](https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/) on this, that i'd also recommend. You don't need to agree with everything in there to get a lot out of it; It's a very thought-provoking piece.
+There's another good Smashing Frames [post](https://tante.cc/2026/02/20/acting-ethical-in-an-imperfect-world/) on this, that I'd also recommend. You don't need to agree with everything in there to get a lot out of it; It's a very thought-provoking piece.
 
 #### Sidenote: Not there yet.
 
@@ -158,9 +158,9 @@ Please don't beat yourself up if you can't do any of this. I've been there. Some
 
 ### Extracting from an embedded platform 101
 
-When thinking about social media platforms, the idea of one or another being "embedded" is almost a socially accepted default. Try to take ten steps into your local music scene without seeing an instagram page, or using the internet without seeing a discord server. I dare you.
+When thinking about social media platforms, the idea of one or another being "embedded" is almost a socially accepted default. Try to take ten steps into your local music scene without seeing an Instagram page, or using the internet without seeing a discord server. I dare you.
 
-The idea of an embedded social media platform is one in which the majority of the userbase is currently on. One that becomes less socially accceptable to not have, and one in which a large body of social interaction takes place. This is convenient for users as it's a bit of a hassle to move between platforms, however it's also really profitable for corporations. They can do whatever they want! What are you going to do? leave? LOL!
+The idea of an embedded social media platform is one in which the majority of the user base is currently on. One that becomes less socially acceptable to not have, and one in which a large body of social interaction takes place. This is convenient for users as it's a bit of a hassle to move between platforms, however it's also really profitable for corporations. They can do whatever they want! What are you going to do? Leave? LOL!
 
 Needless to say, this natural FOMO buildup is ruthlessly profited off, due to the incredibly inelastic demand. (Read: Corporations take advantage of you via ruthless advertising and data collection , and they just can as a result of you socially being unable to leave). But leave we must. 
 
@@ -168,10 +168,28 @@ Needless to say, this natural FOMO buildup is ruthlessly profited off, due to th
 
 > "But Kai! All of my friends are on {{nondescript platform name here}}! If I didn't have it, I would DIE!"
 
-First off, calm down. Perhaps you've built up a lot of social infrastructure on said platform and would suffer negative social consequenses for leaving. Which is a fair point! 
+First off, calm down. Perhaps you've built up a lot of social infrastructure on said platform and would suffer negative social consequences for leaving. Which is a fair point! 
 But if you think about it, isn't that itself a problem? Would you be able to reach the people you care about if the platform went down? Or you account got banned? 
 
 Even if you're unable to fully leave, doesn't mean you can't start moving towards the door. Using both the embedded platform and a more ethical alternative simultaneously is, in fact an option! This in turn makes it easier for other people to leave as well, as they can follow your lead. 
+
+### Art and Politics
+
+> "Stop making games/movies/music/art political!"
+
+I've heard something along these lines too many times. Politics dictates the world we live in. Any artistic piece is inherently in conversation with the political, even and especially if its creators have the privilege to "ignore" politics. This is simply a political argument for the status quo, but still a political argument nonetheless.
+
+Recently, a Lebanese game developer called into my ethics class and showcased a [game](https://qbits.itch.io/thistopia) he made in a game jam. Among other things, the game engages with the impacts of war on everyday people, specifically children, who make up the game's two protagonists. Under the material conditions that Lebanon has been under, especially in [recent times](https://www.usatoday.com/story/news/world/2026/04/09/israel-bombing-lebanon-iran-war/89531679007/), how can any art made under these conditions be anything but political? Should the game have been about something completely unrelated, such as a goofy platformer of some sort, how can that be seen as anything other than a distraction or respite from the political hardships that its creators must face every day? 
+
+Many of us in more privileged environments have gotten in the habit of conveniently ignoring this, and idealizing the absence of politics in art. This absence simply doesn't exist, and instead serves as a convenient way for us to avoid difficult conversations and ideas, simply by including them as we wish in our definition of what happens to be political and what doesn't. After all if I can include something in my definition of "political," and frame being "political" as being bad, then I can simply dismiss the idea wholesale without engaging or contemplating it. This, of course, is simply a badly disguised argument for the status quo; If no outwardly "political" arguments are permissible, then the only option that remains is the continued engagement in current systems.
+
+#### Sidenote: On Diversity
+
+One of the main targets of this rhetorical strategy that I've seen recently is diversity, with many proponents therein appealing to some nebulous idea of merit in place of efforts to diversify. In a neutral society, I completely agree that merit should be the sole deciding factor in something such as employment. However, we must make an effort to realize that the society we live in is not a neutral one, but one built to benefit its creators: Cis, het, white, able, and especially, rich, men. These biases cannot simply be glazed over or hand-waved away. On gender alone, we see depressingly few women and non-binary people make their way into male-dominated fields even today, not because they are any less capable, but rather because the environment is a hostile one. If you've ever talked to someone who has a female-presenting voice who plays competitive shooters, you *will* hear horror stories. 
+
+Diversity is a beautiful thing. Different perspectives and life experiences can introduce unique ideas into art that would not have existed otherwise. We grow as individuals as we learn from others' way of existing as human beings, and everyone is better off for it. 
+
+Efforts of diversity seek not to undermine the idea of merit, but rather the bias of society. Heck, pretty much the only way to get a non-evil career these days, especially in games, is to know someone. If the people in industry are already mostly cis, het, white, able, rich men, what is the proportion of their networks also hold many of these features as well? When hiring strangers, how likely are they to associate with and "like" someone also possessing these traits, as opposed to someone who does not? This dynamic perpetuates itself. People hire others like them, and those others go on to do the same. No systems designate or spell out this bias; it's simply human nature to prefer similarity over diversity.
 
 ## Wrangling modern tech: A Guide
 
@@ -191,31 +209,31 @@ Some firefox-based browser suggestions:
 - [Zen](https://github.com/zen-browser/desktop) - Beta, lets you "glance" at a window and quick return to the original webpage.
 - [Firefox](https://firefox.com) - It works!
 
-### Search Engines
+### Search engines
 
 Believe it or not, these are different from your browser! A search engine is a website; a browser is the program that runs on your computer to show you websites.
 
 Unfortunately, google pays pretty much every major browser to make Google the default search engine. And now, google unhelpfully presents bullshit as the first result, which most people will simply read and take at face value. That combined with the number of ads that google is shoving into their results, and their recent use of LLMs to [rewrite headlines](https://www.techrepublic.com/article/news-google-search-rewriting-headlines-ai/), the case for swapping off remains strong.
 
-There are browser addons that allow modification of google search results, such as the helpfully named [google ai overviews blocker](https://github.com/zbarnz/Google_AI_Overviews_Blocker). But I'm sure more exist.
+There are browser addons that allow modification of google search results, such as the helpfully named [google AI overviews blocker](https://github.com/zbarnz/Google_AI_Overviews_Blocker). But I'm sure more exist.
 
 #### Alternatives
 
 I'd recommend [Startpage](https://www.startpage.com/) or [Duckduckgo](https://duckduckgo.com) for the layperson.
 
-For the power users [SearXNG](https://docs.searxng.org/) might be worth a shot. I think I might run up an instance on my homelab soonish.
+For the power users [LibreY](https://github.com/Ahwxorg/librey/) and [SearXNG](https://docs.searxng.org/) might be worth a shot. I think I might run up an instance of the former on my homelab soonish. There's also [Marginalia Search](https://github.com/MarginaliaSearch/MarginaliaSearch), which is a [surprise tool that will help us later](https://knowyourmeme.com/memes/its-a-surprise-tool-that-will-help-us-later). **Subtle foreshadowing**
 
 ### Operating Systems
 
 The device you use to access the internet isn't just a neutral conduit to the internet; 
-Rather, it's an incredibly sohisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
+Rather, it's an incredibly sophisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
 (The internet isn't a neutral entity either, but I digress)
 
 Not only are modern operating systems designed meticulously for user retention and data collection (especially mobile ones), but even the hardware is getting more invasive and locked down.
 Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. 
 Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
 
-Further, for any windows or xbox users out there, I want to flag that microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the israeli millitary for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
+Further, for any windows or xbox users out there, I want to flag that Microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the Israeli military for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
 
 If you still need to use windows, in full or in part (dual booting is a great option for bi(OS)-curious individuals!), I'd recommend looking at the [winutil](https://github.com/ChrisTitusTech/winutil) framework to make the thing even a little bit usable.
 
@@ -225,22 +243,24 @@ This topic is a whole blog post on its own, but I would be remiss if I didn't en
 
 ### Email
 
-I forshadowed this one earlier, but email is notoriously centralized, despite being an open protocol, due simply to the fact that major providers that host most everyday peoples' emails have broadly agreed to be assholes about it. 
+I foreshadowed this one earlier, but email is notoriously centralized, despite being an open protocol, due simply to the fact that major providers that host most everyday peoples' emails have broadly agreed to be assholes about it. 
 
 #### Alternatives
+
+Fastmail
 
 ### Youtube
 
 It's genuinely insane how monopolized the video hosting market is as a result of youtube. It's not an easy problem, nor is it a cheap one, but just because one platform is giving out free shit, should we allow them to dominate the market?
 
-If you, like me, still use youtube because you're a slave to long-form video content (hbomberguy release the adobe essay please i'm fiending for it), the following modifications can improve your quality of life considearably. 
+If you, like me, still use youtube because you're a slave to long-form video content (hbomberguy release the adobe essay please I'm fiending for it), the following modifications can improve your quality of life considerably. 
 
 Ublock should take care of the injected ads, but [Sponsor Block](https://github.com/ajayyy/SponsorBlock) takes care of the embedded ones (eg: "This video is sponsored by...") by simply crowdsourcing sponsor timings and fast-forwarding through them automatically. 
 
 Hate youtube shorts? Do the things grab your face and eat an entire afternoon, after which you don't remember a single thing you watched? [Improve Youtube](https://github.com/code-charity/youtube) lets you mod them out completely. 
 
 It also lets you make a couple more important modifications to youtube as a whole: removing the algorithmic feeds. Look, I love endless videoslop as much as the next person but at some point enough is enough. I need to have a semblance of ownership over the news, entertainment, and content that I consume. The main edits here are as follows: 
-- I completely remove the homepage and replace it with the subscription timeleine. If I want something to show up on my feed, I'll subscribe to its creator. Novel idea, I know. (especially considering youtube has been moving away from algorithmically showing you videos from your subscribed channels if you don't click on them consistently enough). 
+- I completely remove the homepage and replace it with the subscription timeline. If I want something to show up on my feed, I'll subscribe to its creator. Novel idea, I know. (especially considering youtube has been moving away from algorithmically showing you videos from your subscribed channels if you don't click on them consistently enough). 
 - I've also killed the recommended sidebar and endscreen so that I don't get recommended more videos after the one I've picked. 
 These changes combine to a platform with clear end points. If a video's over, it's over. If I've run out of subscribed content, then I can't keep watching youtube. Simple as that.
 
@@ -250,7 +270,7 @@ Want to go even further? Check out [invidious](https://invidious.io/) which does
 
 #### Alternatives
 
-Youtube is a tough one to replace due to the heavy infrastructure that video upload and playback requires. Nonetheless, [Peertube](https://joinpeertube.org/), a FOSS alternative, has risen to the occasion. It's not a full youtube replacement yet, but functionally it works, so now it just needs to build the userbase. As an added bonus, it's also federated, which means you can host your own peertube instance and have everything hosted on your own hardware, while also optinoally communicating with other people doing the same.
+Youtube is a tough one to replace due to the heavy infrastructure that video upload and playback requires. Nonetheless, [Peertube](https://joinpeertube.org/), a FOSS alternative, has risen to the occasion. It's not a full youtube replacement yet, but functionally it works, so now it just needs to build the userbase. As an added bonus, it's also federated, which means you can host your own peertube instance and have everything hosted on your own hardware, while also optionally communicating with other people doing the same.
 
 You can actually find my peertube account [here](https://makertube.net/c/fireye.coffee)! (Thanks a bunch to makertube for letting me onto their server!). 
 
@@ -258,15 +278,15 @@ You can actually find my peertube account [here](https://makertube.net/c/fireye.
 
 We got complacent with discord. For a while, they provided a free service without ads, and maintained it sanely. Take it from someone whose first baby steps into programming was making little discord bots in discord.py; That discord is dead. It has been gutted by the forces of capital and thrown in a ditch to rot, save for its skin, which is now worn by its killers.
 
-Now, a [former blizzard executive and McKinsey consultant](https://en.wikipedia.org/wiki/Humam_Sakhnini) sits in charge of the corporation, charged with driving value for investors in the company's looming [IPO](https://www.reuters.com/business/chat-platform-discord-confidentially-file-us-ipo-bloomberg-news-reports-2026-01-06/). They've [reduced](https://www.dexerto.com/tech/discord-lowers-free-upload-limit-to-10mb-storage-management-is-expensive-2887809/) the free upload file size limit. They've introduced deeply integrated [ads](https://discord.com/blog/discord-orbs) into their platform, to great effect, and concerningly little backlash. They've been trying to insert themselves as critical game infrastructure in the form of their [social SDK](https://discord.com/developers/social-sdk). And are using the metric tons of unencrypted data users give them to, at the very least, [give directly to ICE](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html), and even train predictive models off of-- "we have an internal system that works to accurately determine your age." ([Stanislav Vishnevskiy](https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing), discord CTO) How does it do that discord? Please elaborate! 
+Now, a [former blizzard executive and McKinsey consultant](https://en.wikipedia.org/wiki/Humam_Sakhnini) sits in charge of the corporation, charged with driving value for investors in the company's looming [IPO](https://www.reuters.com/business/chat-platform-discord-confidentially-file-us-ipo-bloomberg-news-reports-2026-01-06/). They've [reduced](https://www.dexerto.com/tech/discord-lowers-free-upload-limit-to-10mb-storage-management-is-expensive-2887809/) the free upload file size limit. They've introduced deeply integrated [ads](https://discord.com/blog/discord-orbs) into their platform, to great effect, and concerningly little backlash. They've been trying to insert themselves as critical game infrastructure in the form of their [social SDK](https://discord.com/developers/social-sdk). And are using the metric tons of un-encrypted data users give them to, at the very least, [give directly to ICE](https://www.nytimes.com/2026/02/13/technology/dhs-anti-ice-social-media.html), and even train predictive models off of-- "we have an internal system that works to accurately determine your age." ([Stanislav Vishnevskiy](https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing), discord CTO) How does it do that discord? Please elaborate! 
 
 Speaking of, let's get into age verification, shall we? They've kept user government ID photos that they claim to delete "within sixty days after the age appeal ticket is closed" ([source](https://support.discord.com/hc/en-us/articles/5431812448791-How-long-Discord-keeps-your-information)) as showcased by the recent [data breach](https://cybersecuritynews.com/discord-data-breach-sensitive-data/) that exposed government IDs of at least 70,000 people who submitted one to discord. (Yes I am aware the breach was from a subcontractor. No, I do not care. Corporations should be held fully accountable and liable for vetting and overseeing their subcontractors, period.) And this was before the whole recent mandatory verification thing!  
 
 Now they're rolling out sweeping [global age verification](https://discord.com/blog/getting-global-age-assurance-right-what-we-got-wrong-and-whats-changing) largely without governmental obligation. For what purpose? If I had to guess, I'd say brand safety going into the IPO. Accusations of grooming and CSAM on your platform scare investors, so you need a convenient defense to hide behind while doing nothing to actually help the situation. And No, collecting a bunch of high value data on children in a convenient little hackable bundle, and creating further stratification between adults and children where groomers can simply choose to move to childrens' spaces is NOT helping kids. 
 
-Further, the companies that they've been using to verify peoples' ages since this new initiative are hardly ideal. Persona, an age ID company funded upwards of [$200 million](https://withpersona.com/blog/series-d) by [Epstien lister](https://www.thenation.com/article/society/peter-thiel-jeffrey-epstein-democracy), [Palantir founder and chairman](https://en.wikipedia.org/wiki/Palantir#Controversies), and overall [slime bucket](https://www.youtube.com/watch?v=dQw4w9WgXcQ) Peter Thiel, (or more specifically his VC fund), has been temporarily used by discord for verification purposes as a "test". The simple fact that they're even entertaining the idea of giving childrens' goverment IDs to a company so closely tied with someone on the epstien list IS NOT GOOD.
+Further, the companies that they've been using to verify peoples' ages since this new initiative are hardly ideal. Persona, an age ID company funded upwards of [$200 million](https://withpersona.com/blog/series-d) by [Epstien lister](https://www.thenation.com/article/society/peter-thiel-jeffrey-epstein-democracy), [Palantir founder and chairman](https://en.wikipedia.org/wiki/Palantir#Controversies), and overall [slime bucket](https://www.youtube.com/watch?v=dQw4w9WgXcQ) Peter Thiel, (or more specifically his VC fund), has been temporarily used by discord for verification purposes as a "test". The simple fact that they're even entertaining the idea of giving childrens' government IDs to a company so closely tied with someone on the epstien list IS NOT GOOD.
 
-K-ID, their main age verification provider, however, has the vaguest nothing-burger-ass data retention policy: "We store [user data] as long as you use our Services, or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, enforce our agreements, and comply with applicable laws." ([source](https://k-id.com/privacy-policy#item9)). That could mean literally any length of time. Their backing is also pretty hilariously bad, having drawn a notable ~[$45 million](https://www.forbes.com/sites/mattgardner1/2024/06/25/k-id-closes-45-million-series-a-in-quest-for-child-safety-in-gaming/) from [nationalistic defense nuts](https://a16z.com/defense-reform/) and investors in [automomous millitary robotics](https://www.capitaly.vc/blog/how-andreessen-horowitz-is-transforming-u-s-defense-tech-in-2025) andressen horowitz.
+K-ID, their main age verification provider, however, has the vaguest nothing-burger-ass data retention policy: "We store [user data] as long as you use our Services, or as necessary to fulfill the purpose(s) for which it was collected, provide our Services, resolve disputes, establish legal defenses, conduct audits, enforce our agreements, and comply with applicable laws." ([source](https://k-id.com/privacy-policy#item9)). That could mean literally any length of time. Their backing is also pretty hilariously bad, having drawn a notable ~[$45 million](https://www.forbes.com/sites/mattgardner1/2024/06/25/k-id-closes-45-million-series-a-in-quest-for-child-safety-in-gaming/) from [nationalistic defense nuts](https://a16z.com/defense-reform/) and investors in [autonomous military robotics](https://www.capitaly.vc/blog/how-andreessen-horowitz-is-transforming-u-s-defense-tech-in-2025) andressen horowitz.
 
 A few of the above links were helpfully sourced from [this rogue article](https://www.rogue.site/news/do-not-give-your-id-to-discord/) on the subject, which I would recommend reading as well.
 
@@ -274,13 +294,13 @@ TL;DR? Fuck Discord!
 
 If you wish to continue using discord in full or in part, I would recommend using [vencord](https://vencord.dev/) or another client mod to prevent discord from having clientside access to your computer. If possible, try uninstalling any native apps and just accessing it via web. 
 
-It's a worse experience, and that's the point. The added friction makes using the platform more difficult, and as such I can move towards using it less. I personally lost a lot of time and energy constantly sifting through notifications and getting distracted by pings (That shit is literally just a skinner box istg), so having to conciously make my way to the website irrecularly when I choose to was incredibly helpful. I also set clear digital boundaries with friends and told them that I would no longer be reliably reachable over discord. If someone wishes to contact me urgently, I have offered everyone I care about my contact information via text and signal. 
+It's a worse experience, and that's the point. The added friction makes using the platform more difficult, and as such I can move towards using it less. I personally lost a lot of time and energy constantly sifting through notifications and getting distracted by pings (That shit is literally just a skinner box istg), so having to consciously make my way to the website irregularly when I choose to was incredibly helpful. I also set clear digital boundaries with friends and told them that I would no longer be reliably reachable over discord. If someone wishes to contact me urgently, I have offered everyone I care about my contact information via text and signal. 
 
 #### Alternatives
 
 I can solidly recommend the [matrix protocol](https://matrix.org/) (specifically the [element client](https://element.io/en)) as something that's been put through its paces. It's got pretty much every feature out there. 
 
-If you're in the mood to try something younger, [fluxer](https://fluxer.app/) has pretty much feature parity with discord, (sans a mobile app, for the moment), and has a solid roadmap; i'm pretty optimistic about its direction.
+If you're in the mood to try something younger, [fluxer](https://fluxer.app/) has pretty much feature parity with discord, (sans a mobile app, for the moment), and has a solid roadmap; I'm pretty optimistic about its direction.
 
 Additionally, if you only really need group chats, I've found [signal](https://signal.org/) really well designed, and generally use it for as much as I can, especially after leaving discord.
 
@@ -294,7 +314,7 @@ For communities, L + self-host [discourse](https://www.discourse.org/). It's not
 
 ### Twitter
 
-You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) and a [Benn Jordan Video](https://youtu.be/GZ5XN_mJE8Y?si=PVcaiaMntopHy4SE) that highlight some pretty major problems with the platform. 
+You don't need me to tell you twitter is not good. I think we all collectively know this by now. If you need some reminders other than the nazi running the show and the whole mecha hitler/ infinite CSAM generator things, here's a relatively recent [Last Week Tonight Episode](https://www.youtube.com/watch?v=p7ZG_xWYLzI) that highlights some pretty major problems with the platform. 
 
 I personally have never used twitter, so I can't help very much as far as usage goes, but general social media etiquette concepts as discussed elsewhere in this piece should apply here. I've seen [nitter](https://nitter.net/about) tossed around as an alternative frontend, but I have no experience with it, so I can't speak to its quality.
 
@@ -306,23 +326,33 @@ More and more, I've been convinced that open source, decentralized, federated so
 
 ### Literally anything by Facebook
 
-These fuckers explicity allow [trans slurs](https://theintercept.com/2025/01/09/facebook-instagram-meta-hate-speech-content-moderation/) on their platforms. Like that shit was *written out* on *training material*. Their [hateful conduct policy](https://transparency.meta.com/policies/community-standards/hateful-conduct/) also kindly allows us to be discriminated against, and called mentally ill. Fun!
+These fuckers explicitly allow [trans slurs](https://theintercept.com/2025/01/09/facebook-instagram-meta-hate-speech-content-moderation/) on their platforms. Like that shit was *written out* on *training material*. Their [hateful conduct policy](https://transparency.meta.com/policies/community-standards/hateful-conduct/) also kindly allows us to be discriminated against, and called mentally ill. Fun!
 
 They've also intentionally [stopped investigations](https://www.reuters.com/investigations/meta-is-earning-fortune-deluge-fraudulent-ads-documents-show-2025-11-06/) into scam ads on their platforms due to the profit motive. 
 
-Even their most "private" application, whatsapp (which implements the signal protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
+Even their most "private" application, Whatsapp (which implements the signal protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
 
-As far as continued use goes, facebook is really locked down, so any attempts at recreating an alternative frontend have died. 
+As far as continued use goes, Facebook is really locked down, so any attempts at recreating an alternative frontend have died. 
 
 #### Alternatives
 
-For instagram, which I see as the biggest hurdle here, there's a great, mastodon-based, FOSS alternative called [Pixelfed](https://pixelfed.org/).
+For Instagram, which I see as the biggest hurdle here, there's a great, mastodon-based, FOSS alternative called [Pixelfed](https://pixelfed.org/).
 
 For any messaging functionality, I'd defer to [Signal](https://signal.org).
 
+### Literally anything by Google
+
+### Literally anything by Microsoft
+
+### Life 360
+
+*SCREAMING*
+
+#### Alternatives
+
 ### Dating apps
 
-I don't see this one talked about a lot, but it's personally a little horrifying how normalized these have become. Skirting over the many problems with objectifying people that plague these platforms, they also suffer from the same corporate greed that runs social media companies. Keeping people on-platform is how they make money. Doing their literal job is the antithesis to the point of their existence. They just need to jingle some keys in front of you to give you hope every now and then, and ka bam, instant money printer. It also feels pretty icky to me how they play with social dynamics for profit, though in fairness, pretty much any profit-focused social media company will also be doing this.
+I don't see this one talked about a lot, but it's personally a little horrifying how normalized these have become. Skirting over the many problems with objectifying people that plague these platforms, they also suffer from the same corporate greed that runs social media companies. Keeping people on-platform is how they make money. Doing their literal job is the antithesis to the point of their existence. They just need to jingle some keys in front of you to give you hope every now and then, and ka-bam, instant money printer. It also feels pretty icky to me how they play with social dynamics for profit, though in fairness, pretty much any profit-focused social media company will also be doing this.
 
 #### Alternatives
 
@@ -332,27 +362,27 @@ Bottom line, there are things you can do to meet people. It's not as easy as I h
 
 ### Github
 
-Ok ok I know no sane layperson is going to be thinking about github in their spare time, so feel free to skip this one if you just don't care.
+OK OK I know no sane layperson is going to be thinking about github in their spare time, so feel free to skip this one if you just don't care.
 
-Since I've gotten further into FOSS, github has become something of a bastion. A stupid percentage of FOSS projects use github as a collaborative platform, and as such, I'm complelled to be on there as well, and for a time did so happily. 
+Since I've gotten further into FOSS, github has become something of a bastion. A stupid percentage of FOSS projects use github as a collaborative platform, and as such, I'm compelled to be on there as well, and for a time did so happily. 
 
-These days it's a monopoly on the FOSS ecosystem held in place by microsoft. That's why we haven't seen [federation](/blog/FEDERATE-GIT) take off for code forges. It's simply more convenient for microsoft that everyone be platform locked to github. It's effectively holding the community hostage. Want traffic? Use github.
+These days it's a monopoly on the FOSS ecosystem held in place by Microsoft. That's why we haven't seen [federation](/blog/FEDERATE-GIT) take off for code forges. It's simply more convenient for Microsoft that everyone be platform locked to github. It's effectively holding the community hostage. Want traffic? Use github.
 
 And given the aforementioned [boycott](https://bdsmovement.net/news/boycott-microsofts-xbox), I have been making an effort to leave.
 
 #### Alternatives
 
-[Codeberg](https://codeberg.org/) is perfect if you just need something to work and you're cool with your code being public. [git.gay](https://git.gay) seemss silly as well, but I can't speak to their uptime.
+[Codeberg](https://codeberg.org/) is perfect if you just need something to work and you're cool with your code being public. [git.gay](https://git.gay) seems silly as well, but I can't speak to their uptime.
 
 I personally have a [forgejo](https://forgejo.org/) server on my homelab that I use for private projects (read: a dwarf fortress game I'm playing with a friend)
 
 ### Minecraft
 
-Yeah. It hurts me too, but it's microsoft and it's literally called out on the [fucking boycott page](https://bdsmovement.net/news/boycott-microsofts-xbox). 
+Yeah. It hurts me too, but it's Microsoft and it's literally called out on the [fucking boycott page](https://bdsmovement.net/news/boycott-microsofts-xbox). 
 
 #### Alternatives
 
-The worst part is that there's a thriving open source competitor to minecraft called [lunati](https://www.luanti.org/en/). It's like right there, people! Then again, we play minecraft for the nostalgia, not the gameplay, so perhaps this one's a harder sell than I give it credit for. 
+The worst part is that there's a thriving open source competitor to Minecraft called [lunati](https://www.luanti.org/en/). It's like right there, people! Then again, we play Minecraft for the nostalgia, not the gameplay, so perhaps this one's a harder sell than I give it credit for. 
 
 ### Conclusion
 

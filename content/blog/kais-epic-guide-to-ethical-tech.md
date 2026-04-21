@@ -189,7 +189,7 @@ One of the main targets of this rhetorical strategy that I've seen recently is d
 
 Diversity is a beautiful thing. Different perspectives and life experiences can introduce unique ideas into art that would not have existed otherwise. We grow as individuals as we learn from others' way of existing as human beings, and everyone is better off for it. 
 
-Efforts of diversity seek not to undermine the idea of merit, but rather the bias of society. Heck, pretty much the only way to get a non-evil career these days, especially in games, is to know someone. If the people in industry are already mostly cis, het, white, able, rich men, what is the proportion of their networks also hold many of these features as well? When hiring strangers, how likely are they to associate with and "like" someone also possessing these traits, as opposed to someone who does not? This dynamic perpetuates itself. People hire others like them, and those others go on to do the same. No systems designate or spell out this bias; it's simply human nature to prefer similarity over diversity. The goal is simply to work against this bias.
+Efforts of diversity seek not to undermine the idea of merit, but rather the bias of society. Heck, pretty much the only way to get a non-evil career these days, especially in games, is to know someone. If the people in industry are already mostly cis, het, white, able, rich men, what is the proportion of their networks that also hold many of these features as well? When hiring strangers, how likely are they to associate with and "like" someone also possessing these traits, as opposed to someone who does not? This dynamic perpetuates itself. People hire others like them, and those others go on to do the same. No systems designate or spell out this bias; it's simply human nature to prefer similarity over diversity. The goal is simply to work against this bias.
 
 ## Wrangling modern tech: A Guide
 
@@ -199,7 +199,7 @@ I did not set out to write a hit piece, but I have started and cannot be stopped
 
 Due to my focus on Free and Open technology in this essay, I will not be touching much on apple. I genuinely have few complaints with the quality of their hardware or their software, but my disdain for their products focuses purely on their anti-consumer, anti-ownership design practices. If I cannot flash [custom firmware](https://libreboot.org/) or uninstall the bootloader on a computer I have purchased with my own money, I do not own the computer. If I cannot take apart and repair or upgrade a computer I have purchased with my own money, I do not own the computer. And the term "Computer" in this context applies to mobile devices as well.
 
-Perhaps you don't see the value in these things, but I've seen many apple users complain about the failings of the "Liquid Glass" design philosophy (especially as far as legibility goes), as well as ludicrous repair costs, on top of the already ludicrous hardware costs, all of which would be significantly better off if apple had to compete in any meaningful way without locking its users into its ecosystem. No apple, even in the modern day RAM hellscape, 16GB of DDR5 does not cost \$400. It currently costs [half that](https://pcpartpicker.com/trends/price/memory/#ram.ddr5.4800.2x16384) (\$200), and should cost an eighth of that ($50). 
+I'm being a bit hyperbolic, and perhaps you don't see the value in these things, but I've seen many apple users complain about the failings of the "Liquid Glass" design philosophy (especially as far as legibility goes), as well as ludicrous repair costs, on top of the already ludicrous hardware costs, all of which would be significantly better off if apple had to compete in any meaningful way without locking its users into its ecosystem. No apple, even in the modern day RAM hellscape, 16GB of DDR5 does not cost \$400. It currently costs [half that](https://pcpartpicker.com/trends/price/memory/#ram.ddr5.4800.2x16384) (\$200), and should cost an eighth of that ($50). 
 
 Of course, Many apple users have knowingly traded ownership for convenience, which is a decision I respect, though would urge you to potentially reconsider, regarding the broader context of this essay.
 
@@ -207,7 +207,9 @@ If you wish to remain on apple, you can still use linux through the [asahi proje
 
 #### Alternatives
 
-Mac hardware alternatives are numerous. I own a framework, and generally like what they do, other than the fact that they continue to donate to hyprland, which I find [issue with](https://drewdevault.com/blog/FDO-conduct-enforcement/). Most x86_64 computers will work fine. If you like battery life and don't mind compatibility issues, arm computers exist as well, which is the same tech that runs in modern macs (which also suffer from the same compatibility problems). 
+Mac hardware alternatives are numerous. I own a framework, and generally like what they do, other than the fact that they continue to donate to hyprland, which I find [issue with](https://drewdevault.com/blog/FDO-conduct-enforcement/). Most x86_64 computers will work fine (Read: most things that come with windows installed). If you like battery life and don't mind compatibility issues, arm computers exist as well, which is the same tech that runs modern macs (which also suffer from the same compatibility problems). 
+
+If you're crazy like me, you might find interest in the open standard [RISC-V](https://riscv.org/) instruction set. Quick architecture summary: x86 is bad and proprietary, arm is good but proprietary, risc-v is good and open. Unfortunately, the more open you get the less things work as you'd want them to >:( 
 
 As far as software alternatives go, if you want to avoid the windows dumpster fire, I'd recommend something like [Fedora Workstation](https://fedoraproject.org/workstation/), which runs a similar UI to MacOS.
 
@@ -267,24 +269,12 @@ I personally will be looking at self hosting my own email server through [Mailco
 
 ### Android, the OS
 
-The device you use to access the internet isn't just a neutral conduit to the internet; 
-Rather, it's an incredibly sophisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
-(The internet isn't a neutral entity either, but I digress)
-
-Not only are modern operating systems designed meticulously for user retention and data collection (especially mobile ones), but even the hardware is getting more invasive and locked down.
-Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. 
-Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
 
 The mobile market is genuinely the most horrific wasteland of corporate abuse I've yet to come upon in technology. Android sits at a cool [67%](https://gs.statcounter.com/os-market-share/mobile/worldwide) market share. (not one word. I will kill you.) And the remainder is 
 
 
-Further, for any windows or xbox users out there, I want to flag that Microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the Israeli military for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
-
-If you still need to use windows, in full or in part (dual booting is a great option for bi(OS)-curious individuals!), I'd recommend looking at the [winutil](https://github.com/ChrisTitusTech/winutil) framework to make the thing even a little bit usable.
-
 #### Alternatives
 
-This topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and [mac](https://asahilinux.org/) users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V (my beloved), or burning your phone with gasoline and casting it into the cursed pit from whence it came.
 
 
 ### Youtube
@@ -380,6 +370,25 @@ For any messaging functionality, I'd defer to [Signal](https://signal.org).
 
 
 ### Literally anything by Microsoft
+
+I want to flag that Microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the Israeli military for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
+
+### Windows
+
+The device you use to access the internet isn't just a neutral conduit to the internet; 
+Rather, it's an incredibly sophisticated amalgamation of hardware and software, all designed by corporate entity for the purpose of profit. 
+(The internet isn't a neutral entity either, but I digress)
+
+Not only are modern operating systems designed meticulously for user retention and data collection (especially mobile ones), but even the hardware is getting more invasive and locked down.
+Once you realize how many household objects need to ping manufacturer servers, many requiring an end user account, there's no going back. 
+Look up the [intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine) if you want to get really paranoid.
+
+If you still need to use windows, in full or in part (dual booting is a great option for bi(OS)-curious individuals!), I'd recommend looking at the [winutil](https://github.com/ChrisTitusTech/winutil) framework to make the thing even a little bit usable.
+
+#### Alternatives
+
+This topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and [mac](https://asahilinux.org/) users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V (my beloved), or burning your phone with gasoline and casting it into the cursed pit from whence it came.
+
 
 ### Life 360
 

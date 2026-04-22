@@ -28,7 +28,7 @@
         {{$indexx := cond hugo.IsProduction 1 2}}
         {{$f = index $f $indexx}}
         {{ $n := split $f "."}}
-        {{$o := split (index $n 0) ":"}}
+        {{$o := split (index $n 0) "|"}}
         {{ $songs = merge $songs (dict "songs" (dict (index $o 0) (dict "name" (index $o 0) "link" .RelPermalink "time" (index $o 1))))}}
     {{end}}
 

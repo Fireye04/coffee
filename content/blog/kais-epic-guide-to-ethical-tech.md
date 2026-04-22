@@ -193,9 +193,13 @@ Efforts of diversity seek not to undermine the idea of merit, but rather the bia
 
 ## Wrangling modern tech: A Guide
 
-I did not set out to write a hit piece, but I have started and cannot be stopped. If you wish to skip the turmoil, you need not read this whole section. Each header not only contains a justification for its inclusion, but also a list of alternatives, and most importantly, even steps that can be taken on said platform if you're unwilling to leave in full. I'll also broadly go over major corporations (read: megacorps) in the space.
+I did not set out to write a hit piece, but I have started and cannot be stopped. If you wish to skip the turmoil, you need not read this whole section. 
 
-### Apple
+Each header not only contains a justification for its inclusion, but also a list of alternatives, and most importantly, even steps that can be taken on said platform if you're unwilling to leave in full. I'll also broadly go over major corporations, or as I'll be referring to them: megacorps, in the space. And yes, it is always ethically OK to deadname corporations. 
+
+Someone stop me from ever doing this ever again :3
+
+### Megacorp | Apple
 
 Due to my focus on Free and Open technology in this essay, I will not be touching much on apple. I genuinely have few complaints with the quality of their hardware or their software, but my disdain for their products focuses purely on their anti-consumer, anti-ownership design practices. If I cannot flash [custom firmware](https://libreboot.org/) or uninstall the bootloader on a computer I have purchased with my own money, I do not own the computer. If I cannot take apart and repair or upgrade a computer I have purchased with my own money, I do not own the computer. And the term "Computer" in this context applies to mobile devices as well.
 
@@ -217,7 +221,7 @@ For mobile devices, you'd think I'd say android. [You'd be wrong](https://keepan
 
 Instead, I recommend smashing your phone with a hammer repeatedly, dousing it with gasoline, lighting it on fire, then flinging it into oncoming traffic, off a bridge, or into the fiery magma of mount doom at your earliest convenience.
 
-### Google (aka: Alphabet)
+### Megacorp | Google (aka: Alphabet)
 
 Google's strangle hold on the internet cannot be understated. The term "de-googling" and the sheer difficulty therein pretty succinctly summarizes what we're up against here. 
 
@@ -279,14 +283,27 @@ And worst of all, soon [you will need google's express permission to simply run 
 
 TL;DR? As with apple, I recommend smashing your phone with a hammer repeatedly, dousing it with gasoline, lighting it on fire, then flinging it into oncoming traffic, off a bridge, or into the fiery magma of mount doom at your earliest convenience.
 
-I'm being a bit facetious. You have a few more options here, but they all have asterisks, which is what drives my genuine hatred for the mobile form factor. First off if you *can* root your phone, do it, and install something like [/e/os](https://e.foundation/e-os/), which replaces the proprietary google play services with the open source [microg](https://github.com/microg/GmsCore/wiki). Alternatively, if you have a phone that supports [grapheneos](https://grapheneos.org/) I'd definitely recommend giving it a try. The maintainers are a bit... Prickly, but the software itself looks incredibly well-hardened. 
+I'm being a bit facetious. You have a few more options here, but they all have asterisks, which is what drives my genuine hatred for the mobile form factor. First off if you *can* root your phone, do it, and install something like [/e/os](https://e.foundation/e-os/), which replaces the proprietary google play services with the open source [microG](https://github.com/microg/GmsCore/wiki). Alternatively, if you have a phone that supports [grapheneos](https://grapheneos.org/) I'd definitely recommend giving it a try. The maintainers are a bit... Prickly, but the software itself looks incredibly well-hardened. 
 
 #### Alternatives
 
 Honestly? At this point a flip phone, or forgoing a phone entirely might be the best option here for non-technical users. Pretty much everything is android, and everything non-android comes with cringe-inducing drawbacks, as almost every modern mobile device is made specifically for android.
 
-The obvious caveat is linux phones. Compared to the AOSP, these are comparatively early in development, and many require specific hardware
+The obvious caveat is linux phones. Compared to the AOSP, these are comparatively early in development, and many require specific hardware. [PostmarketOS](https://postmarketos.org/) looks promising, but is not nearly polished enough for the layperson. Devices like the [Fairphone](https://www.fairphone.com/the-fairphone-gen-6) and [Pine phone](https://pine64.org/devices/pinephone/) have promise, but are still too niche to benefit from economies of scale, among [other usability problems](https://www.youtube.com/watch?v=fCKMxzz9cjs) that frequently derive from young projects. In time, I'm sure the situation will improve, however at the moment, we're pretty much cooked.
 
+Personally, when I find the time in my god-forsaken life, I'm going to assemble a custom [cyberdeck](https://en.wikipedia.org/wiki/Cyberdeck) and throw NixOS on it. Then, I think you know exactly what I'm going to do with my phone.
+
+### Google maps
+
+Google Maps, or apple's alternative for that matter, are pretty much a mainstay in most peoples' day to day. Unfortunately that does give incredibly precise location data directly to google. I will concede that the utility of sharing location data with the Megacorp is not zero; you do get traffic statistics out of it. But do understand you are *selling* your data in exchange for this service. 
+
+Google has also begun to pretty aggressively advertise within maps. Have you heard it say "Turn left at the <abbr title="I read moby dick in high school and get crippling flashbacks whenever this god forsaken coffee chain is brought up.">Starbucks</abbr>," replacing the coffee chain with any given store? I'd bet money that many of those callouts, if not all of them, are paid sponsorships. I also wouldn't trust the reviews on there either, as businesses have been manipulating those systems like crazy for years. Not to mention the sheer bloat of the software itself. It takes concerningly long to launch, and overheats my phone concerningly often, for what should be a simple map.
+
+Honestly at a more fundamental level, I'd argue that tools like google maps are doing the same thing to our sense of direction as LLMs are to our capacity to think. Maybe we should consider relying on them less often, just in general. Try going to a place without navigation every now and again. Turn it on if you miss a turn or get lost. 
+
+#### Alternatives
+
+When I really need a map, I've been using [Comaps](https://www.comaps.app/) which is based on the splendid [Open Street Map](https://www.openstreetmap.org/) project. It's handled pretty much anything I've thrown at it thus far. The main downside is that it's not perfect about listing stores and such, and keeping those listings up to date. The good news is that if you know something about a place, you can easily contribute that information back to openstreetmap and make the community project just a little bit better for everyone else. I'd recommend it!
 
 ### Youtube
 
@@ -343,11 +360,19 @@ If you're in the mood to try something younger, [fluxer](https://fluxer.app/) ha
 
 Additionally, if you only really need group chats, I've found [signal](https://signal.org/) really well designed, and generally use it for as much as I can, especially after leaving discord.
 
-For communities, L + self-host [discourse](https://www.discourse.org/). It's not a chat platform. That's what makes it great. Instant messaging for online communities was a mistake. Reject modernity; return to forum.
+For communities, L + self-host [discourse](https://www.discourse.org/). It's not a chat platform. That's what makes it great. Instant messaging for online communities was a mistake. Need vc? That's what [Jitsi](https://jitsi.org/) and [Mumble](https://www.mumble.info/) are for. Reject modernity; return to forum.
+
+### Tik Tok
+
+TODO
+
+### Megacorp | Amazon
+
+TODO
 
 ### Twitch
 
-
+TODO
 
 #### Alternatives
 
@@ -363,15 +388,15 @@ More and more, I've been convinced that open source, decentralized, federated so
 
 [Bluesky](https://bsky.app/) definitely exists. It's technically open source, though it's very centralized in its design, and it's developers are taking [VC money](https://bsky.social/about/blog/03-19-2026-series-b) to scale it, which doesn't exactly give me the warm fuzzies. More people (and bots) are on it than mastodon though, so if you care about that, then this might be the way to go. 
 
-### Literally anything by Facebook
+### Megacorp | Facebook
 
 These fuckers explicitly allow [trans slurs](https://theintercept.com/2025/01/09/facebook-instagram-meta-hate-speech-content-moderation/) on their platforms. Like that shit was *written out* on *training material*. Their [hateful conduct policy](https://transparency.meta.com/policies/community-standards/hateful-conduct/) also kindly allows us to be discriminated against, and called mentally ill. Fun!
 
 They've also intentionally [stopped investigations](https://www.reuters.com/investigations/meta-is-earning-fortune-deluge-fraudulent-ads-documents-show-2025-11-06/) into scam ads on their platforms due to the profit motive. 
 
-Even their most "private" application, Whatsapp (which implements the signal protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
+Even their most "private" application, Whatsapp (which implements the [Signal](https://signal.org) protocol, lol), collects [pretty much everything](https://www.whatsapp.com/legal/privacy-policy) that's *not* your message contents, and uses it to train content serving models for the algorithmic feed as well as profile your account to sell to advertisers. That privacy policy is *rough*.
 
-As far as continued use goes, Facebook is really locked down, so any attempts at recreating an alternative frontend have died. 
+As far as continued use goes, Facebook as a company is really locked down, so any attempts at recreating alternative frontends have died as far as I can tell. As with anything else, a good compromise can be found in deleting apps and using simple web applications within your browser. 
 
 #### Alternatives
 
@@ -379,10 +404,13 @@ For Instagram, which I see as the biggest hurdle here, there's a great, mastodon
 
 For any messaging functionality, I'd defer to [Signal](https://signal.org).
 
+It bears repeating that this kind of platform is one of the more entrenched ones, as most people are only on it because their friends are as well. If you skimmed that section above, definitely give it a read.
 
-### Literally anything by Microsoft
+### Megacorp | Microslop
 
 I want to flag that Microsoft is a priority target of the [bds boycott](https://bdsmovement.net/news/boycott-microsofts-xbox) due to their azure cloud services provided to the Israeli military for the [surveillance and genocide of innocent civilians](https://www.theguardian.com/world/2025/aug/06/microsoft-israeli-military-palestinian-phone-calls-cloud).
+
+TODO
 
 ### Windows
 
@@ -399,23 +427,6 @@ If you still need to use windows, in full or in part (dual booting is a great op
 #### Alternatives
 
 This topic is a whole blog post on its own, but I would be remiss if I didn't encourage you to give linux ([Mint](https://www.linuxmint.com/)/ [Fedora](https://fedoraproject.org/)) a try on your current hardware. It's a reasonable, privacy-respecting operating system that serves as a perfectly viable alternative for many windows and [mac](https://asahilinux.org/) users, and, in any case, is a much more attainable goal than swapping all your hardware to RISC-V (my beloved), or burning your phone with gasoline and casting it into the cursed pit from whence it came.
-
-
-### Life 360
-
-*SCREAMING*
-
-#### Alternatives
-
-### Dating apps
-
-I don't see this one talked about a lot, but it's personally a little horrifying how normalized these have become. Skirting over the many problems with objectifying people that plague these platforms, they also suffer from the same corporate greed that runs social media companies. Keeping people on-platform is how they make money. Doing their literal job is the antithesis to the point of their existence. They just need to jingle some keys in front of you to give you hope every now and then, and ka-bam, instant money printer. It also feels pretty icky to me how they play with social dynamics for profit, though in fairness, pretty much any profit-focused social media company will also be doing this.
-
-#### Alternatives
-
-The death of third spaces fucking sucks, but that doesn't mean we need to stop trying. Local maker spaces, events, and hobby/user groups still exist, they're just a bit harder to find. Go outside and talk to strangers. Set up a recurring board game night at your place. Make a community, a support system. Asking friends to set you up on dates isn't normalized anymore, but you can still try.
-
-Bottom line, there are things you can do to meet people. It's not as easy as I hear it used to be, but nothing ever is. We still have to try.
 
 ### Github
 
@@ -440,6 +451,42 @@ Yeah. It hurts me too, but it's Microsoft and it's literally called out on the [
 #### Alternatives
 
 The worst part is that there's a thriving open source competitor to Minecraft called [lunati](https://www.luanti.org/en/). It's like right there, people! Then again, we play Minecraft for the nostalgia, not the gameplay, so perhaps this one's a harder sell than I give it credit for. 
+
+### Life 360
+
+*SCREAMING*
+
+TODO
+
+#### Alternatives
+
+### Dating apps
+
+I don't see this one talked about a lot, but it's personally a little horrifying how normalized these have become. Skirting over the many problems with objectifying people that plague these platforms, they also suffer from the same corporate greed that runs social media companies. Keeping people on-platform is how they make money. Doing their literal job is the antithesis to the point of their existence. They just need to jingle some keys in front of you to give you hope every now and then, and ka-bam, instant money printer. It also feels pretty icky to me how they play with social dynamics for profit, though in fairness, pretty much any profit-focused social media company will also be doing this.
+
+#### Alternatives
+
+The death of third spaces fucking sucks, but that doesn't mean we need to stop trying. Local maker spaces, events, and hobby/user groups still exist, they're just a bit harder to find. Go outside and talk to strangers. Set up a recurring board game night at your place. Make a community, a support system. Asking friends to set you up on dates isn't normalized anymore, but you can still try.
+
+Bottom line, there are things you can do to meet people. It's not as easy as I hear it used to be, but nothing ever is. We still have to try.
+
+### Smart TVs
+
+OK this is a bit of a weird one, but oh my god those TV operating systems are fucking evil. Burn them all.
+
+TODO: Netflix are assholes
+
+#### Alternatives
+
+Get a mini computer, throw something like the upcoming kde [plasma bigscreen](https://plasma-bigscreen.org/) on it, and plug it into your TV, and use the thing like a big monitor. 
+
+Or alternatively...
+
+### Routers
+
+TODO 
+
+Hey. Did you know you can block all ads on your home wifi? Go take a look at the [pi-hole](https://pi-hole.net/) project.
 
 ### Conclusion
 

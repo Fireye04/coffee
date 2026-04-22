@@ -2,7 +2,7 @@
 date: '2026-03-23T13:56:30-07:00'
 draft: false
 title: "Kai's epic guide to ethical technology"
-description: default
+description: What have I brought into the world? For what purpose? And at what cost?
 categories:
 - blog
 blog-tags:
@@ -96,10 +96,6 @@ Once you're aware of these, they show up *everywhere*. Those big countdowns on s
 At some level, a lot of design patterns fall into this category. Think of the algorithmic feed, for example. Some may argue this is a feature, rather than a dark pattern. I would argue that while not necessarily a dark pattern, the constituent components of most algorithmic feeds: data collection for personalization and infinite scroll, among others, combined with the advertising profit motive of most social media companies, almost certainly result in something that is. Something designed to consume as much user time as possible. Something that collects and feeds off user data and optimizes itself to perpetuate that consumption of time even further, as well as market that data to advertisers. Whenever you scroll an algorithmic feed, you're battling a team of engineers and psychologists each paid hundreds of thousands a year to capture your attention, data, and time. If you're aware of it, maybe next time you'll be able to put up a fight.
 
 These properties are not incidental; They're designed.
-
-### LLMs and Generative Models
-
-I was initially going to tackle this topic, but after too many days of work, I have concluded its scope is simply too big to include in this post. When finished, I will add a link to the finished product here.
 
 ### Decentralization and Federation
 
@@ -201,7 +197,7 @@ Off the bat, I do not use LLMs and Generative Models, I avoid tools that include
 
 I'll also be starting by temporarily putting the many ethical implications of using such tools aside, and defining what we're working with: what these things are (broadly), some use cases, and some potential inherent problems in the technology, then moving on to those full ethical implications, so please bear with me. This is a field that's still relatively new and incredibly nuanced, so I'll do my best and hope nothing ages too badly! Anyone who happens to study these things is more than welcome to reach out if they find any technical or logical inaccuracies in the following.
 
-#### LLMs 
+### LLMs 
 
 First order of business, LLMs are autocorrect. Autocorrect is not your friend. Autocorrect is not an expert. Autocorrect is not an omniscient god. Though, autocorrect is actually a pretty good thesaurus. I can't necessarily speak to its programming capabilities due to my ethical aversion, (though I'm skeptical of misuse and laziness), but I'll link a recent [blog post](https://enemyhideout.com/2026/04/sins-of-ai-usage/) from a friend who has a bit more depth of experience and can speak to the tech a bit better. And finally, if we're getting philosophical, it's also a pretty good mirror of the internet and broader societal perception as a whole. Let's talk.
 
@@ -217,17 +213,17 @@ Of course, this is a mostly un-scientific mode of drawing conclusions, but it do
 
 Unfortunately in the context of how we use LLMs now (Read: for literally fucking everything why the fuck are we putting LLMs in toothbrushes fuck literally everything I just $50 of RAM to cost $50 *sobbing*), I think realistically the best case scenario is that those guardrails get real good real fast. Heavy benefit of the doubt here, but assuming the whole Grok CSAM thing wasn't intentional, that kind of usage is just going to get more common as models become more and more accessible. These companies in charge must be held to standards and regulation hitherto unseen, or some really fucking bad shit is going to happen. Though, what am I even saying, you probably heard a little laugh track in your head at the word "regulation." Me too, buddy. Me too.
 
-#### Generative Models
+### Generative Models
 
 I don't think I fully understand the value of generative models. Images, video, music, speech, etc... At the very least it's a moderately interesting technical problem, but its existence only really serves to replace people in creative industry with the hollow shell of pure output. This touches a bit on the idea of commodification of art, and the Kantian use of people as mere means. 
 
-##### Art posting
+#### Art posting
 
 Oh boy here I go art posting again! Broadly, I like to define art as human expression. This definition is quite broad and includes a lot of crazy shit that people might not conventionally think of as "art." I do not care. Perspective is a key aspect of art, so gatekeeping an artist by telling them their art isn't art isn't productive nor helpful. Instead, we should critique the art itself, and if necessary, simply concede that it's not for us, whatever it may be. The value in art, however, is not the residue that it sometimes results in, but rather in the process itself. The lessons learned. The skills obtained. The base human joy of creation and expression. This is what makes art beautiful and what makes us grow as artists and as people.
 
 However,this system of ours prioritizes only what can be sold: that residue. And in doing so, it tells people that the rest does not matter. If there's only one take away you're taking from this section, I want it to be that you should appreciate the beauty of the artistic process just a little bit more.
 
-##### Slop == art?
+#### Slop == art?
 
 So, what does this make slop? Well, it's complicated. 
 
@@ -245,7 +241,7 @@ However, one quick little problem. Where does this spectrum begin and end? Have 
 
 \*: Disclaimer: *This link is included for \*comedic effect\*. If you do not consider it a work of genuine wonder, feel free to substitute it in your mind for something that is, such as an innovative game mod/ hack or some other form of secondary art. <abbr title="THIS IS ALSO A JOKE">There's nothing I can do about bad taste, unfortunately</abbr>.*
 
-##### Gender isn't real
+#### Gender isn't real
 
 Just like the socially constructed concept of human gender, I have crafted a false binary structure between primary and secondary art. (Yes, both of those were me; I regret my actions). While there generally "feels" like there should be a distinction, I don't think there is. Art is derivative, after all. Outside a vacuum why should one art be considered "Primary" and another "secondary?" Each of our tools is a piece of art in some respect, and we all take inspiration from the people and works around us. Is a [game mod of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), in which a game mod copies the original source code and completely rewrites it, secondary or primary art? I don't think the idea of primary and secondary art is entirely useless as a concept to help frame ideas, but push comes to shove, it simply does not hold itself up to scrutiny.
 
@@ -265,11 +261,11 @@ Did I need that many words to say that? I don't even know at this point.
 
 Now, let's get this train back on the rails.
 
-#### Slop and Society
+### Slop and Society
 
 Interestingly, the advent of this kind of technology is showcasing all kinds of problems, not necessarily with itself, but rather with our society and our systems; Under different systems the nature of such a technology might not be as negative as it is under ours, which is partially why I'm capable of coming to such an oddly pro-generated art conclusion in the purely theoretical vacuum I presented above. 
 
-##### School System
+#### School System
 
 As someone in school, the amount of model usage I see is frankly appalling. I can't comment on whether or not models *can* be used educationally, but I know for damn sure that they can be used in lieu of genuine understanding of concepts, and I'd hazard a guess that the majority of usage falls to the latter. 
 
@@ -277,13 +273,13 @@ I'd argue, however, that this is not fully an inherent flaw in models, but rathe
 
 My distaste for the school system is a blog post on its own, but these problems already existed before the dissemination of generative models. The models just made them far more evident and exploitable. 
 
-##### Copyright System
+#### Copyright System
 
 Models are trained upon anything and everything corporations have been able to get their hands on, with no permission or compensation. This has driven immense bot traffic to websites, the owners of which have been left to pick up the bill of serving https requests to tens of thousands of bots. This disproportionately affects open source projects and non-profits, many of which are already suffering financially. This also creates the distinct problem of "License washing" where GPL code or otherwise can be consumed then reproduced by a model under a completely different, more permissive license. Many people have found their art or writing styles perfectly reproduced by models upon request without their consent, which is simply disgusting. 
 
 Not all of these problems are a fault of the copyright system, but many are. Copyright is not a tool of the individual, but rather one of corporations or those with the money for legal counsel. If we simply retreat back to the copyright system to protect our work from being used without our consent, we will be retreating back to a system that will inevitably be used to exploit us in the same way, but legally. Remember that legality and morality are different things; laws can and are changed by those in power to benefit themselves, morally or not.
 
-##### Capitalism
+#### Capitalism
 
 The widespread use and marketing of these models is not one of artistic intent, but rather of corporate profit seeking. While they may afford a commodified art experience, their intended goal is to create salable, marketable artistic residue, while minimizing or replacing as much of the genuine artistic process as possible. On an individual level, this focus on results over craft might mean less engagement in the artistic process, and less control and understanding of the craft involved. On a societal level, this means that corporations who wish to minimize cost of labor in the production of commodities can simply stop paying artists and craftspeople, making an already impossible career somehow even worse.
 
@@ -293,23 +289,23 @@ My vision of an ideal future is one where people can spend more time making mean
 
 Thus, I believe this mode of technology should be categorically rejected until systematic change brings, at the very least, the capacity for artists and craftspeople to comfortably live off their work in conjunction with the use of such technology. 
 
-#### Open source slop is not real (mostly)
+### Open source slop is not real (mostly)
 
 There's a quite good, if a little technical, [blog post](https://tante.cc/2024/10/16/does-open-source-ai-really-exist/) by Smashing Frames that gets into this in much more depth than I have time for in this already quite huge post, but suffice it to say, just throwing a bunch of weights out there without saying how you got them, or from where, is not open. This is equivalent of publishing a binary blob to github and calling it "open source." This is only open source in the sense that "everything's open source if you have unlimited time and can read decompiler output," which, for the layperson, is a hacking joke and not actually indicative of open source status. Open source is interested not in the openness of the artifact (that's what we call "source available") but rather, it's interested in the process with which that artifact is assembled, so it can be modified, improved, and understood. Model weights achieve none of this.
 
-#### Slop in open source
+### Slop in open source
 
 Instead, 
 
 TODO
 
-#### Avoiding Slop
+### Avoiding Slop
 
 That's the neat part, you can't.
 
 TODO
 
-#### Corpo Slop, homemade slop
+### Corpo Slop, homemade slop
 
 TODO
 

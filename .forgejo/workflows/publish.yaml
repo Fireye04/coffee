@@ -1,0 +1,48 @@
+name: Publish
+on:
+  push:
+   branches:
+      - main
+jobs:
+  build:
+    # https://neohugo.github.io/host-and-deploy/host-on-codeberg-pages/
+    # You can find the list of available runners on https://codeberg.org/actions/meta, or run one yourself.
+    runs-on: codeberg-tiny
+    container:
+      # Specify "hugomods/hugo:exts" if you want to always use the latest version of Hugo for building.
+      image: "hugomods/hugo:exts-0.147.9"
+    steps:
+      - name: Clone the repository
+        uses: https://code.forgejo.org/actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Generate static files with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc \
+            --minify
+      - name: Upload generated files
+        uses: https://code.forgejo.org/actions/upload-artifact@v4
+        with:
+          name: Generated files
+          path: public/     
+  publish:
+    needs: [ build ]
+    runs-on: codeberg-tiny
+    steps:
+      - uses: actions/checkout@v5
+      - name: Download generated files
+        uses: https://code.forgejo.org/actions/download-artifact@v4
+        with:
+          name: Generated files
+          path: _site/
+      - uses: actions/git-pages@v2
+        with:
+          site: http://dev.fireye.coffee
+          server: grebedoc.dev
+          source: _site/

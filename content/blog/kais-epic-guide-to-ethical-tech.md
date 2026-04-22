@@ -183,11 +183,11 @@ Recently, a Lebanese game developer called into my ethics class and showcased hi
 
 Many of us in more privileged environments have gotten in the habit of conveniently ignoring this, and idealizing the absence of politics in art. This absence simply doesn't exist, and instead serves as a convenient way for us to avoid difficult conversations and ideas, simply by including them as we wish in our definition of what happens to be "political" and what doesn't. After all if I can include something in my definition of "political," and frame being "political" as being bad, then I can simply dismiss the idea wholesale without engaging or contemplating it. This, of course, is simply a badly disguised argument for the status quo; If no outwardly "political" arguments are permissible, then the only option that remains is to continue with things the way they are, which of course is a political argument in and of itself.
 
-#### Sidenote: On Diversity
+#### Sidenote: Art and Diversity
 
-One of the main targets of this rhetorical strategy that I've seen recently is diversity, with many proponents therein appealing to some nebulous idea of merit in place of efforts to diversify. In a neutral society, I completely agree that merit should be the sole deciding factor in something such as employment. However, we must make an effort to realize that the society we live in is not a neutral one, but one built to benefit its creators: Cis, het, white, able, and especially, rich, men. These biases cannot simply be glazed over or hand-waved away. On gender alone, we see depressingly few women and non-binary people make their way into male-dominated fields even today, not because they are any less capable, but rather because the environment is a hostile one. If you've ever talked to someone who has a female-presenting voice who plays competitive shooters, you *will* hear horror stories. 
+One of the main targets of this rhetorical strategy that I've seen recently is diversity, with many proponents therein appealing to some nebulous idea of merit in place of efforts to diversify, which are deemed political and thus bad. In a neutral society, I completely agree that merit should be the sole deciding factor in something such as employment. However, we must make an effort to realize that the society we live in is not a neutral one, but one built to benefit its creators: Cis, het, white, able, and especially, rich, men. These biases cannot simply be glazed over or hand-waved away. On gender alone, we see depressingly few women and non-binary people make their way into male-dominated fields even today, not because they are any less capable, but rather because the environment is a hostile one. If you've ever talked to someone who has a female-presenting voice who plays competitive shooters, you *will* hear horror stories. 
 
-Diversity is a beautiful thing. Different perspectives and life experiences can introduce unique ideas into art that would not have existed otherwise. We grow as individuals as we learn from others' way of existing as human beings, and everyone is better off for it. 
+Diversity is a beautiful thing. Different perspectives and life experiences can introduce unique ideas into art that would not have existed otherwise. Much of the art we hold dear is a direct result of a diverse creative environment. We grow as individuals as we learn from others' way of existing as human beings, and everyone is better off for it. 
 
 Efforts of diversity seek not to undermine the idea of merit, but rather the bias of society. Heck, pretty much the only way to get a non-evil career these days, especially in games, is to know someone. If the people in industry are already mostly cis, het, white, able, rich men, what is the proportion of their networks that also hold many of these features as well? When hiring strangers, how likely are they to associate with and "like" someone also possessing these traits, as opposed to someone who does not? This dynamic perpetuates itself. People hire others like them, and those others go on to do the same. No systems designate or spell out this bias; it's simply human nature to prefer similarity over diversity. The goal is simply to work against this bias.
 
@@ -203,13 +203,13 @@ I'm being a bit hyperbolic, and perhaps you don't see the value in these things,
 
 Of course, Many apple users have knowingly traded ownership for convenience, which is a decision I respect, though would urge you to potentially reconsider, regarding the broader context of this essay.
 
-If you wish to remain on apple, you can still use linux through the [asahi project](https://asahilinux.org/), in full, or in part alongside MacOS. (Though notably, to the best of my understanding, this only piggybacks off the MacOS bootloader, as the thing can't boot anything other than MacOS).
+If you wish to remain on apple, you can likely still use linux through the [asahi project](https://asahilinux.org/), in full, or in part alongside MacOS. (Though notably, to the best of my understanding, this only piggybacks off the MacOS bootloader, as the thing can't boot anything other than MacOS. Weird!).
 
 #### Alternatives
 
 Mac hardware alternatives are numerous. I own a framework, and generally like what they do, other than the fact that they continue to donate to hyprland, which I find [issue with](https://drewdevault.com/blog/FDO-conduct-enforcement/). Most x86_64 computers will work fine (Read: most things that come with windows installed). If you like battery life and don't mind compatibility issues, arm computers exist as well, which is the same tech that runs modern macs (which also suffer from the same compatibility problems). 
 
-If you're crazy like me, you might find interest in the open standard [RISC-V](https://riscv.org/) instruction set. Quick architecture summary: x86 is bad and proprietary, arm is good but proprietary, risc-v is good and open. Unfortunately, the more open you get the less things work as you'd want them to >:( 
+If you're crazy like me, you might find interest in the open standard [RISC-V](https://riscv.org/) instruction set. Quick architecture summary: x86 is bad and proprietary, arm is good but proprietary, risc-v is good and open. Unfortunately, the more open you get the less things work as you'd want them to >:( (If I can save enough money, expect me to burn some on a RISC-V board and try to load NixOS on it)
 
 As far as software alternatives go, if you want to avoid the windows dumpster fire, I'd recommend something like [Fedora Workstation](https://fedoraproject.org/workstation/), which runs a similar UI to MacOS.
 
@@ -223,9 +223,9 @@ Google's strangle hold on the internet cannot be understated. The term "de-googl
 
 ### Chrome 
 
-Chromium, the engine behind chrome, makes up an immense amount of the web browser market (pretty much everything that's not firefox and saf\*ri), and it's completely controlled by google who are in the process of making adblockers less effective. [Ublock Origin](https://github.com/gorhill/uBlock) is open source and incredibly powerful (stop reading and go install it now if you haven't already), however Chromium based browsers (Chrome, edge, opera, brave, vivaldi, etc...) do not support the full version due to this. 
+Chromium, the engine behind chrome, makes up an immense amount of the web browser market (pretty much everything that's not firefox and saf\*ri), and it's completely controlled by google who are in the process of making ad blockers and content blockers [less effective](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#filtering-capabilities-which-cant-be-ported-to-mv3). [Ublock Origin](https://github.com/gorhill/uBlock) is open source and incredibly powerful (stop reading and go install it now if you haven't already), however Chromium based browsers (Chrome, edge, opera, brave, vivaldi, etc...) do not support the full version due to this. 
 
-There is a Lite version that supports chromium, which I would recommend if you're committed to a chromium browser. If you wish to do more without fully swapping off chromium, you can use an open source chromium implementation such as [Ungoogled Chromium](https://ungoogled-software.github.io/about/) or [Qutebrowser](https://qutebrowser.org/).
+There is a [Lite version](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-(FAQ)#filtering-capabilities-which-cant-be-ported-to-mv3) of ublock that supports chromium, which I would recommend if you're committed to a chromium browser. If you wish to do more without fully swapping off chromium, you can use an open source chromium implementation such as [Ungoogled Chromium](https://ungoogled-software.github.io/about/) or [Qutebrowser](https://qutebrowser.org/).
 
 #### Alternatives
 
@@ -269,12 +269,23 @@ I personally will be looking at self hosting my own email server through [Mailco
 
 ### Android, the OS
 
+The mobile market is genuinely the most horrific wasteland of corporate abuse I've yet to come upon in technology. Android sits at a cool [67%](https://gs.statcounter.com/os-market-share/mobile/worldwide) market share. (not one word. I will kill you.) The rest are iOS, which, no surprise, already suffer from the following lacks of freedom. 
 
-The mobile market is genuinely the most horrific wasteland of corporate abuse I've yet to come upon in technology. Android sits at a cool [67%](https://gs.statcounter.com/os-market-share/mobile/worldwide) market share. (not one word. I will kill you.) And the remainder is 
+Android may be based upon the Linux kernel, but has diverged and become an incredibly closed environment as compared to other linux distributions, which it doesn't even consider itself anymore. The AOSP (Android Open Source Project) has moved much of its development [behind closed doors](https://www.androidauthority.com/google-android-development-aosp-3538503/), and much of mainline android is [closed source](https://source.android.com/docs/setup/about/faqs), and not included in the AOSP, and rather added on top of it through proprietary services such as google play services. These include pretty [vital elements](https://fossbytes.com/google-play-services-necessity/) of the operating system.
 
+Further, many android phones have disabled rooting entirely, and even bootloader access is being fully prohibited (as I recently discovered with my piece of shit Samsung), and many more are installing hardware level trips that will permanently disable applications on rooted devices. These actions are plain malicious, aimed at discouraging and preventing reclamation of ownership, and locking users into controlled environments. It's becoming more and more likely that you'll have to buy a phone that specifically allows you to own it than just owning a device as a result of having purchased it. If this was the case for desktop computers, every PC would operate like a console. This would be unacceptable. Yet on a small computer (a phone), it's perfectly fine. It's genuinely insane how normalized this kind of behavior has become.
+
+And worst of all, soon [you will need google's express permission to simply run applications on the device that you have bought with your own money](https://keepandroidopen.org/). This is literally the "[isn't there someone you forgot to ask?](https://imgflip.com/memegenerator/491117364/isnt-there-someone-you-forgot-to-ask)" meme, but for running shit on a device you supposedly own, running a supposedly "open source" operating system. Of course the onus of registration goes to the developer and not the user, making it so much easier for the average person to handwave, but this is some 1984 shit. If I want to run some shitty C code I wrote in an afternoon, or code that someone that does not wish to dox themselves to google wrote, on a thing that I own, I should not have to ask google pretty please to let me go and do that. I should not have to ping google servers and wait 24 hours to turn off this behavior, which is something they can simply remove quietly later on to little backlash. This is a horrifying level of power that one company is demanding over 67% of all mobile devices globally. 
+
+TL;DR? As with apple, I recommend smashing your phone with a hammer repeatedly, dousing it with gasoline, lighting it on fire, then flinging it into oncoming traffic, off a bridge, or into the fiery magma of mount doom at your earliest convenience.
+
+I'm being a bit facetious. You have a few more options here, but they all have asterisks, which is what drives my genuine hatred for the mobile form factor. First off if you *can* root your phone, do it, and install something like [/e/os](https://e.foundation/e-os/), which replaces the proprietary google play services with the open source [microg](https://github.com/microg/GmsCore/wiki). Alternatively, if you have a phone that supports [grapheneos](https://grapheneos.org/) I'd definitely recommend giving it a try. The maintainers are a bit... Prickly, but the software itself looks incredibly well-hardened. 
 
 #### Alternatives
 
+Honestly? At this point a flip phone, or forgoing a phone entirely might be the best option here for non-technical users. Pretty much everything is android, and everything non-android comes with cringe-inducing drawbacks, as almost every modern mobile device is made specifically for android.
+
+The obvious caveat is linux phones. Compared to the AOSP, these are comparatively early in development, and many require specific hardware
 
 
 ### Youtube

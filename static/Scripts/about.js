@@ -45,12 +45,11 @@ window.onload = function () {
 async function loadTODO() {
 	try {
 		const response = await fetch(
-			"https://api.github.com/repos/Fireye04/coffee/issues",
+			"https://codeberg.org/api/v1/repos/Fireye/coffee/issues?sort=latest",
 			{
 				method: "GET",
 				headers: {
-					"Content-Type": "application/vnd.github.text+json",
-					"X-GitHub-Api-Version": "2022-11-28",
+					"accept": "application/json",
 				},
 			},
 		);
